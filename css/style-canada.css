@@ -1,3 +1,47 @@
+* {
+	border-size: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: auto 117px auto 117px;
+}
+
+header {
+	width: auto;
+	height: 70px;
+	background-color: lightgray;
+}
+
+section h1 {
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}						
+
+#dias {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	font-size: 120%;
+}
+
+#dias:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+label[for="dias"] {
+}
+
+.pergunta {
+	padding: 10px;
+}
+
 .pergunta img {
 	width: 290px;
 	height: 180px;
@@ -6,21 +50,10 @@
 	cursor: pointer;
 }
 
-#teste {
-	display: flex;
-	flex-direction: column;
-}
-
-section {
+section div {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-}
-
-#teste p {
-	display: inline;
-	margin: 0;
-	width: 290px;
 }
 
 p:nth-child(2) {
@@ -48,4 +81,9 @@ input[type="checkbox"]:hover + label {
 input[type="radio"]:checked + label > img, 
 input[type="checkbox"]:checked + label > img {
 	box-shadow: 0 0 0 3px #111b45;
+}
+
+
+.esconder {
+	display: none;
 }
