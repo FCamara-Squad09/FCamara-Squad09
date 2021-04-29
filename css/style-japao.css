@@ -12,7 +12,19 @@ body{
 	text-align: center;				
 	color: #2c2f38;
 	font-family: 'Josefin Sans', sans-serif;
-}									
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2%;
+}
+
+header{
+    width: 100%;
+}
+
 
 h1{
 	font-size: 40px;
@@ -24,9 +36,13 @@ h2{
 	padding: 10px;							
 }
 
-header h2{
+section .titulo > h2{
 	color: #111b45;
 	font-size: 32px;
+}
+
+section .titulo{
+    text-align: center;
 }
 
 p{
@@ -58,7 +74,10 @@ label[for="dias"]{
 }
 
 .intro{
+    margin-top: 20px;
+    padding-top: 10px;
 	font-size: 20px;
+    text-align: center;
 }
 
 input[type="radio"], input[type="checkbox"]{ 
@@ -162,23 +181,7 @@ p.info, p.certificard{
     text-align: left;
     padding: 5px;
 }
-  
-.certificard{
-    text-align: right;
-    right: 0px;
-    margin-top: 5px;
-    padding: 5px;				
-}
-  
-.certificard a{
-    padding: 5px;
-    background-color: rgba(16, 23, 46, 0.5);
-    font-weight: normal;			
-}
-  
-.certificard a:hover, a:active{
-    font-weight: bold;
-}
+
   
 #resultado{
     color: black;
