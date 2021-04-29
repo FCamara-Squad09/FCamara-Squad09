@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
 	position: relative;
 	background-image: url(../assets/wallpaper.jpg);
 	background-size: cover;		
@@ -14,28 +14,28 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }									
 
-h1 {
+h1{
 	font-size: 40px;
 	padding: 10px;
 }
 
-h2 {
+h2{
 	font-size: 30px;
 	padding: 10px;							
 }
 
-header h2 {
+header h2{
 	color: #111b45;
 	font-size: 32px;
 }
 
-p {
+p{
 	font-family: 'Montserrat', sans-serif;
 	text-align: left;				
 	margin: 10px 30px;
 }
 
-#dias {
+#dias{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -46,22 +46,22 @@ p {
 	font-size: 120%;
 }
 
-#dias:focus {
+#dias:focus{
 	outline: none;
 	box-shadow: 0 0 0 2px #111b45;
 }
 
-label[for="dias"] {
+label[for="dias"]{
 	display: inline-block;
 	font-size: 120%;
 	margin-bottom: 10px;
 }
 
-.intro {
+.intro{
 	font-size: 20px;
 }
 
-input[type="radio"], input[type="checkbox"] { 
+input[type="radio"], input[type="checkbox"]{ 
 	position: absolute;
 	opacity: 0;
 	width: 0;
@@ -69,28 +69,28 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 input[type="radio"]:not(:checked) + label, 
-input[type="checkbox"]:not(:checked) + label {
+input[type="checkbox"]:not(:checked) + label{
 	opacity: 0.6;
 }
 
 input[type="radio"]:checked + label, 
 input[type="radio"]:hover + label,
 input[type="checkbox"]:checked + label, 
-input[type="checkbox"]:hover + label {
+input[type="checkbox"]:hover + label{
 	opacity: 1;
 	
 }
 
 input[type="radio"]:checked + label > img, 
-input[type="checkbox"]:checked + label > img {
+input[type="checkbox"]:checked + label > img{
 	box-shadow: 0 0 0 3px #111b45;
 }
 
-.pergunta {
+.pergunta{
 	padding: 10px;
 }
 
-.pergunta img {
+.pergunta img{
 	width: 290px;
 	height: 180px;
 	border-radius: 20px;
@@ -98,15 +98,15 @@ input[type="checkbox"]:checked + label > img {
 	cursor: pointer;
 }
 
-.pergunta img:hover, .pergunta img:active {
+.pergunta img:hover, .pergunta img:active{
 		background-color: #0c2e14;
 }
 
-.pergunta img:active {
+.pergunta img:active{
 	box-shadow: 0 0 0 2px #0c2e14;
 }
 
-#btnCalcular {
+#btnCalcular{
 	border: none;
 	border-radius: 5px;
 	font-size: 20px;
@@ -121,83 +121,82 @@ input[type="checkbox"]:checked + label > img {
 	outline: none;
 }
 
-#btnCalcular:hover, #btnCalcular:active {
-		background-color: #220a30;
-	}
+#btnCalcular:hover, #btnCalcular:active{
+	background-color: #220a30;
+}
 
-#btnCalcular:active {
+#btnCalcular:active{
 	box-shadow: 0 0 0 2px #220a30;
 	font-weight: bolder;
 }
 
-a:link, a:visited {
+a:link, a:visited{
     text-decoration: none;
     color: #d1cbcb;
-  }
+}
   
-  a:hover, a:active {
+a:hover, a:active{
     color: #d1cbcb;
     font-weight: bold;			  
-  }
+}
   
-  p {
-      display: block;
-  }
+p{
+    display: block;
+}
   
-  .foto {
-      width: 20px;
-      vertical-align: top;
-      margin-right: 5px;
-      background-color: 
-  }		
+.foto{
+    width: 20px;
+    vertical-align: top;
+     margin-right: 5px;
+}		
   
-  p.info, p.certificard {
-      font-size: 15px;
-      font-weight: bold;
-      bottom: 0px;
-      color: black;
-  }
+p.info, p.certificard{
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 0px;
+    color: black;
+}
   
-  .info {
-      left: 10px;
-      text-align: left;
-      padding: 5px;
-  }
+.info{
+    left: 10px;
+    text-align: left;
+    padding: 5px;
+}
   
-  .certificard {
-      text-align: right;
-      right: 0px;
-      margin-top: 5px;
-      padding: 5px;				
-  }
+.certificard{
+    text-align: right;
+    right: 0px;
+    margin-top: 5px;
+    padding: 5px;				
+}
   
-  .certificard a {
-      padding: 5px;
-      background-color: rgba(16, 23, 46, 0.5);
-      font-weight: normal;			
-  }
+.certificard a{
+    padding: 5px;
+    background-color: rgba(16, 23, 46, 0.5);
+    font-weight: normal;			
+}
   
-  .certificard a:hover, a:active {
-      font-weight: bold;
-  }
+.certificard a:hover, a:active{
+    font-weight: bold;
+}
   
-  #resultado {
-      color: black;
-      font-weight: bold;
-      text-align: center;
-      font-size: 25px;
-  }
+#resultado{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
   
-  span {
-      color: #220a30;
-  }
+span{
+    color: #220a30;
+}
   
-  .moeda {
-      display: inline-block;
-      margin: 20px;
-      font-size: 150%;
-  }
+.moeda{
+    display: inline-block;
+    margin: 20px;
+    font-size: 150%;
+}
   
-  .esconder {
-      display: none;
-  }
+.esconder{
+    display: none;
+}
