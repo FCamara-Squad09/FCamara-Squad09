@@ -129,3 +129,75 @@ input[type="checkbox"]:checked + label > img {
 	box-shadow: 0 0 0 2px #220a30;
 	font-weight: bolder;
 }
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #d1cbcb;
+  }
+  
+  a:hover, a:active {
+    color: #d1cbcb;
+    font-weight: bold;			  
+  }
+  
+  p {
+      display: block;
+  }
+  
+  .foto {
+      width: 20px;
+      vertical-align: top;
+      margin-right: 5px;
+      background-color: 
+  }		
+  
+  p.info, p.certificard {
+      font-size: 15px;
+      font-weight: bold;
+      bottom: 0px;
+      color: black;
+  }
+  
+  .info {
+      left: 10px;
+      text-align: left;
+      padding: 5px;
+  }
+  
+  .certificard {
+      text-align: right;
+      right: 0px;
+      margin-top: 5px;
+      padding: 5px;				
+  }
+  
+  .certificard a {
+      padding: 5px;
+      background-color: rgba(16, 23, 46, 0.5);
+      font-weight: normal;			
+  }
+  
+  .certificard a:hover, a:active {
+      font-weight: bold;
+  }
+  
+  #resultado {
+      color: black;
+      font-weight: bold;
+      text-align: center;
+      font-size: 25px;
+  }
+  
+  span {
+      color: #220a30;
+  }
+  
+  .moeda {
+      display: inline-block;
+      margin: 20px;
+      font-size: 150%;
+  }
+  
+  .esconder {
+      display: none;
+  }
