@@ -1,0 +1,51 @@
+.pergunta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#teste {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#teste p {
+	display: inline;
+	margin: 0;
+	width: 290px;
+}
+
+p:nth-child(2) {
+	color: red;
+	text-align: center;
+}
+
+input[type="radio"], input[type="checkbox"] { 
+	display: none;
+}
+
+input[type="radio"]:not(:checked) + label, 
+input[type="checkbox"]:not(:checked) + label {
+	opacity: 0.6;
+}
+
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label {
+	opacity: 1;
+	
+}
+
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 3px #111b45;
+}
