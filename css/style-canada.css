@@ -1,0 +1,7 @@
+.pergunta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	margin: 5px;
+	cursor: pointer;
+}
