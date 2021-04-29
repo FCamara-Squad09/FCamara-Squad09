@@ -125,9 +125,6 @@ input[type="checkbox"]:checked + label > img {
 	font-weight: bolder;
 }	
 
-#resultado {				
-	
-}
 
 a:link, a:visited {
   text-decoration: none;
