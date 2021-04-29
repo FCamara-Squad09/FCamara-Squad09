@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	background-image: url(../assets/wallpaper.jpg);
+	background-size: cover;		
+	background-repeat: no-repeat;
+	text-align: center;				
+	color: #2c2f38;
+	font-family: 'Josefin Sans', sans-serif;
+}									
+
+h1 {
+	font-size: 40px;
+	padding: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	padding: 10px;							
+}
+
+header h2 {
+	color: #111b45;
+	font-size: 32px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;				
+	margin: 10px 30px;
+}
