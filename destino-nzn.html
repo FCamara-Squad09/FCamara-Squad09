@@ -4,29 +4,47 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap" rel="stylesheet" />
-
-		<!--<link rel="shortcut icon" type="image/svg" href="material/favicon.svg" />
-		-->
+		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />		
 
 		<title>Viagem Nova Zelândia</title>
 	</head>
 	<body>
+		<header>
+			<div></div>
+		</header>
 
-		<div class="container">
+		<section class="intro">
+			<h1>Viagem para a Nova Zelândia: Quanto custa?</h1>
+			<p> 
+				Que tal descobrir quanto custará sua próxima viagem para conhecer a Nova Zelândia?
+			</p>
+			<p>
+				Responda as perguntas abaixo sobre o seu estilo de viajante e no final veja o valor médio para sua viagem.
+			</p>
+		</section>
 
-			<header>
-				<h1>Viagem para a Nova Zelândia: Quanto custa?</h1>
-				<h2>Hello fellow traveler! Kia ora, nau mai!</h2>
-				<p class="intro"> 
-					Que tal descobrir quanto custará sua próxima viagem para conhecer a Nova Zelândia?
-				</p>
-				<p class="intro">
-					Responda as perguntas abaixo sobre o seu estilo de viajante e no final veja o valor médio para sua viagem.
-				</p>  
-			</header>		
+		<section class="opcoes" id ="opcoes-dia">
+			
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
+					<p>Planejamento</p>
+				</div>
+				<h2>Quantos dias você pretende viajar?</h2>
+			</div>
+
+			<div class="resposta">
+				<label for="dias"></label>
+				<input type="number" name="dias" id="dias" value="10" min="1"/>
+			</div>			
+		</section>
+
+
+		
+			
+			
+			  
 			
 			<section class="pergunta">
 				<h2>Antes de mais nada...</h2>
