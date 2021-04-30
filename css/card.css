@@ -15,6 +15,8 @@
 	background: white;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 	text-align: center;
+	transition: 0.5s ease;
+	cursor: pointer;
 }
 
 .imagem-card {
@@ -83,6 +85,11 @@
 
 .detalhes-card .valor sup {
 	font-size: 12px;
+}
+
+.card:hover {
+	transform: scale(1.2);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 
