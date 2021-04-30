@@ -101,4 +101,45 @@ label span {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+.resposta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 59%
+}
 
+.resposta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+input[type="radio"], input[type="checkbox"] { 
+	display: none;
+}
+
+input[type="radio"]:not(:checked) + label, 
+input[type="checkbox"]:not(:checked) + label {
+	opacity: 0.6;
+}
+
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label {
+	opacity: 1;
+	
+}
+
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+
+.esconder {
+	display: none;
+}
