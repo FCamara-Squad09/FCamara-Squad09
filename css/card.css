@@ -15,8 +15,6 @@
 	background: white;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 	text-align: center;
-	transition: 0.5s ease;
-	cursor: pointer;
 }
 
 .imagem-card {
@@ -47,3 +45,45 @@
 	font-size: 15px;
 	font-weight: 300;
 }
+
+.detalhes-card {
+	grid-area: detalhes;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: rgb(255, 7, 110);
+}
+
+.detalhes-card .detalhes {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	color: white;
+}
+
+.detalhes-card .tipo {
+	font-size: 11px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.detalhes-card .valor {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.detalhes-card .borda {
+	border-left: 1px solid rgb(172, 26, 87);
+	border-right: 1px solid rgb(172, 26, 87);
+}
+
+.detalhes-card .valor sup {
+	font-size: 12px;
+}
+
+
+
