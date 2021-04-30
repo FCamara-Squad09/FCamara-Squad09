@@ -29,6 +29,7 @@ p {
 	margin: 10px 30px;
 }
 
+
 #dias {
 	display: block;
 	margin-left: auto;
@@ -124,9 +125,6 @@ input[type="checkbox"]:checked + label > img {
 	font-weight: bolder;
 }	
 
-#resultado {				
-	
-}
 
 a:link, a:visited {
   text-decoration: none;
@@ -146,7 +144,6 @@ p {
 	width: 20px;
 	vertical-align: top;
 	margin-right: 5px;
-	background-color: 
 }		
 
 p.info, p.certificard {
