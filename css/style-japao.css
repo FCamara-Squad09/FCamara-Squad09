@@ -15,23 +15,66 @@ body{
 }
 
 .container{
-    width: 700px;
+    width: 1000px;
     margin: 0 auto;
     text-align: center;
     padding: 0 2%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .container2{
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
     text-align: center;
     padding: 0 2%;
 }
 
 header{
+    padding: 25px 0px;
+    margin-bottom: 50px;
     width: 100%;
+    background-color: #111b45;
+}
+
+.menu-desktop ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-desktop ul li{
+    padding-left: 30px;
+}
+
+.menu-desktop ul li a{
+    font-size: 19px;
+    color: #d1cbcb
+}
+
+.menu-desktop ul li a:hover{
+    color: white
+}
+
+.pesquisa{
+    margin-top: -4px;
+}
+
+.pesquisa form input{
+    height: 30px;
+    border: 1px solid #220a30;
+    border-radius: 3px;
+}
+
+.pesquisa form button{
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 2px solid #220a30;
+}
+
+.pesquisa form button:hover{
+    color: #220a30;
+    background-color: #d1cbcb;
 }
 
 h1{
@@ -164,8 +207,7 @@ a:link, a:visited{
 }
   
 a:hover, a:active{
-    color: #d1cbcb;
-    font-weight: bold;			  
+    color: #d1cbcb;			  
 }
   
 p{
@@ -210,5 +252,9 @@ span{
 }
   
 .esconder{
+    display: none;
+}
+
+.menu-mobile{
     display: none;
 }
