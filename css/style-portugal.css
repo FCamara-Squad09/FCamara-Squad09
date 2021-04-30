@@ -227,40 +227,4 @@ p{
      margin-right: 5px;
 }		
   
-p.info, p.certificard{
-    font-size: 15px;
-    font-weight: bold;
-    bottom: 0px;
-    color: black;
-}
-  
-.info{
-    left: 10px;
-    text-align: left;
-    padding: 5px;
-}
 
-#resultado{
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-}
-  
-span{
-    color: #220a30;
-}
-  
-.moeda{
-    display: inline-block;
-    margin: 20px;
-    font-size: 150%;
-}
-  
-.esconder{
-    display: none;
-}
-
-.menu-mobile{
-    display: none;
-}
