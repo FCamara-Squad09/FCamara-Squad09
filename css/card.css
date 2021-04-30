@@ -21,11 +21,10 @@
 
 .imagem-card {
 	grid-area: imagem;
-	background-color: black;
+	width: 100%;
+	height: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	background-size: cover;
-	color: red;
 }
 
 .texto-card {
