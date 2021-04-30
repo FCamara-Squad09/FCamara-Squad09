@@ -4,7 +4,9 @@
 		<meta charset="utf-8">
 		<!--<meta name="viewport" value="width=device-width, initial-scale=1" />
 		-->
+		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style-canada.css" />
+		
 
 		<title>Destino - Canadá</title>			 
 	</head>
@@ -24,19 +26,34 @@
 			</p> 
 		</section>
 
-		<section class="pergunta">
-			<h2>Antes de mais nada...</h2>
+		<section class="opcoes" id="opcoes-dia">
 
-			<div>
-				<label for="dias">Quantos dias você pretende viajar?</label>
-				<input type="number" name="dias" id="dias" value="10" min="1"/>
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/img-canada/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
+					<p>Planejamento</p>
+				</div>
+				<h2>Quantos dias você pretende viajar?</h2>
 			</div>
+
+			<div class="resposta">
+				<label for="dias"></label>
+				<input type="number" name="dias" id="dias" value="10" min="1"/>
+			</div>			
 		</section>
 
-		<section class="pergunta">
-			<h2>Qual é o seu estilo de passageiro?</h2>
+		<section class="opcoes">
 
-			<div>
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/img-canada/icone-aviao.svg" alt="Ícone de um avião." class="icone-aviao">
+					<p>Passagem aérea</p>
+				</div>
+
+				<h2>Qual é o seu estilo de passageiro?</h2>
+			</div>
+
+			<div class=resposta> 
 				<input type="radio" name="passagem" id="economica" value="1259" />
 				<label for="economica"><img src="assets/img-canada/classe-economica.jpg" alt="Foto da classe econômica de um avião."></label>
 
@@ -51,10 +68,17 @@
 			</div>
 		</section>
 
-		<section class="pergunta">
-			<h2>Em qual desses lugares você escolheria ficar?</h2>
+		<section class="opcoes">
 
-			<div>
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/img-canada/icone-hotel.svg" alt="Ícone de um hotel." class="icone-hotel">
+					<p>Hospedagem</p>
+				</div>
+				<h2>Em qual desses lugares você escolheria ficar?</h2>
+			</div>			
+
+			<div class=resposta>
 				<input type="radio" name="hospedagem" id="albergue" value="37" />
 				<label for="albergue"><img src="assets/img-canada/estadia-albergue.jpg" alt="Foto de um quarto de albergue."></label>
 
@@ -72,10 +96,17 @@
 			</div>
 		</section>
 
-		<section class="pergunta">
-			<h2>Qual é o tipo de experiência gastronômica que você busca?</h2>
+		<section class="opcoes">
 
-			<div>
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/img-canada/icone-restaurante.svg" alt="Ícone de restaurante." class="icone-restaurante">
+					<p>Alimentação</p>
+				</div>
+				<h2>Qual experiência gastronômica você busca?</h2>
+			</div>			
+
+			<div class=resposta>
 				<input type="radio" name="alimentacao" id="comida-barata" value="42" />
 				<label for="comida-barata"><img src="assets/img-canada/comida-barata.jpg" alt="Foto de uma porção individual de batatas fritas."></label>
 
@@ -87,10 +118,17 @@
 			</div>					
 		</section>
 
-		<section class="pergunta">
-			<h2>Uma vez lá, qual será o seu meio de transporte principal?</h2>
+		<section class="opcoes">
 
-			<div>
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/img-canada/icone-transporte.svg" alt="Ícone de um ônibus." class="icone-transporte">
+					<p>Transporte</p>
+				</div>
+				<h2>Qual será seu método principal de locomoção?</h2>
+			</div>
+
+			<div class=resposta>
 				<input type="radio" name="transporte" id="metro" value="13.50" />
 				<label for="metro"><img src="assets/img-canada/transporte-metro.jpg" alt="Imagem de um metrô."></label>
 
@@ -105,9 +143,17 @@
 			</div>
 		</section>
 
-		<section class="pergunta">
-			<h2>Quais desses passeios você quer incluir na sua viagem?</h2>
-			<div>
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/img-canada/icone-passeio.svg" alt="Ícone de um mapa." class="icone-passeio">
+					<p>Atrações Turísticas</p>
+				</div>
+				<h2>Quais desses passeios você quer incluir na sua viagem?</h2>
+			</div>
+
+			<div class=resposta>
 				<input type="checkbox" name="passeio" id="baleia" value="90" />
 				<label for="baleia"><img src="assets/img-canada/baleias.jpg" alt="Imagem de pessoas em um bote observando uma baleia."></label>
 
