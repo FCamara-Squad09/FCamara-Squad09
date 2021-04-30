@@ -1,11 +1,35 @@
-.card {
+.destinos-card {
+	display: flex;
+	justify-content: center;
+}
+
+
+.nova-zelandia-card {
+	width: 300px;
 	display: grid;
 	grid-template-columns: 300px;
 	grid-template-rows: 210px 210px 80px;
 	grid-template-areas: "imagem" "texto" "detalhes";
-
 	font-family: "Hind", sans-serif;
 	border-radius: 18px;
 	background: white;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+	text-align: center;
+}
+
+.imagem-card {
+	grid-area: imagem;
+	background-color: darkblue;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+	color: red;
+}
+
+.texto-card {
+	grid-area: texto;
+}
+
+.detalhes-card {
+	grid-area: detalhes;
 }
