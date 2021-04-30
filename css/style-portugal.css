@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: auto 180px auto 180px;
+}
+
+header {
+	width: auto;
+	height: 70px;
+	background-color: lightgray;
+}
+
+h1 {
+	font-size: 62px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 56px;
+	font-weight: bold;
+	margin-top: 3px;
+}
