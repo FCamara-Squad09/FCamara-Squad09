@@ -57,3 +57,48 @@ label[for="dias"] {
 .icone-aviao {
 	height: 37px;
 }
+
+.icone-hotel {
+	height: 40px;
+}
+
+.icone-restaurante {
+	height: 33px;
+}
+
+.icone-transporte {
+	height: 35px;
+}
+
+.icone-passeio {
+	height: 49px;
+}
+
+.opcoes {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px;
+	margin-top: 70px;	
+}
+
+#opcoes-dia {
+	align-items: center;
+}
+
+.pergunta {
+	width: 40%;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
