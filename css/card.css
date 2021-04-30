@@ -4,7 +4,7 @@
 }
 
 
-.nova-zelandia-card {
+.card {
 	width: 300px;
 	display: grid;
 	grid-template-columns: 300px;
@@ -15,11 +15,13 @@
 	background: white;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 	text-align: center;
+	transition: 0.5s ease;
+	cursor: pointer;
 }
 
 .imagem-card {
 	grid-area: imagem;
-	background-color: darkblue;
+	background-color: black;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	background-size: cover;
@@ -28,8 +30,20 @@
 
 .texto-card {
 	grid-area: texto;
+	margin: 20px;
 }
 
-.detalhes-card {
-	grid-area: detalhes;
+.icone-card {
+	height: 14%;
+}
+
+.texto-card h2 {
+	margin-top: 0px;
+	font-size: 28px;
+}
+
+.texto-card p {
+	color: gray;
+	font-size: 15px;
+	font-weight: 300;
 }
