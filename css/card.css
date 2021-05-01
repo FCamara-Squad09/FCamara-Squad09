@@ -54,10 +54,10 @@
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	background: rgb(255, 7, 110);
+	background: #ff076e;
 }
 
-.detalhes-card .detalhes {
+.detalhes, .selecionar {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -66,28 +66,38 @@
 	color: white;
 }
 
-.detalhes-card .tipo {
-	font-size: 11px;
+.selecionar:hover {
+	color: #c9c9c9;
+}
+
+.selecionar:active {
+	background-color: #c20453;
+	border-bottom-right-radius: 15px;
+}
+
+.tipo {
+	font-size: 15px;
 	font-weight: 300;
 	text-transform: uppercase;
 }
 
-.detalhes-card .valor {
-	font-size: 22px;
+.valor {
+	margin-top: 5px;
+	font-size: 13px;
 	font-weight: 500;
 }
 
-.detalhes-card .borda {
-	border-left: 1px solid rgb(172, 26, 87);
-	border-right: 1px solid rgb(172, 26, 87);
+.borda {
+	border-left: 1px solid #ac1a57;
+	border-right: 1px solid #ac1a57;
 }
 
-.detalhes-card .valor sup {
+.valor sup {
 	font-size: 12px;
 }
 
 .card:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
