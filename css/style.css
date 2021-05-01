@@ -3,7 +3,7 @@
 }
 
 body {
-	background-image:url(/assets/bg-home.jpg);
+	background-image: url(/assets/bg-home.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Montserrat', sans-serif;
@@ -85,21 +85,6 @@ body {
     border-radius: 3px;
     border: 2px solid #220a30;
 }	
-
-.corpo {
-}
-
-.corpo::before {    
-    content: "";
-    background-image: url(/assets/bg-home.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-}
 
 .pesquisa form button:hover{
     color: #220a30;
