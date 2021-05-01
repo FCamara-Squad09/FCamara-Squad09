@@ -1,9 +1,9 @@
 .destinos-card {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	padding: 20px;
 }
-
 
 .card {
 	width: 260px;
@@ -121,6 +121,21 @@
 .cor-japao .borda {
 	border-left: 1px solid #007326; 
 	border-right: 1px solid #007326;
+}
+
+/*Cores da Carta de Portugal*/
+
+.cor-portugal {
+	background-color: #0e97b3;
+}
+
+.cor-portugal .selecionar:active {
+	background-color: #0b7085;
+}
+
+.cor-portugal .borda {
+	border-left: 1px solid #0b7085; 
+	border-right: 1px solid #0b7085;
 }
 
 .tipo {
