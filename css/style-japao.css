@@ -158,10 +158,11 @@ h1{
 h2{
 	font-size: 30px;
 	padding: 10px;
-    margin-bottom: 20px;							
+  margin-bottom: 20px;							
 }
 
 section .titulo > h2{
+
 	color: #111b45;
 	font-size: 32px;
 }
@@ -199,10 +200,10 @@ label[for="dias"]{
 }
 
 .intro{
-    margin-top: 20px;
-    padding-top: 10px;
+  margin-top: 20px;
+  padding-top: 10px;
 	font-size: 20px;
-    text-align: center;
+  text-align: center;
 }
 
 input[type="radio"], input[type="checkbox"]{ 
@@ -221,8 +222,7 @@ input[type="radio"]:checked + label,
 input[type="radio"]:hover + label,
 input[type="checkbox"]:checked + label, 
 input[type="checkbox"]:hover + label{
-	opacity: 1;
-	
+	opacity: 1;	
 }
 
 input[type="radio"]:checked + label > img, 
@@ -280,7 +280,7 @@ a:link, a:visited{
 }
   
 a:hover, a:active{
-    color: #d1cbcb;			  
+    color: #d1cbcb;
 }
   
 p{
@@ -306,7 +306,6 @@ p.info, p.certificard{
     padding: 5px;
 }
 
-  
 #resultado{
     color: black;
     font-weight: bold;
