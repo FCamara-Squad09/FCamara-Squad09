@@ -3,6 +3,7 @@
 }
 
 body {
+	background-image:url("assets/bg-home.jpg");
 	font-family: 'Montserrat', sans-serif;
 	margin: auto 180px auto 180px;
 }									
