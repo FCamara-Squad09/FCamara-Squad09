@@ -102,6 +102,7 @@ header{
     font-size: 19px;
     color: #d1cbcb;
     position: relative;
+    text-decoration: none;
 }
 
 .menu-desktop ul li a:before{
@@ -369,18 +370,20 @@ input[type="checkbox"]:checked + label > img {
         padding-bottom: 10px;
     }
 
-    .icones{
+    .posicao .icones{
         margin-left: 70%;
         margin-top: -25px;
         margin-bottom: 27px;
     }
 
-    .icones img{
-        width: 28px;
+    .posicao .icones img{
+        width: 35px;
+        margin-top: 190px;
     }
 
-    .icones p{
+    .posicao .icones p{
         font-size: 28px;
+        margin-top: 200px;
     }
 
     input[type="number"]{
@@ -390,35 +393,30 @@ input[type="checkbox"]:checked + label > img {
         height: 28px;
     }
 
-    label{
-        margin-right: 130px;
-
-    }
-
-    label img{
+    .posicao{
         position: relative;
-        top: 150px;
+        margin-bottom: 400px;
     }
 
-    label span{
+    .posicao label{
+        width: 100%;
+        margin-right: 127px;
+        margin-top: 150px;
+        margin-bottom: -100px;
         position: relative;
-        top: 70px;
-        left: 120px;
-        font-size: 15px;
-        width: 50px;
+        top: 250px;
     }
 
-    .pergunta h2{
+    .posicao .pergunta h2{
         width: 280px;
         font-size: 25px;
         margin-left: 57%;
         text-align: center;
     }
 
-    .resposta img{
+    .posicao .resposta img{
         width: 150px;
         height: 150px;
     }
 
-    
 }
