@@ -298,7 +298,8 @@ input[type="checkbox"]:checked + label > img {
 }
 
 .logo-mobile img{
-    width: 100px;
+    width: 150px;
+    margin-bottom: -25px;
 }
 
 .form input{
@@ -341,6 +342,46 @@ input[type="checkbox"]:checked + label > img {
     .intro p{
         font-size: 16px;
         padding-bottom: 10px;
+    }
+
+    .icones{
+        margin-left: 70%;
+        margin-top: -25px;
+        margin-bottom: 27px;
+    }
+
+    .icones img{
+        width: 28px;
+    }
+
+    .icones p{
+        font-size: 28px;
+    }
+
+    input[type="number"]{
+        margin-top: 250px;
+        position: relative;
+        right: 70px;
+        height: 28px;
+    }
+
+    label img{
+        display: inline-block;
+        position: relative;
+        right: 75px;
+        top: 210px;
+    }
+
+    .pergunta h2{
+        width: 100%;
+        font-size: 25px;
+        margin-left: 85%;
+        text-align: center;
+    }
+
+    .resposta img{
+        width: 150px;
+        height: 150px;
     }
 
     
