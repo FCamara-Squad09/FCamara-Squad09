@@ -1,0 +1,166 @@
+.destinos-card {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.card {
+	width: 260px;
+	display: grid;
+	grid-template-columns: 260px;
+	grid-template-rows: 180px 190px 60px;
+	grid-template-areas: "imagem" "texto" "detalhes";
+	font-family: "Hind", sans-serif;
+	border-radius: 18px;
+	background: white;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+	text-align: center;
+	transition: 0.5s ease;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.imagem-card {
+	grid-area: imagem;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.texto-card {
+	grid-area: texto;
+	margin: 10px;
+}
+
+.icone-card {
+	height: 14%;
+}
+
+.texto-card h2 {
+	margin-top: 0px;
+	margin-bottom: 6px;
+	font-size: 1.3em;
+}
+
+.texto-card p {
+	color: gray;
+	font-size: .9em;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+.detalhes-card {
+	grid-area: detalhes;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-template-rows: 1fr;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.detalhes, .link-destino {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;	
+	user-select: none;
+}
+
+.link-destino:hover, {
+	color: #c9c9c9;
+}
+
+.link-destino:active {
+	border-bottom-right-radius: 15px;
+}
+
+/*Cores da Carta do Canadá*/
+
+.cor-canada {
+	background-color: #ff076e;
+}
+
+.cor-canada .link-destino:active {	
+	background-color: #ac1a57;
+}
+
+.cor-canada .borda {	
+	border-left: 1px solid #ac1a57;
+	border-right: 1px solid #ac1a57;
+}
+
+/*Cores da Carta da Nova Zelândia*/
+
+.cor-nz {
+	background-color: #ff4d07;
+}
+
+.cor-nz .link-destino:active {
+	background-color: #c93900;
+}
+
+.cor-nz .borda {
+	border-left: 1px solid #c93900;
+	border-right: 1px solid #c93900;
+}
+
+/*Cores da Carta do Japão*/
+
+.cor-japao {
+	background-color: #00bd3f;
+}
+
+.cor-japao .link-destino:active {
+	background-color: #007326;
+}
+
+.cor-japao .borda {
+	border-left: 1px solid #007326; 
+	border-right: 1px solid #007326;
+}
+
+/*Cores da Carta de Portugal*/
+
+.cor-portugal {
+	background-color: #0e97b3;
+}
+
+.cor-portugal .link-destino:active {
+	background-color: #0b7085;
+}
+
+.cor-portugal .borda {
+	border-left: 1px solid #0b7085; 
+	border-right: 1px solid #0b7085;
+}
+
+.tipo, {
+	font-size: .8em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.valor {
+	margin-top: 5px;
+	font-size: .7em;
+	font-weight: 500;
+}
+
+.borda {
+}
+
+.card:hover {
+	transform: scale(1.1);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.link-destino:link {
+  text-decoration: none;
+}
+
+
+
