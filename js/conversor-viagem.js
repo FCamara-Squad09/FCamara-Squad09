@@ -41,11 +41,11 @@ function escreveNaTela() {
 
 	document.querySelector("#n-dias").textContent = valor.numeroDeDias;
 
-	if (var COTACAO = 4.42) {
+	if (COTACAO = 4.42) {
 		document.querySelector("#moeda-local").textContent = "CAD " + valor.naMoeda.toFixed(2);
-	} else if (var COTACAO = 0.05) {
+	} else if (COTACAO = 0.05) {
 		document.querySelector("#moeda-local").textContent = "JPY " + valor.naMoeda.toFixed(2);
-	} else if (var COTACAO = 3.90) {
+	} else if (COTACAO = 3.90) {
 		document.querySelector("#moeda-local").textContent = "NZD " + valor.naMoeda.toFixed(2);
 	} else {
 		document.querySelector("#moeda-local").textContent = "EUR " + valor.naMoeda.toFixed(2);
