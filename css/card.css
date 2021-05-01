@@ -6,10 +6,10 @@
 
 
 .card {
-	width: 205px;
+	width: 260px;
 	display: grid;
-	grid-template-columns: 205px;
-	grid-template-rows: 150px 155px 50px;
+	grid-template-columns: 260px;
+	grid-template-rows: 180px 190px 60px;
 	grid-template-areas: "imagem" "texto" "detalhes";
 	font-family: "Hind", sans-serif;
 	border-radius: 18px;
@@ -46,7 +46,7 @@
 
 .texto-card p {
 	color: gray;
-	font-size: .8em;
+	font-size: .9em;
 	font-weight: 300;
 	margin-top: 0px;
 	margin-bottom: 8px;
@@ -59,7 +59,6 @@
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	background: #ff076e;
 }
 
 .detalhes, .selecionar {
@@ -76,12 +75,44 @@
 }
 
 .selecionar:active {
-	background-color: #c20453;
 	border-bottom-right-radius: 15px;
 }
 
+/*Cores da Carta do Canadá*/
+
+.cor-canada {
+	background-color: #ff076e;
+}
+
+.cor-canada .selecionar:active {	
+	background-color: #ac1a57;
+}
+
+.cor-canada .borda {	
+	border-left: 1px solid #ac1a57;
+	border-right: 1px solid #ac1a57;
+}
+
+/*Cores da Carta da Nova Zelândia*/
+
+.cor-nz {
+	background-color: #ff4d07;
+}
+
+.cor-nz .selecionar:active {
+	background-color: #c93900;
+}
+
+.cor-nz .borda {
+	border-left: 1px solid #c93900;
+	border-right: 1px solid #c93900;
+}
+
+/*Cores da Carta do Japão*/
+
+
 .tipo {
-	font-size: .7em;
+	font-size: .8em;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -93,8 +124,6 @@
 }
 
 .borda {
-	border-left: 1px solid #ac1a57;
-	border-right: 1px solid #ac1a57;
 }
 
 .card:hover {
