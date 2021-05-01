@@ -19,19 +19,30 @@ function contaPasseios () {
 	return passeios;
 }
 
-function calculaValorNovaZelandia() {
+function calculaValor() {
 
-	var escolhas = obtemDadosViagem();
-	var COTACAO = 3.9;
+	var escolhas = obtemDadosViagem();	
 
-	var totalNzd = escolhas.passagem + (escolhas.hospedagem * escolhas.dias) + (escolhas.alimentacao * escolhas.dias) + (escolhas.transporte * escolhas.dias) + escolhas.passeios; 
-	var totalBr = totalNzd * COTACAO;
+	var totalViagem = escolhas.passagem + (escolhas.hospedagem * escolhas.dias) + (escolhas.alimentacao * escolhas.dias) + (escolhas.transporte * escolhas.dias) + escolhas.passeios; 
+	var totalBr = totalViagem * COTACAO;
 
+	var valorFinal = {
+		naMoeda: totalViagem,
+		emReal: totalBr,
+		numeroDeDias: escolhas.dias
+	}
 
-	document.querySelector("#n-dias").innerHTML = dias;
-	document.querySelector("#moeda-nz").innerHTML = "NZ$ " + totalNzd.toFixed(2);
-	document.querySelector("#moeda-br").innerHTML = "R$ " + totalBr.toFixed(2);
+	return valorFinal;
+}
+
+function escreveNaTela() {
+
+	var valor = calculaValor();
+
+	document.querySelector("#n-dias").innerHTML = valor.numeroDeDias;
+	document.querySelector("#moeda-nz").innerHTML = "NZ$ " + valor.naMoeda.toFixed(2);
+	document.querySelector("#moeda-br").innerHTML = "R$ " + valor.emReal.toFixed(2);
 	document.querySelector("#resultado").classList.remove("esconder");
 }
 
-document.querySelector("#btnCalcular").onclick = calculaValorNovaZelandia;
+document.querySelector("#btnCalcular").onclick = escreveNaTela;
