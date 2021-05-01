@@ -84,6 +84,21 @@ body {
     cursor: pointer;
     border-radius: 3px;
     border: 2px solid #220a30;
+}	
+
+.corpo {
+}
+
+.corpo::before {    
+    content: "";
+    background-image: url(/assets/bg-home.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
 }
 
 .pesquisa form button:hover{
@@ -102,7 +117,6 @@ h2 {
 	font-weight: bold;
 	margin-top: 3px;
 }
-
 
 #dias {
 	margin-left: auto;
