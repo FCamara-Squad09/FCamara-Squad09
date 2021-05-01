@@ -3,24 +3,12 @@
 }
 
 body {
+	background-image:url(/assets/bg-home.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'Montserrat', sans-serif;
 	margin: auto 180px auto 180px;
-}	
-
-.corpo {
-}
-
-.hero::before {    
-	content: "";
-	background-image: url(/assets/bg-home.jpg);
-	background-size: cover;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-	opacity: 0.75;
-}
+}									
 
 header {
 	width: auto;
