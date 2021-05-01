@@ -39,9 +39,10 @@ function escreveNaTela() {
 
 	var valor = calculaValor();
 
-	document.querySelector("#n-dias").innerHTML = valor.numeroDeDias;
-	document.querySelector("#moeda-nz").innerHTML = "NZ$ " + valor.naMoeda.toFixed(2);
-	document.querySelector("#moeda-br").innerHTML = "R$ " + valor.emReal.toFixed(2);
+	document.querySelector("#n-dias").textContent = valor.numeroDeDias;
+
+	document.querySelector("#moeda-local").textContent = "NZ$ " + valor.naMoeda.toFixed(2);
+	document.querySelector("#moeda-br").textContent = "R$ " + valor.emReal.toFixed(2);
 	document.querySelector("#resultado").classList.remove("esconder");
 }
 
