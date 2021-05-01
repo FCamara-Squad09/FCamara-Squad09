@@ -19,15 +19,24 @@ body {
 }
 
 .logo{
-    width: 10px;
-    height: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo span{
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .logo img{
-    width: 100px;
-    height: 100px;
+	display: inline;
+    width: 50px;
+    height: 50px;
     position: relative;
-    top: -35px;
     cursor: pointer;
 }
 
