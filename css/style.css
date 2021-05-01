@@ -1,39 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	position: relative;
-	background-size: cover;		
-	background-repeat: no-repeat;
-	text-align: center;				
-	color: #2c2f38;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	margin: auto 180px auto 180px;
 }									
 
+header {
+	width: auto;
+	height: 70px;
+	background-color: lightgray;
+}
+
 h1 {
-	font-size: 40px;
-	padding: 10px;
+	font-size: 62px;
+	font-weight: bold;
+	text-align: center;
 }
 
 h2 {
-	font-size: 30px;
-	padding: 10px;							
-}
-
-header h2 {
-	color: #111b45;
-	font-size: 32px;
-}
-
-p {
-	font-family: 'Montserrat', sans-serif;
-	text-align: left;				
-	margin: 10px 30px;
+	font-size: 56px;
+	font-weight: bold;
+	margin-top: 3px;
 }
 
 
 #dias {
-	display: block;
 	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
+	margin-right: auto;	
 	border-radius: 5px;
 	background-color: white;
 	padding: 5px;
@@ -46,20 +41,87 @@ p {
 }
 
 label[for="dias"] {
-	display: inline-block;
-	font-size: 120%;
-	margin-bottom: 10px;
 }
 
-.intro {
-	font-size: 20px;
+.icones {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.icones p {	
+	font-size: 34px;
+	font-weight: bold;
+	padding: 3px;
+	margin-left: 5px;
+}
+
+.icone-aviao {
+	height: 37px;
+}
+
+.icone-hotel {
+	height: 40px;
+}
+
+.icone-restaurante {
+	height: 33px;
+}
+
+.icone-transporte {
+	height: 35px;
+}
+
+.icone-passeio {
+	height: 49px;
+}
+
+.opcoes {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px;
+	margin-top: 70px;	
+}
+
+#opcoes-dia {
+	align-items: center;
+}
+
+.pergunta {
+	width: 40%;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.resposta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 59%
+}
+
+.resposta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	margin: 5px;
+	cursor: pointer;
 }
 
 input[type="radio"], input[type="checkbox"] { 
-	position: absolute;
-	opacity: 0;
-	width: 0;
-	height: 0;
+	display: none;
 }
 
 input[type="radio"]:not(:checked) + label, 
@@ -71,33 +133,12 @@ input[type="radio"]:checked + label,
 input[type="radio"]:hover + label,
 input[type="checkbox"]:checked + label, 
 input[type="checkbox"]:hover + label {
-	opacity: 1;
-	
+	opacity: 1;	
 }
 
 input[type="radio"]:checked + label > img, 
 input[type="checkbox"]:checked + label > img {
-	box-shadow: 0 0 0 3px #111b45;
-}
-
-.pergunta {
-	padding: 10px;
-}
-
-.pergunta img {
-	width: 290px;
-	height: 180px;
-	border-radius: 20px;
-	margin: 5px;
-	cursor: pointer;
-}
-
-.pergunta img:hover, .pergunta img:active {
-		background-color: #0c2e14;
-}
-
-.pergunta img:active {
-	box-shadow: 0 0 0 2px #0c2e14;
+	box-shadow: 0 0 0 2px #111b45;
 }
 
 #btnCalcular {
@@ -122,8 +163,7 @@ input[type="checkbox"]:checked + label > img {
 #btnCalcular:active {
 	box-shadow: 0 0 0 2px #220a30;
 	font-weight: bolder;
-}	
-
+}
 
 a:link, a:visited {
   text-decoration: none;
@@ -135,17 +175,7 @@ a:hover, a:active {
   font-weight: bold;			  
 }
 
-p {
-	display: block;
-}
-
-.foto {
-	width: 20px;
-	vertical-align: top;
-	margin-right: 5px;
-}		
-
-p.info, p.certificard {
+p.info {
 	font-size: 15px;
 	font-weight: bold;
 	bottom: 0px;
@@ -158,32 +188,11 @@ p.info, p.certificard {
 	padding: 5px;
 }
 
-.certificard {
-	text-align: right;
-	right: 0px;
-	margin-top: 5px;
-	padding: 5px;				
-}
-
-.certificard a {
-	padding: 5px;
-	background-color: rgba(16, 23, 46, 0.5);
-	font-weight: normal;			
-}
-
-.certificard a:hover, a:active {
-	font-weight: bold;
-}
-
 #resultado {
 	color: black;
 	font-weight: bold;
 	text-align: center;
 	font-size: 25px;
-}
-
-span {
-	color: #220a30;
 }
 
 .moeda {
