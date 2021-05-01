@@ -7,13 +7,28 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Montserrat', sans-serif;
-	margin: auto 180px auto 180px;
-}									
+}
 
-header {
-	width: auto;
-	height: 70px;
-	background-color: lightgray;
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10px;
+    height: 10px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -35px;
+    cursor: pointer;
 }
 
 h1 {
