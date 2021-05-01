@@ -3,10 +3,16 @@
 }
 
 body {
-	background-image:url("assets/bg-home.jpg");
 	font-family: 'Montserrat', sans-serif;
 	margin: auto 180px auto 180px;
-}									
+}	
+
+.corpo {
+	background-image:url(/assets/bg-home.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.10;
+}
 
 header {
 	width: auto;
