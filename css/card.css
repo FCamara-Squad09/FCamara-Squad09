@@ -110,6 +110,18 @@
 
 /*Cores da Carta do Japão*/
 
+.cor-japao {
+	background-color: #00bd3f;
+}
+
+.cor-japao .selecionar:active {
+	background-color: #007326;
+}
+
+.cor-japao .borda {
+	border-left: 1px solid #007326; 
+	border-right: 1px solid #007326;
+}
 
 .tipo {
 	font-size: .8em;
