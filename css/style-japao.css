@@ -170,9 +170,6 @@ h2 {
 	box-shadow: 0 0 0 2px #111b45;
 }
 
-label[for="dias"] {
-}
-
 .icones {
 	display: flex;
 	flex-direction: row;
@@ -311,6 +308,11 @@ input[type="checkbox"]:checked + label > img {
     width: 25px;
 }
 
+.voltarTopo{
+    cursor: pointer;
+    position: fixed;
+}
+
 @media screen and (max-width: 576px){
 
     .container{
@@ -332,6 +334,10 @@ input[type="checkbox"]:checked + label > img {
 
     .logo{
         display: none;
+    }
+
+    .intro{
+        margin-bottom: -100px;
     }
 
     .intro h1{
@@ -359,23 +365,34 @@ input[type="checkbox"]:checked + label > img {
     }
 
     input[type="number"]{
-        margin-top: 250px;
+        margin-top: 100px;
         position: relative;
         right: 70px;
         height: 28px;
     }
 
+    label{
+        margin-right: 130px;
+
+    }
+
     label img{
-        display: inline-block;
         position: relative;
-        right: 75px;
-        top: 210px;
+        top: 150px;
+    }
+
+    label span{
+        position: relative;
+        top: 70px;
+        left: 120px;
+        font-size: 15px;
+        width: 50px;
     }
 
     .pergunta h2{
-        width: 100%;
+        width: 280px;
         font-size: 25px;
-        margin-left: 85%;
+        margin-left: 57%;
         text-align: center;
     }
 
