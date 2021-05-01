@@ -323,6 +323,11 @@ input[type="checkbox"]:checked + label > img {
     cursor: pointer;
 }
 
+.voltarTopo button:hover{
+    background-color: #111b45;
+    border: 1px solid #220a30;
+}
+
 @media screen and (max-width: 576px){
 
     .container{
