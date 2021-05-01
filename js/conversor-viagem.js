@@ -24,12 +24,13 @@ function calculaValor() {
 	var escolhas = obtemDadosViagem();	
 
 	var totalViagem = escolhas.passagem + (escolhas.hospedagem * escolhas.dias) + (escolhas.alimentacao * escolhas.dias) + (escolhas.transporte * escolhas.dias) + escolhas.passeios; 
-	var totalBr = totalViagem * COTACAO;
+	var totalBr = totalViagem * COTACAO.moeda;
 
 	var valorFinal = {
 		naMoeda: totalViagem,
 		emReal: totalBr,
-		numeroDeDias: escolhas.dias
+		numeroDeDias: escolhas.dias,
+		cambio: COTACAO.codigo
 	}
 
 	return valorFinal;
@@ -41,15 +42,7 @@ function escreveNaTela() {
 
 	document.querySelector("#n-dias").textContent = valor.numeroDeDias;
 
-	if (COTACAO = 4.42) {
-		document.querySelector("#moeda-local").textContent = "CAD " + valor.naMoeda.toFixed(2);
-	} else if (COTACAO = 0.05) {
-		document.querySelector("#moeda-local").textContent = "JPY " + valor.naMoeda.toFixed(2);
-	} else if (COTACAO = 3.90) {
-		document.querySelector("#moeda-local").textContent = "NZD " + valor.naMoeda.toFixed(2);
-	} else {
-		document.querySelector("#moeda-local").textContent = "EUR " + valor.naMoeda.toFixed(2);
-	}
+	document.querySelector("#moeda-local").textContent = valor.cambio + valor.naMoeda.toFixed(2);
 	
 	document.querySelector("#moeda-br").textContent = "R$ " + valor.emReal.toFixed(2);
 	document.querySelector("#resultado").classList.remove("esconder");
