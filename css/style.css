@@ -8,10 +8,18 @@ body {
 }	
 
 .corpo {
-	background-image:url(/assets/bg-home.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	opacity: 0.10;
+}
+
+.corpo::before {    
+    content: "";
+    background-image: url(/assets/bg-home.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
 }
 
 header {
