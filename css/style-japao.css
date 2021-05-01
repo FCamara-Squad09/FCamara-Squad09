@@ -278,20 +278,24 @@ input[type="checkbox"]:checked + label > img {
     display: none;
     margin: 0 auto;
     margin-top: -20px;
+    width: 100%;
+    position: relative;
 }
 
 .menu-mobile ul{
     list-style-type: none;
+    margin-top: 10px;
 }
 
 .menu-mobile ul li{ 
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #d1cbcb;
 }
 
 .menu-mobile ul li a{
     font-size: 16px;
     color: #d1cbcb;
-    position: relative;
     text-decoration: none;
 }
 
@@ -302,6 +306,37 @@ input[type="checkbox"]:checked + label > img {
 .logo-mobile img{
     width: 150px;
     margin-bottom: -25px;
+}
+
+.menu-mobile #hamburguer{
+    position: relative;
+    margin-top: -5px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #d1cbcb;
+    display: inline;
+}
+
+.menu-mobile #hamburguer:hover{
+    color: white;
+}
+
+.fecharMenu{
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    font-size: 18px;
+    color: #d1cbcb;
+    border-radius: 100%;
+    border: 1px solid #d1cbcb;
+    display: inline;
+    padding: 2px 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.form{
+    margin-top: 20px;
 }
 
 .form input{
@@ -339,9 +374,17 @@ input[type="checkbox"]:checked + label > img {
         width: 100%;
         height: 100%;
     }
+
+    #opcoes-dia{
+        margin-bottom: -450px;
+    }
     
     .menu-mobile{
         display: block;
+    }
+
+    .menu-mobile ul{
+        display: none;
     }
 
     .menu-desktop{
@@ -357,7 +400,7 @@ input[type="checkbox"]:checked + label > img {
     }
 
     .intro{
-        margin-bottom: -25px;
+        margin-bottom: -200px;
     }
 
     .intro h1{
@@ -366,15 +409,25 @@ input[type="checkbox"]:checked + label > img {
     }
 
     .intro p{
+        width: 75%;
+        margin-left: 13.5%;
         font-size: 16px;
         padding-bottom: 10px;
     }
 
-    input[type="number"]{
-        margin-top: 100px;
+    .posicao input[type="number"]{
+        margin-top: 120px;
         position: relative;
-        right: 70px;
-        height: 28px;
+        top: 100px;
+        right: 75px;
+
+
+    }
+
+    .posicao{
+        position: relative;
+        margin-top: -100px;
+        margin-bottom: 400px;
     }
 
     .posicao .icones{
@@ -391,12 +444,6 @@ input[type="checkbox"]:checked + label > img {
     .posicao .icones p{
         font-size: 28px;
         margin-top: 200px;
-    }
-
-    .posicao{
-        position: relative;
-        margin-top: -100px;
-        margin-bottom: 400px;
     }
 
     .posicao label{

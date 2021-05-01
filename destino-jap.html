@@ -17,7 +17,7 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="japao-imgs/logo/Aero-logo.png" alt="Logo da Aereos World">
+                    <img src="assets/Aero-logo.png" alt="Logo da Aereos World">
                 </div>
                 <div class="menu-desktop">
                     <nav>
@@ -37,8 +37,15 @@
                 <div class="menu-mobile">
                     <nav>
                         <div class="logo-mobile">
-                            <img src="japao-imgs/logo/Aero-logo.png" alt="Logo da Aereos World">
+                            <img src="assets/Aero-logo.png" alt="Logo da Aereos World">
                         </div>
+						<div class="fecharMenu" onclick="fecharMenuMobile();">
+							X
+						</div>
+						<div id="hamburguer" onclick="menuMobile();">
+							<i class="fas fa-bars"></i>
+							
+						</div>
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="index.html">Destinos</a></li>
@@ -63,97 +70,106 @@
 			</p> 
 		</section>
 
-		<section class="opcoes" id="opcoes-dia">
+		<div class="posicao">
+			<section class="opcoes" id="opcoes-dia">
 
-			<div class="pergunta">
-				<div class="icones">
-					<img src="assets/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
-					<p>Planejamento</p>
+				<div class="pergunta">
+					<div class="icones">
+						<img src="assets/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
+						<p>Planejamento</p>
+					</div>
+					<h2>Quantos dias você pretende viajar?</h2>
 				</div>
-				<h2>Quantos dias você pretende viajar?</h2>
-			</div>
+	
+				<div class="resposta">
+					<label for="dias"></label>
+					<input type="number" name="dias" id="dias" value="10" min="1"/>
+				</div>			
+			</section>
+		</div>
 
-			<div class="resposta">
-				<label for="dias"></label>
-				<input type="number" name="dias" id="dias" value="10" min="1"/>
-			</div>			
-		</section>
+		<div class="posicao">
+			<section class="opcoes">
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div class="icones">
-					<img src="assets/icone-aviao.svg" alt="Ícone de um avião." class="icone-aviao">
-					<p>Passagem aérea</p>
+				<div class="pergunta">
+					<div class="icones">
+						<img src="assets/icone-aviao.svg" alt="Ícone de um avião." class="icone-aviao">
+						<p>Passagem aérea</p>
+					</div>
+	
+					<h2>Qual é o seu estilo de passageiro?</h2>
 				</div>
-
-				<h2>Qual é o seu estilo de passageiro?</h2>
-			</div>
-
-			<div class=resposta> 
-				<input type="radio" name="passagem" id="economica" value="1259" />
-				<label for="economica"><img src="assets/img-canada/classe-economica.jpg" alt="Foto da classe econômica de um avião."><span>Classe Econômica</span></label>
-
-				<input type="radio" name="passagem" id="economica-premium" value="2012" />
-				<label for="economica-premium"><img src="assets/img-canada/classe-economica-premium.jpg" alt="Foto da classe econômica premium de um avião."><span>Classe Econômica Premium</span></label>		
-				
-				<input type="radio" name="passagem" id="executiva" value="3918" />
-				<label for="executiva"><img src="assets/img-canada/classe-executiva.jpg" alt="Foto da classe executiva de um avião."><span>Classe Executiva</span></label>
-				
-				<input type="radio" name="passagem" id="primeira-classe" value="21234" />
-				<label for="primeira-classe"><img src="assets/img-canada/classe-primeira-classe.jpg" alt="Foto da primeira classe de um avião."><span>Primeira Classe</span></label>
-			</div>
-		</section>
-
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div class="icones">
-					<img src="assets/icone-hotel.svg" alt="Ícone de um hotel." class="icone-hotel">
-					<p>Hospedagem</p>
+	
+				<div class=resposta> 
+					<input type="radio" name="passagem" id="economica" value="1259" />
+					<label for="economica"><img src="assets/img-canada/classe-economica.jpg" alt="Foto da classe econômica de um avião."><span>Classe Econômica</span></label>
+	
+					<input type="radio" name="passagem" id="economica-premium" value="2012" />
+					<label for="economica-premium"><img src="assets/img-canada/classe-economica-premium.jpg" alt="Foto da classe econômica premium de um avião."><span>Classe Econômica Premium</span></label>		
+					
+					<input type="radio" name="passagem" id="executiva" value="3918" />
+					<label for="executiva"><img src="assets/img-canada/classe-executiva.jpg" alt="Foto da classe executiva de um avião."><span>Classe Executiva</span></label>
+					
+					<input type="radio" name="passagem" id="primeira-classe" value="21234" />
+					<label for="primeira-classe"><img src="assets/img-canada/classe-primeira-classe.jpg" alt="Foto da primeira classe de um avião."><span>Primeira Classe</span></label>
 				</div>
-				<h2>Em qual desses lugares você escolheria ficar?</h2>
-			</div>			
+			</section>
+		</div>
 
-			<div class=resposta>
-				<input type="radio" name="hospedagem" id="albergue" value="37" />
-				<label for="albergue"><img src="assets/img-canada/estadia-albergue.jpg" alt="Foto de um quarto de albergue."><span>Albergue charmoso</span></label>
+		<div class="posicao">
+			<section class="opcoes">
 
-				<input type="radio" name="hospedagem" id="hotel-barato" value="59.95" />
-				<label for="hotel-barato"><img src="assets/img-canada/estadia-hotel-barato.jpg" alt="Foto de um quarto de hotel simples."><span>Hotel Baratinho</span></label>			
-
-				<input type="radio" name="hospedagem" id="hotel-medio" value="199" />
-				<label for="hotel-medio"><img src="assets/img-canada/estadia-hotel-medio.jpg" alt="Foto de um quarto de hotel de aparência elegante."><span>Hotel Camarada</span></label>
-
-				<input type="radio" name="hospedagem" id="hotel-luxo" value="400" />
-				<label for="hotel-luxo"><img src="assets/img-canada/estadia-hotel-luxo.jpg" alt="Foto de um quarto de hotel luxuoso com sala adjacente."><span>Hotel Luxuoso</span></label>
-
-				<input type="radio" name="hospedagem" id="casa" value="1631.45" />
-				<label for="casa"><img src="assets/img-canada/estadia-casa.jpg" alt="Foto de uma casa bonita e grande."><span>Uma Casa Inteira</span></label>
-			</div>
-		</section>
-
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div class="icones">
-					<img src="assets/icone-restaurante.svg" alt="Ícone de restaurante." class="icone-restaurante">
-					<p>Alimentação</p>
+				<div class="pergunta">
+					<div class="icones">
+						<img src="assets/icone-hotel.svg" alt="Ícone de um hotel." class="icone-hotel">
+						<p>Hospedagem</p>
+					</div>
+					<h2>Em qual desses lugares você escolheria ficar?</h2>
+				</div>			
+	
+				<div class=resposta>
+					<input type="radio" name="hospedagem" id="albergue" value="37" />
+					<label for="albergue"><img src="assets/img-canada/estadia-albergue.jpg" alt="Foto de um quarto de albergue."><span>Albergue charmoso</span></label>
+	
+					<input type="radio" name="hospedagem" id="hotel-barato" value="59.95" />
+					<label for="hotel-barato"><img src="assets/img-canada/estadia-hotel-barato.jpg" alt="Foto de um quarto de hotel simples."><span>Hotel Baratinho</span></label>			
+	
+					<input type="radio" name="hospedagem" id="hotel-medio" value="199" />
+					<label for="hotel-medio"><img src="assets/img-canada/estadia-hotel-medio.jpg" alt="Foto de um quarto de hotel de aparência elegante."><span>Hotel Camarada</span></label>
+	
+					<input type="radio" name="hospedagem" id="hotel-luxo" value="400" />
+					<label for="hotel-luxo"><img src="assets/img-canada/estadia-hotel-luxo.jpg" alt="Foto de um quarto de hotel luxuoso com sala adjacente."><span>Hotel Luxuoso</span></label>
+	
+					<input type="radio" name="hospedagem" id="casa" value="1631.45" />
+					<label for="casa"><img src="assets/img-canada/estadia-casa.jpg" alt="Foto de uma casa bonita e grande."><span>Uma Casa Inteira</span></label>
 				</div>
-				<h2>Qual experiência gastronômica você busca?</h2>
-			</div>			
+			</section>
+		</div>
 
-			<div class=resposta>
-				<input type="radio" name="alimentacao" id="comida-barata" value="42" />
-				<label for="comida-barata"><img src="" alt="Foto de uma porção individual de batatas fritas."><span>Bem Baratinha</span></label>
+		<div class="posicao">
+			<section class="opcoes">
 
-				<input type="radio" name="alimentacao" id="comida-media" value="60" />
-				<label for="comida-media"><img src="" alt="Foto de uma quiche com salada."><span>Comer Bem</span></label>
-
-				<input type="radio" name="alimentacao" id="comida-cara" value="94" />
-				<label for="comida-cara"><img src="" alt="Foto de um prato feito por um chef."><span>O Céu é o limite</span></label>
-			</div>					
-		</section>
+				<div class="pergunta">
+					<div class="icones">
+						<img src="assets/icone-restaurante.svg" alt="Ícone de restaurante." class="icone-restaurante">
+						<p>Alimentação</p>
+					</div>
+					<h2>Qual experiência gastronômica você busca?</h2>
+				</div>			
+	
+				<div class=resposta>
+					<input type="radio" name="alimentacao" id="comida-barata" value="42" />
+					<label for="comida-barata"><img src="" alt="Foto de uma porção individual de batatas fritas."><span>Bem Baratinha</span></label>
+	
+					<input type="radio" name="alimentacao" id="comida-media" value="60" />
+					<label for="comida-media"><img src="" alt="Foto de uma quiche com salada."><span>Comer Bem</span></label>
+	
+					<input type="radio" name="alimentacao" id="comida-cara" value="94" />
+					<label for="comida-cara"><img src="" alt="Foto de um prato feito por um chef."><span>O Céu é o limite</span></label>
+				</div>					
+			</section>
+		</div>
+		
 
 		<div class="posicao">
 			<section class="opcoes">
@@ -260,7 +276,7 @@
 		
 
 		<section>
-			<div class="voltarTopo">
+			<div class="voltarTopo" onclick="voltarTopoTela();">
 				<button><i class="fas fa-arrow-up"></i></button>
 			</div>
 		</section>
@@ -271,9 +287,11 @@
 				moeda: 0.05,
 				codigo: "JP "
 			}
+
+			
 		</script>
-           
- 
+
+		<script src="js/conversor-viagem.js"></script>
         <script src="https://kit.fontawesome.com/72fef56070.js" crossorigin="anonymous"></script>
     </body>
 </html>
