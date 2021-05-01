@@ -149,10 +149,26 @@ header{
     background-color: #d1cbcb;
 }
 
-h1 {
-	font-size: 62px;
-	font-weight: bold;
-	text-align: center;
+
+h1{
+	font-size: 40px;
+	padding: 10px;
+}
+
+h2{
+	font-size: 30px;
+	padding: 10px;
+  margin-bottom: 20px;							
+}
+
+section .titulo > h2{
+
+	color: #111b45;
+	font-size: 32px;
+}
+
+section .titulo{
+    text-align: center;
 }
 
 h2 {
@@ -181,11 +197,11 @@ h2 {
 	align-items: center;
 }
 
-.icones p {	
-	font-size: 34px;
-	font-weight: bold;
-	padding: 3px;
-	margin-left: 5px;
+.intro{
+  margin-top: 20px;
+  padding-top: 10px;
+	font-size: 20px;
+  text-align: center;
 }
 
 .icone-aviao {
@@ -196,8 +212,11 @@ h2 {
 	height: 40px;
 }
 
-.icone-restaurante {
-	height: 33px;
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label{
+	opacity: 1;	
 }
 
 .icone-transporte {
@@ -317,8 +336,8 @@ input[type="checkbox"]:checked + label > img {
     display: inline;
 }
 
-.menu-mobile #hamburguer:hover{
-    color: white;
+a:hover, a:active{
+    color: #d1cbcb;
 }
 
 .fecharMenu{
@@ -343,9 +362,11 @@ input[type="checkbox"]:checked + label > img {
     height: 25px;
 }
 
-.form button{
-    height: 25px;
-    width: 25px;
+#resultado{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
 }
 
 .voltarTopo{
