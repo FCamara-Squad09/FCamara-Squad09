@@ -357,7 +357,7 @@ input[type="checkbox"]:checked + label > img {
     }
 
     .intro{
-        margin-bottom: -100px;
+        margin-bottom: -25px;
     }
 
     .intro h1{
@@ -368,6 +368,13 @@ input[type="checkbox"]:checked + label > img {
     .intro p{
         font-size: 16px;
         padding-bottom: 10px;
+    }
+
+    input[type="number"]{
+        margin-top: 100px;
+        position: relative;
+        right: 70px;
+        height: 28px;
     }
 
     .posicao .icones{
@@ -386,15 +393,9 @@ input[type="checkbox"]:checked + label > img {
         margin-top: 200px;
     }
 
-    input[type="number"]{
-        margin-top: 100px;
-        position: relative;
-        right: 70px;
-        height: 28px;
-    }
-
     .posicao{
         position: relative;
+        margin-top: -100px;
         margin-bottom: 400px;
     }
 
