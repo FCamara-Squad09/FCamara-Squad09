@@ -1,14 +1,15 @@
 .destinos-card {
 	display: flex;
 	justify-content: center;
+	padding: 20px;
 }
 
 
 .card {
-	width: 300px;
+	width: 205px;
 	display: grid;
-	grid-template-columns: 300px;
-	grid-template-rows: 210px 210px 80px;
+	grid-template-columns: 205px;
+	grid-template-rows: 150px 155px 50px;
 	grid-template-areas: "imagem" "texto" "detalhes";
 	font-family: "Hind", sans-serif;
 	border-radius: 18px;
@@ -17,6 +18,7 @@
 	text-align: center;
 	transition: 0.5s ease;
 	cursor: pointer;
+	margin: 10px;
 }
 
 .imagem-card {
@@ -38,12 +40,13 @@
 
 .texto-card h2 {
 	margin-top: 0px;
-	font-size: 28px;
+	margin-bottom: 6px;
+	font-size: 1.3em;
 }
 
 .texto-card p {
 	color: gray;
-	font-size: 15px;
+	font-size: .8em;
 	font-weight: 300;
 	margin-top: 0px;
 	margin-bottom: 8px;
@@ -52,7 +55,7 @@
 .detalhes-card {
 	grid-area: detalhes;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 2fr;
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
@@ -64,7 +67,6 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 10px;
 	color: white;	
 	user-select: none;
 }
@@ -79,24 +81,20 @@
 }
 
 .tipo {
-	font-size: 15px;
+	font-size: .7em;
 	font-weight: 300;
 	text-transform: uppercase;
 }
 
 .valor {
 	margin-top: 5px;
-	font-size: 13px;
+	font-size: .7em;
 	font-weight: 500;
 }
 
 .borda {
 	border-left: 1px solid #ac1a57;
 	border-right: 1px solid #ac1a57;
-}
-
-.valor sup {
-	font-size: 12px;
 }
 
 .card:hover {
