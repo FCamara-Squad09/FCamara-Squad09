@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    width: 1100px;
+    width: 900px;
     margin: 0 auto;
     text-align: center;
     padding: 0 2%;
@@ -20,12 +20,6 @@ body{
     justify-content: space-between;
 }
 
-.container2{
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 2%;
-}
 
 header{
     padding: 25px 0px;
@@ -150,91 +144,105 @@ header{
     background-color: #d1cbcb;
 }
 
-h1{
-	font-size: 40px;
-	padding: 10px;
+h1 {
+	font-size: 62px;
+	font-weight: bold;
+	text-align: center;
 }
 
-h2{
-	font-size: 30px;
-	padding: 10px;
-    margin-bottom: 20px;							
+h2 {
+	font-size: 56px;
+	font-weight: bold;
+	margin-top: 3px;
 }
 
-section .titulo > h2{
-	color: #111b45;
-	font-size: 32px;
-}
-
-section .titulo{
-    text-align: center;
-}
-
-p{
-	font-family: 'Montserrat', sans-serif;
-	text-align: left;				
-	margin: 10px 30px;
-}
-
-#dias{
-	display: block;
+#dias {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
 	border-radius: 5px;
 	background-color: white;
 	padding: 5px;
 	font-size: 120%;
 }
 
-#dias:focus{
+#dias:focus {
 	outline: none;
 	box-shadow: 0 0 0 2px #111b45;
 }
 
-label[for="dias"]{
-	display: inline-block;
-	font-size: 120%;
-	margin-bottom: 10px;
+label[for="dias"] {
 }
 
-.intro{
-    margin-top: 20px;
-    padding-top: 10px;
-	font-size: 20px;
-    text-align: center;
+.icones {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-input[type="radio"], input[type="checkbox"]{ 
-	position: absolute;
-	opacity: 0;
-	width: 0;
-	height: 0;
+.icones p {	
+	font-size: 34px;
+	font-weight: bold;
+	padding: 3px;
+	margin-left: 5px;
 }
 
-input[type="radio"]:not(:checked) + label, 
-input[type="checkbox"]:not(:checked) + label{
-	opacity: 0.6;
+.icone-aviao {
+	height: 37px;
 }
 
-input[type="radio"]:checked + label, 
-input[type="radio"]:hover + label,
-input[type="checkbox"]:checked + label, 
-input[type="checkbox"]:hover + label{
-	opacity: 1;
-	
+.icone-hotel {
+	height: 40px;
 }
 
-input[type="radio"]:checked + label > img, 
-input[type="checkbox"]:checked + label > img{
-	box-shadow: 0 0 0 3px #111b45;
+.icone-restaurante {
+	height: 33px;
 }
 
-.pergunta{
+.icone-transporte {
+	height: 35px;
+}
+
+.icone-passeio {
+	height: 49px;
+}
+
+.opcoes {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
 	padding: 10px;
+	margin-top: 70px;	
 }
 
-.pergunta img{
+#opcoes-dia {
+	align-items: center;
+}
+
+.pergunta {
+	width: 40%;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.resposta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 59%
+}
+
+.resposta img {
 	width: 290px;
 	height: 180px;
 	border-radius: 20px;
@@ -242,92 +250,84 @@ input[type="checkbox"]:checked + label > img{
 	cursor: pointer;
 }
 
-.pergunta img:hover, .pergunta img:active{
-		background-color: #0c2e14;
+input[type="radio"], input[type="checkbox"] { 
+	display: none;
 }
 
-.pergunta img:active{
-	box-shadow: 0 0 0 2px #0c2e14;
+input[type="radio"]:not(:checked) + label, 
+input[type="checkbox"]:not(:checked) + label {
+	opacity: 0.6;
 }
 
-#btnCalcular{
-	border: none;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 15px;
-	width: 20%;
-	background-color: #10172e;
-	color: #ffffff;
-	transition: 0.6s background-color;						
-	cursor: pointer;
-	margin: 10px 5px;
-	outline: none;
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label {
+	opacity: 1;
+	
 }
 
-#btnCalcular:hover, #btnCalcular:active{
-	background-color: #220a30;
-}
-
-#btnCalcular:active{
-	box-shadow: 0 0 0 2px #220a30;
-	font-weight: bolder;
-}
-
-a:link, a:visited{
-    text-decoration: none;
-    color: #d1cbcb;
-}
-  
-a:hover, a:active{
-    color: #d1cbcb;			  
-}
-  
-p{
-    display: block;
-}
-  
-.foto{
-    width: 20px;
-    vertical-align: top;
-     margin-right: 5px;
-}		
-  
-p.info, p.certificard{
-    font-size: 15px;
-    font-weight: bold;
-    bottom: 0px;
-    color: black;
-}
-  
-.info{
-    left: 10px;
-    text-align: left;
-    padding: 5px;
-}
-
-  
-#resultado{
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-}
-  
-span {
-    color: #220a30;
-}
-  
-.moeda{
-    display: inline-block;
-    margin: 20px;
-    font-size: 150%;
-}
-  
-.esconder{
-    display: none;
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 2px #111b45;
 }
 
 .menu-mobile{
     display: none;
+    margin: 0 auto;
+}
+
+.menu-mobile ul{
+    list-style-type: none;
+}
+
+.menu-mobile ul li{ 
+    padding-bottom: 20px;
+}
+
+.menu-mobile ul li a{
+    font-size: 16px;
+    color: #d1cbcb;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu-mobile ul li a:hover{
+    color: white;
+}
+
+.logo-mobile img{
+    width: 100px;
+}
+
+.form input{
+    height: 25px;
+}
+
+.form button{
+    height: 25px;
+    width: 25px;
+}
+
+@media screen and (max-width: 576px){
+    .menu-mobile{
+        display: block;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .pesquisa{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+    }
 }
