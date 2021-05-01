@@ -3,7 +3,7 @@
 }
 
 body {
-	background-image: url(/assets/bg-home.jpg);
+	background-image: url("../assets/bg-home.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Montserrat', sans-serif;
