@@ -29,7 +29,7 @@
 
 .texto-card {
 	grid-area: texto;
-	margin: 20px;
+	margin: 10px;
 }
 
 .icone-card {
@@ -45,6 +45,8 @@
 	color: gray;
 	font-size: 15px;
 	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 8px;
 }
 
 .detalhes-card {
@@ -63,7 +65,8 @@
 	justify-content: center;
 	flex-direction: column;
 	padding: 10px;
-	color: white;
+	color: white;	
+	user-select: none;
 }
 
 .selecionar:hover {
