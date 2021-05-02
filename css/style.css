@@ -11,13 +11,15 @@ body {
 }
 
 .container{
-	background-color: rgba(173, 192, 222, 0.4);
-    width: 100%;
+	background-color: rgba(125, 138, 158, 0.4);
+    width: 86%;
     margin: 0 auto;
     text-align: center;
     padding: 0 2%;
     display: flex;
     justify-content: space-between;
+	box-shadow: 3px 3px 80px rgba(22, 21, 67, 0.9);
+	border-radius: 18px;
 }
 
 .logo{
@@ -40,6 +42,7 @@ body {
     height: 50px;
     position: relative;
     cursor: pointer;
+
 }
 
 .menu-desktop ul {
@@ -80,38 +83,36 @@ body {
     transform: scale(1);
 }
 
-.pesquisa{
-    margin-top: 9px;
-}
-
-.pesquisa form input{
-    height: 30px;
-    border: 1px solid #220a30;
-    border-radius: 3px;
-}
-
-.pesquisa form button{
-    padding: 6px 10px;
-    cursor: pointer;
-    border-radius: 3px;
-    border: 2px solid #220a30;
-}	
-
-.pesquisa form button:hover{
-    color: #220a30;
-    background-color: #d1cbcb;
-}
-
 h1 {
+	margin-top: 120px;
 	font-size: 62px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
+	margin-left: 9%;
+}
+
+.ver-mais {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 9%;	
+}
+
+#btn-mais-opcoes {
+	color: rgb(1, 5, 0);
+	background-color: #c2d5af;
+	font-weight: bold;
+	border-radius: 4px;
+	width: 170px;
+	height: 30px;
+	outline: none;
 }
 
 h2 {
-	font-size: 56px;
+	font-size: 23px;
 	font-weight: bold;
-	margin-top: 3px;
+	margin: 0 auto 0 10%;
 }
 
 #dias {
@@ -297,7 +298,7 @@ p.info {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding: 20px;
+
 }
 
 .card {
@@ -337,6 +338,8 @@ p.info {
 	margin-top: 0px;
 	margin-bottom: 6px;
 	font-size: 1.3em;
+	text-align: center;
+	margin-left: 0;
 }
 
 .texto-card p {
