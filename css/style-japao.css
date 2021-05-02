@@ -441,8 +441,6 @@ a:hover, a:active{
         position: relative;
         top: 100px;
         right: 75px;
-
-
     }
 
     .posicao{
@@ -486,6 +484,10 @@ a:hover, a:active{
     .posicao .resposta img{
         width: 150px;
         height: 150px;
+    }
+
+    .bolinha{
+        display: block;
     }
 
 }

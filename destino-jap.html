@@ -9,7 +9,7 @@
 
         <title>Aereos World - Japão</title>
 
-        <link rel="icon" href="japao-imgs/favicon/aviao 1.png"><!--Adiciona o ícone na aba do site-->
+        <link rel="icon" href="assets/aviao 1.png"><!--Adiciona o ícone na aba do site-->
         <link rel="stylesheet" href="css/style-japao.css">
     </head>
 
@@ -17,7 +17,7 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="assets/Aero-logo.png" alt="Logo da Aereos World">
+                    <img src="assets/japao-imgs/Aero-logo.png" alt="Logo da Aereos World">
                 </div>
                 <div class="menu-desktop">
                     <nav>
@@ -37,21 +37,20 @@
                 <div class="menu-mobile">
                     <nav>
                         <div class="logo-mobile">
-                            <img src="assets/Aero-logo.png" alt="Logo da Aereos World">
+                            <img src="assets/japao-imgs/Aero-logo.png" alt="Logo da Aereos World">
                         </div>
-						<div class="fecharMenu" onclick="fecharMenuMobile();">
+						<div class="fecharMenu bolinha" id="fecharMenu">
 							X
 						</div>
-						<div id="hamburguer" onclick="menuMobile();">
+						<div id="hamburguer">
 							<i class="fas fa-bars"></i>
-							
 						</div>
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="index.html">Destinos</a></li>
                             <li><a href="index.html">Entrar</a></li>
                             <form class="form">
-                                <input type="text" id="pesquisaDesktop">
+                                <input type="text" id="pesquisaMobile">
                                 <button><i class="fas fa-search"></i></button>
                             </form>
                         </ul>
@@ -80,15 +79,6 @@
         
             <section class="pergunta">
                 <h2>Qual é o seu estilo de passageiro?</h2>
-        
-<<<<<<< HEAD
-		<script>
-			var COTACAO = {
-				moeda: 0.05,
-				codigo: "JP "
-			}
-		</script>
-=======
                 <input type="radio" name="passagem" id="economica" value="2067.29" />
                 <label for="economica"><img src="" alt="Foto da classe econômica de um avião."></label>			
                     
@@ -172,7 +162,7 @@
                 <label for="helicoptero"><img src="" alt=""></label>
         
                 <input type="checkbox" name="passeio" id="hobbiton" value="100" />
-                <label for="hobbiton"><img src=" alt=""></label>
+                <label for="hobbiton"><img src="" alt=""></label>
         
                 <input type="checkbox" name="passeio" id="mergulho" value="120" />
                 <label for="mergulho"><img src="" alt=""></label>
@@ -198,10 +188,12 @@
                 <span id="moeda-br" class="moeda"></span>
             </footer>
 
-        </div>
- 
->>>>>>> 63da5ca2db0daa61f38c11c87727ad8c529b53fd
-
+		<script>
+			var COTACAO = {
+				moeda: 0.05,
+				codigo: "JP "
+			}
+		</script>
         <script src="https://kit.fontawesome.com/72fef56070.js" crossorigin="anonymous"></script>
     </body>
 </html>

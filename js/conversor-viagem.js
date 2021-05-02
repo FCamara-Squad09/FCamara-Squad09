@@ -66,7 +66,7 @@ function menuMobile(){
 	var fecharMenu = document.querySelector(".fecharMenu");
 
 	hamburguer.onclick = function(){
-	fecharMenu.style.display = "block";
+	fecharMenu.classList.add("bolinha");
 	menuResponsivo.style.display = "block";
 	}
 }
@@ -80,3 +80,6 @@ function fecharMenuMobile(){
 		menuResponsivo.style.display = "none";
 	}
 }
+
+document.querySelector("#hamburguer").onclick = menuMobile;
+document.querySelector("#fecharMenu").onclick = fecharMenuMobile;
