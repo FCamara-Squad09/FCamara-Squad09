@@ -460,8 +460,15 @@ p.info {
 
 /* Estilo Nova Zelandia*/
 
-#intro, .intro {
+#intro, .intro, #h2-intro {
 	text-align: center;
 	margin-left: 0%;
+}
 
+#h2-intro {
+	font-size: 30px;
+}
+
+.intro {
+	font-size: 20px;
 }
