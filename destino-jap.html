@@ -17,7 +17,7 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="japao-imgs/logo/Aero-logo.png" alt="Logo da Aereos World">
+                    <img src="assets/Aero-logo.png" alt="Logo da Aereos World">
                 </div>
                 <div class="menu-desktop">
                     <nav>
@@ -36,11 +36,21 @@
                 </div>
                 <div class="menu-mobile">
                     <nav>
+                        <div class="logo-mobile">
+                            <img src="assets/Aero-logo.png" alt="Logo da Aereos World">
+                        </div>
+						<div class="fecharMenu" onclick="fecharMenuMobile();">
+							X
+						</div>
+						<div id="hamburguer" onclick="menuMobile();">
+							<i class="fas fa-bars"></i>
+							
+						</div>
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="index.html">Destinos</a></li>
                             <li><a href="index.html">Entrar</a></li>
-                            <form>
+                            <form class="form">
                                 <input type="text" id="pesquisaDesktop">
                                 <button><i class="fas fa-search"></i></button>
                             </form>
@@ -49,7 +59,6 @@
                 </div>
             </div>	
         </header>
-        
         <div class="container2">
             <section>
                 <div class="titulo">
@@ -72,6 +81,14 @@
             <section class="pergunta">
                 <h2>Qual é o seu estilo de passageiro?</h2>
         
+<<<<<<< HEAD
+		<script>
+			var COTACAO = {
+				moeda: 0.05,
+				codigo: "JP "
+			}
+		</script>
+=======
                 <input type="radio" name="passagem" id="economica" value="2067.29" />
                 <label for="economica"><img src="" alt="Foto da classe econômica de um avião."></label>			
                     
@@ -183,6 +200,8 @@
 
         </div>
  
+>>>>>>> 63da5ca2db0daa61f38c11c87727ad8c529b53fd
+
         <script src="https://kit.fontawesome.com/72fef56070.js" crossorigin="anonymous"></script>
     </body>
 </html>
