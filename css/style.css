@@ -3,14 +3,16 @@
 }
 
 body {
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#tela-index {
 	background-image: url("../assets/bg-home.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: 'Montserrat', sans-serif;
-	
 }
 
-.container{
+#header-index {
 	background-color: rgba(125, 138, 158, 0.4);
     width: 86%;
     margin: 0 auto;
@@ -118,11 +120,11 @@ h1 {
 
 a:link, a:visited {
   text-decoration: none;
-  color: #d1cbcb;
+  color: #312000;
 }
 
 a:hover, a:active {
-  color: #d1cbcb;
+  color: #312000;
   font-weight: bold;			  
 }
 
@@ -320,7 +322,7 @@ p.info {
   text-decoration: none;
 }
 
-/* Estilo Nova Zelandia*/
+/* Estilo telas-destinos*/
 
 #intro, .intro, #h2-intro {
 	text-align: center;
@@ -476,5 +478,23 @@ input[type="checkbox"]:checked + label > img {
 #btnCalcular:active {
 	box-shadow: 0 0 0 2px #220a30;
 	font-weight: bolder;
+}
+
+/* destino Nova Zelandia */
+
+#tela-nzn {
+	background-color: #fabba2;;
+}
+
+#header-nzn {
+	background-color: #fabba2;
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+	box-shadow: 3px 3px 10px #E6774C;
+	border-radius: 18px;
 }
 
