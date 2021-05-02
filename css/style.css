@@ -3,43 +3,117 @@
 }
 
 body {
+	background-image: url("../assets/bg-home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'Montserrat', sans-serif;
-	margin: auto 180px auto 180px;
-}	
-
-.corpo {
+	
 }
 
-.corpo::before {    
+.container{
+	background-color: rgba(125, 138, 158, 0.4);
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+	box-shadow: 3px 3px 50px rgba(69, 68, 128, 0.9);
+	border-radius: 18px;
+}
+
+.logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo span{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.logo img{
+	display: inline;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.menu-desktop ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+.menu-desktop ul li { 
+    padding-left: 30px;
+}
+
+.menu-desktop ul li a{
+    font-size: 19px;
+    color: #000000;
+    position: relative;
+}
+
+.menu-desktop ul li a:before{
     content: "";
-    background-image: url(/assets/bg-home.jpg);
-    background-size: cover;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #243180;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
-header {
-	width: auto;
-	height: 70px;
-	background-color: lightgray;
+.menu-desktop ul li a:hover:before{
+    color: white;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 h1 {
+	margin-top: 120px;
 	font-size: 62px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
+	margin-left: 9%;
+}
+
+.ver-mais {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 9%;	
+}
+
+#btn-mais-opcoes {
+	color: rgb(1, 5, 0);
+	background-color: #c2d5af;
+	font-weight: bold;
+	border-radius: 4px;
+	width: 170px;
+	height: 30px;
+	outline: none;
 }
 
 h2 {
-	font-size: 56px;
+	font-size: 23px;
 	font-weight: bold;
-	margin-top: 3px;
+	margin: 0 auto 0 10%;
 }
-
 
 #dias {
 	margin-left: auto;
@@ -219,3 +293,172 @@ p.info {
 .esconder {
 	display: none;
 }
+
+.destinos-card {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.card {
+	width: 260px;
+	display: grid;
+	grid-template-columns: 260px;
+	grid-template-rows: 180px 190px 60px;
+	grid-template-areas: "imagem" "texto" "detalhes";
+	font-family: "Hind", sans-serif;
+	border-radius: 18px;
+	background: white;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+	text-align: center;
+	transition: 0.5s ease;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.imagem-card {
+	grid-area: imagem;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.texto-card {
+	grid-area: texto;
+	margin: 10px;
+}
+
+.icone-card {
+	height: 14%;
+}
+
+.texto-card h2 {
+	margin-top: 0px;
+	margin-bottom: 6px;
+	font-size: 1.3em;
+	text-align: center;
+	margin-left: 0;
+}
+
+.texto-card p {
+	color: gray;
+	font-size: .9em;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+.detalhes-card {
+	grid-area: detalhes;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-template-rows: 1fr;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.detalhes, .link-destino {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;	
+	user-select: none;
+}
+
+.link-destino:hover {
+	color: #c9c9c9;
+}
+
+.link-destino:active {
+	border-bottom-right-radius: 15px;
+}
+
+/*Cores da Carta do Canadá*/
+
+.cor-canada {
+	background-color: #ff076e;
+}
+
+.cor-canada .link-destino:active {	
+	background-color: #ac1a57;
+}
+
+.cor-canada .borda {	
+	border-left: 1px solid #ac1a57;
+	border-right: 1px solid #ac1a57;
+}
+
+/*Cores da Carta da Nova Zelândia*/
+
+.cor-nz {
+	background-color: #ff4d07;
+}
+
+.cor-nz .link-destino:active {
+	background-color: #c93900;
+}
+
+.cor-nz .borda {
+	border-left: 1px solid #c93900;
+	border-right: 1px solid #c93900;
+}
+
+/*Cores da Carta do Japão*/
+
+.cor-japao {
+	background-color: #00bd3f;
+}
+
+.cor-japao .link-destino:active {
+	background-color: #007326;
+}
+
+.cor-japao .borda {
+	border-left: 1px solid #007326; 
+	border-right: 1px solid #007326;
+}
+
+/*Cores da Carta de Portugal*/
+
+.cor-portugal {
+	background-color: #0e97b3;
+}
+
+.cor-portugal .link-destino:active {
+	background-color: #0b7085;
+}
+
+.cor-portugal .borda {
+	border-left: 1px solid #0b7085; 
+	border-right: 1px solid #0b7085;
+}
+
+.tipo {
+	font-size: .8em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.valor {
+	margin-top: 5px;
+	font-size: .7em;
+	font-weight: 500;
+}
+
+.borda {
+}
+
+.card:hover {
+	transform: scale(1.1);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.link-destino:link {
+  text-decoration: none;
+}
+
+
+
