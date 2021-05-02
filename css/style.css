@@ -457,6 +457,7 @@ input[type="checkbox"]:checked + label > img {
 }
 
 #btnCalcular {
+	text-align: center;
 	border: none;
 	border-radius: 5px;
 	font-size: 20px;
@@ -467,12 +468,16 @@ input[type="checkbox"]:checked + label > img {
 	color: #ffffff;
 	transition: 0.6s background-color;						
 	cursor: pointer;
-	margin: 10px 5px;
 	outline: none;
 }
 
+.botao-calcular {
+	display: flex;
+	justify-content: center;
+}
+
 #btnCalcular:hover, #btnCalcular:active {
-	background-color: #220a30;
+	background-color: #021600;
 }
 
 #btnCalcular:active {

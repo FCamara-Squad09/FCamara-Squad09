@@ -218,14 +218,16 @@
 			</div>	
 		</section>			
 			
-		<button id="btnCalcular">
-			Calcular viagem
-		</button>
-
+		<div class="botao-calcular">
+			<button id="btnCalcular">
+				Calcular viagem
+			</button>
+		</div>
+	
 		<p id="resultado" class="esconder">
 			A sua viagem de <span id="n-dias"></span> dias custa:
 			<br />
-			<span id="moeda-nz" class="moeda"></span>
+			<span id="moeda-local" class="moeda"></span>
 			<br />
 			o que equivale a:
 			<br />
@@ -235,7 +237,13 @@
 		<p class="info">
 			Esse valor é uma estimativa. Para valores mais precisos e outras informações importantes visite o site oficial de turismo da Nova Zelândia: <a href="https://www.newzealand.com/br/">newzealand.com</a>
 		</p>			
-
+		
+		<script>
+			var COTACAO = {
+				moeda: 3.90,
+				codigo: "NZD"
+			}
+		</script>
 		<script src="js/conversor-viagem.js"></script>
 	</body>
 </html>
