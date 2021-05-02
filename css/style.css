@@ -115,99 +115,6 @@ h1 {
 	margin: 0 auto 0 10%;
 }
 
-#dias {
-	margin-left: auto;
-	margin-right: auto;	
-	border-radius: 5px;
-	background-color: white;
-	padding: 5px;
-	font-size: 120%;
-}
-
-#dias:focus {
-	outline: none;
-	box-shadow: 0 0 0 2px #111b45;
-}
-
-label[for="dias"] {
-}
-
-.pergunta {
-	width: 40%;
-}
-
-label {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-label span {
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.resposta {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	width: 59%
-}
-
-.resposta img {
-	width: 290px;
-	height: 180px;
-	border-radius: 20px;
-	margin: 5px;
-	cursor: pointer;
-}
-
-input[type="radio"], input[type="checkbox"] { 
-	display: none;
-}
-
-input[type="radio"]:not(:checked) + label, 
-input[type="checkbox"]:not(:checked) + label {
-	opacity: 0.6;
-}
-
-input[type="radio"]:checked + label, 
-input[type="radio"]:hover + label,
-input[type="checkbox"]:checked + label, 
-input[type="checkbox"]:hover + label {
-	opacity: 1;	
-}
-
-input[type="radio"]:checked + label > img, 
-input[type="checkbox"]:checked + label > img {
-	box-shadow: 0 0 0 2px #111b45;
-}
-
-#btnCalcular {
-	border: none;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 15px;
-	width: 20%;
-	background-color: #10172e;
-	color: #ffffff;
-	transition: 0.6s background-color;						
-	cursor: pointer;
-	margin: 10px 5px;
-	outline: none;
-}
-
-#btnCalcular:hover, #btnCalcular:active {
-		background-color: #220a30;
-	}
-
-#btnCalcular:active {
-	box-shadow: 0 0 0 2px #220a30;
-	font-weight: bolder;
-}
 
 a:link, a:visited {
   text-decoration: none;
@@ -437,7 +344,6 @@ p.info {
 }
 
 .icones {
-	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
@@ -446,7 +352,7 @@ p.info {
 	font-size: 20px;
 	font-weight: bold;
 	padding: 3px;
-	margin-left: 5px;
+	margin: 0%;
 }
 
 .planejamento {
@@ -476,15 +382,99 @@ p.info {
 
 .opcoes {
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 10px;
-	margin-top: 70px;	
-}
-
-#opcoes-dia {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
+	margin-bottom: 4%;
 }
+
+#dias {
+	margin-left: auto;
+	margin-right: auto;	
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	font-size: 120%;
+}
+
+#dias:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+label[for="dias"] {
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.resposta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.resposta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] { 
+	display: none;
+}
+
+input[type="radio"]:not(:checked) + label, 
+input[type="checkbox"]:not(:checked) + label {
+	opacity: 0.6;
+}
+
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label {
+	opacity: 1;	
+}
+
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+#btnCalcular {
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+	width: 20%;
+	background-color: #10172e;
+	color: #ffffff;
+	transition: 0.6s background-color;						
+	cursor: pointer;
+	margin: 10px 5px;
+	outline: none;
+}
+
+#btnCalcular:hover, #btnCalcular:active {
+	background-color: #220a30;
+}
+
+#btnCalcular:active {
+	box-shadow: 0 0 0 2px #220a30;
+	font-weight: bolder;
+}
+
