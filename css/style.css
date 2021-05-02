@@ -18,7 +18,7 @@ body {
     padding: 0 2%;
     display: flex;
     justify-content: space-between;
-	box-shadow: 3px 3px 80px rgba(22, 21, 67, 0.9);
+	box-shadow: 3px 3px 50px rgba(69, 68, 128, 0.9);
 	border-radius: 18px;
 }
 
