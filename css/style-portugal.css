@@ -5,21 +5,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	margin: auto 180px auto 180px;
-}	
-
-.corpo {
-}
-
-.corpo::before {    
-    content: "";
-    background-image: url(/assets/bg-home.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
 }
 
 header {
@@ -40,10 +25,9 @@ h2 {
 	margin-top: 3px;
 }
 
-
 #dias {
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 	border-radius: 5px;
 	background-color: white;
 	padding: 5px;
@@ -148,7 +132,8 @@ input[type="radio"]:checked + label,
 input[type="radio"]:hover + label,
 input[type="checkbox"]:checked + label, 
 input[type="checkbox"]:hover + label {
-	opacity: 1;	
+	opacity: 1;
+	
 }
 
 input[type="radio"]:checked + label > img, 
@@ -156,65 +141,6 @@ input[type="checkbox"]:checked + label > img {
 	box-shadow: 0 0 0 2px #111b45;
 }
 
-#btnCalcular {
-	border: none;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 15px;
-	width: 20%;
-	background-color: #10172e;
-	color: #ffffff;
-	transition: 0.6s background-color;						
-	cursor: pointer;
-	margin: 10px 5px;
-	outline: none;
-}
-
-#btnCalcular:hover, #btnCalcular:active {
-		background-color: #220a30;
-	}
-
-#btnCalcular:active {
-	box-shadow: 0 0 0 2px #220a30;
-	font-weight: bolder;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-  color: #d1cbcb;
-}
-
-a:hover, a:active {
-  color: #d1cbcb;
-  font-weight: bold;			  
-}
-
-p.info {
-	font-size: 15px;
-	font-weight: bold;
-	bottom: 0px;
-	color: black;
-}
-
-.info {
-	left: 10px;
-	text-align: left;
-	padding: 5px;
-}
-
-#resultado {
-	color: black;
-	font-weight: bold;
-	text-align: center;
-	font-size: 25px;
-}
-
-.moeda {
-	display: inline-block;
-	margin: 20px;
-	font-size: 150%;
-}
 
 .esconder {
 	display: none;
