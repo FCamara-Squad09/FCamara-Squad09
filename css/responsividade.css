@@ -85,4 +85,16 @@
 	.intro h1 {
 		margin-top: 70px;
 	}
+
+	#h2-intro {
+		font-size: 50px;
+		margin-bottom: 30px; 
+	}
+
+	.intro p {
+		font-size: 30px;
+		margin: 5px 40px;
+		padding: 5px;
+	}
+
 }
