@@ -1,1 +1,5 @@
-destino
+#body-travolta {
+	background-image: url("../assets/bg-travolta.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
