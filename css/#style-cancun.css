@@ -251,3 +251,90 @@ label span {
 	margin: 5px;
 	cursor: pointer;
 }
+
+
+input[type="radio"], input[type="checkbox"] { 
+	display: none;
+}
+
+input[type="radio"]:not(:checked) + label, 
+input[type="checkbox"]:not(:checked) + label {
+	opacity: 0.6;
+}
+
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label {
+	opacity: 1;
+	
+}
+
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+
+.esconder {
+	display: none;
+}
+
+.menu-mobile{
+    display: none;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.menu-mobile ul{
+    list-style-type: none;
+}
+
+.menu-mobile ul li{ 
+    padding-bottom: 20px;
+}
+
+.menu-mobile ul li a{
+    font-size: 16px;
+    color: #d1cbcb;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu-mobile ul li a:hover{
+    color: white;
+}
+
+.logo-mobile img{
+    width: 150px;
+    margin-bottom: -25px;
+}
+
+.form input{
+    height: 25px;
+}
+
+.form button{
+    height: 25px;
+    width: 25px;
+}
+
+.voltarTopo{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.voltarTopo button{
+    padding: 13px;
+    border-radius: 3px;
+    border: 1px solid #111b45;
+    background-color: #220a30;
+    color: white;
+    cursor: pointer;
+}
+
+.voltarTopo button:hover{
+    background-color: #111b45;
+    border: 1px solid #220a30;
+}
