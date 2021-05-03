@@ -1,8 +1,17 @@
 #body-travolta {
-	height: 80%;
-	background-image: url("../assets/bg-praia.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: #f4eae6;
+}
+
+#header-travolta {
+	background-color: #f4eae6;
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 18px;
 }
 
 .container-travolta {
