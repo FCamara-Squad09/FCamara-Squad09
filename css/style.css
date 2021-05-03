@@ -3,14 +3,16 @@
 }
 
 body {
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#tela-index {
 	background-image: url("../assets/bg-home.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: 'Montserrat', sans-serif;
-	
 }
 
-.container{
+#header-index {
 	background-color: rgba(125, 138, 158, 0.4);
     width: 86%;
     margin: 0 auto;
@@ -18,7 +20,7 @@ body {
     padding: 0 2%;
     display: flex;
     justify-content: space-between;
-	box-shadow: 3px 3px 50px rgba(69, 68, 128, 0.9);
+	box-shadow: 3px 3px 50px rgba(114, 113, 174, 0.9);
 	border-radius: 18px;
 }
 
@@ -109,158 +111,20 @@ h1 {
 	outline: none;
 }
 
-h2 {
+.h2-home {
 	font-size: 23px;
 	font-weight: bold;
 	margin: 0 auto 0 10%;
 }
 
-#dias {
-	margin-left: auto;
-	margin-right: auto;	
-	border-radius: 5px;
-	background-color: white;
-	padding: 5px;
-	font-size: 120%;
-}
-
-#dias:focus {
-	outline: none;
-	box-shadow: 0 0 0 2px #111b45;
-}
-
-label[for="dias"] {
-}
-
-.icones {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-.icones p {	
-	font-size: 34px;
-	font-weight: bold;
-	padding: 3px;
-	margin-left: 5px;
-}
-
-.icone-aviao {
-	height: 37px;
-}
-
-.icone-hotel {
-	height: 40px;
-}
-
-.icone-restaurante {
-	height: 33px;
-}
-
-.icone-transporte {
-	height: 35px;
-}
-
-.icone-passeio {
-	height: 49px;
-}
-
-.opcoes {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 10px;
-	margin-top: 70px;	
-}
-
-#opcoes-dia {
-	align-items: center;
-}
-
-.pergunta {
-	width: 40%;
-}
-
-label {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-label span {
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.resposta {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	width: 59%
-}
-
-.resposta img {
-	width: 290px;
-	height: 180px;
-	border-radius: 20px;
-	margin: 5px;
-	cursor: pointer;
-}
-
-input[type="radio"], input[type="checkbox"] { 
-	display: none;
-}
-
-input[type="radio"]:not(:checked) + label, 
-input[type="checkbox"]:not(:checked) + label {
-	opacity: 0.6;
-}
-
-input[type="radio"]:checked + label, 
-input[type="radio"]:hover + label,
-input[type="checkbox"]:checked + label, 
-input[type="checkbox"]:hover + label {
-	opacity: 1;	
-}
-
-input[type="radio"]:checked + label > img, 
-input[type="checkbox"]:checked + label > img {
-	box-shadow: 0 0 0 2px #111b45;
-}
-
-#btnCalcular {
-	border: none;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 15px;
-	width: 20%;
-	background-color: #10172e;
-	color: #ffffff;
-	transition: 0.6s background-color;						
-	cursor: pointer;
-	margin: 10px 5px;
-	outline: none;
-}
-
-#btnCalcular:hover, #btnCalcular:active {
-		background-color: #220a30;
-	}
-
-#btnCalcular:active {
-	box-shadow: 0 0 0 2px #220a30;
-	font-weight: bolder;
-}
 
 a:link, a:visited {
   text-decoration: none;
-  color: #d1cbcb;
+  color: #312000;
 }
 
 a:hover, a:active {
-  color: #d1cbcb;
+  color: #312000;
   font-weight: bold;			  
 }
 
@@ -448,8 +312,6 @@ p.info {
 	font-weight: 500;
 }
 
-.borda {
-}
 
 .card:hover {
 	transform: scale(1.1);
@@ -460,5 +322,184 @@ p.info {
   text-decoration: none;
 }
 
+/* Estilo telas-destinos*/
 
+#intro, .intro, #h2-intro {
+	text-align: center;
+	margin-left: 0%;
+}
+
+#intro {
+	margin-top: 5%;
+}
+
+#h2-intro {
+	font-size: 30px;
+}
+
+.intro {
+	font-size: 20px;
+}
+
+.h2-icone {
+	font-size: 25px;
+}
+
+.icones {
+	flex-direction: row;
+	align-items: center;
+}
+
+.icones p {	
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0%;
+}
+
+.planejamento {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.icone-aviao {
+	height: 37px;
+}
+
+.icone-hotel {
+	height: 40px;
+}
+
+.icone-restaurante {
+	height: 33px;
+}
+
+.icone-transporte {
+	height: 35px;
+}
+
+.icone-passeio {
+	height: 49px;
+}
+
+.opcoes {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 4%;
+}
+
+#dias {
+	margin-left: auto;
+	margin-right: auto;	
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	font-size: 120%;
+}
+
+#dias:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+label[for="dias"] {
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.resposta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.resposta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] { 
+	display: none;
+}
+
+input[type="radio"]:not(:checked) + label, 
+input[type="checkbox"]:not(:checked) + label {
+	opacity: 0.6;
+}
+
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label {
+	opacity: 1;	
+}
+
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+#btnCalcular {
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+	width: 20%;
+	background-color: #10172e;
+	color: #ffffff;
+	transition: 0.6s background-color;						
+	cursor: pointer;
+	outline: none;
+}
+
+.botao-calcular {
+	display: flex;
+	justify-content: center;
+}
+
+#btnCalcular:hover, #btnCalcular:active {
+	background-color: #021600;
+}
+
+#btnCalcular:active {
+	box-shadow: 0 0 0 2px #220a30;
+	font-weight: bolder;
+}
+
+/* destino Nova Zelandia */
+
+#tela-nzn {
+	background-color: #fabba2;;
+}
+
+#header-nzn {
+	background-color: #fabba2;
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+	box-shadow: 3px 3px 10px #E6774C;
+	border-radius: 18px;
+}
 
