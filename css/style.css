@@ -12,9 +12,8 @@ body {
 	background-repeat: no-repeat;
 }
 
-#header-index, #header-nzn, #header-canada {	
-    width: 86%;
-    margin: 0 auto;
+#header-index, #header-nzn, #header-canada {    
+    margin: 0 50px;
     text-align: center;
     padding: 0 2%;
     display: flex;
