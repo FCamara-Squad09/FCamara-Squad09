@@ -12,16 +12,19 @@ body {
 	background-repeat: no-repeat;
 }
 
-#header-index {
-	background-color: rgba(125, 138, 158, 0.4);
+#header-index, #header-nzn, #header-canada {	
     width: 86%;
     margin: 0 auto;
     text-align: center;
     padding: 0 2%;
     display: flex;
-    justify-content: space-between;
-	box-shadow: 3px 3px 50px rgba(114, 113, 174, 0.9);
+    justify-content: space-between;	
 	border-radius: 18px;
+}
+
+#header-index {
+	background-color: rgba(125, 138, 158, 0.4);
+	box-shadow: 3px 3px 50px rgba(114, 113, 174, 0.9);
 }
 
 .logo{
@@ -492,14 +495,7 @@ input[type="checkbox"]:checked + label > img {
 }
 
 #header-nzn {
-	background-color: #fabba2;
-    width: 86%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 2%;
-    display: flex;
-    justify-content: space-between;
-	box-shadow: 3px 3px 10px #E6774C;
-	border-radius: 18px;
+	background-color: #fabba2;    
+	box-shadow: 3px 3px 10px #E6774C;	
 }
-
+	
