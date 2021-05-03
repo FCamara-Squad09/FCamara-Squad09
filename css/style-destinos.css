@@ -1,5 +1,33 @@
 #body-travolta {
-	background-image: url("../assets/bg-travolta.jpg");
+	height: 80%;
+	background-image: url("../assets/bg-praia.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.container-travolta {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.img-travolta {
+	width: 450px;
+	height: 225px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#h1-travolta {
+	font-size: 36px;
+	text-align: center;
+	margin: 20px 0;
+	color: #1b1b35;
+}
+
+.p-travolta {
+	text-align: center;
+	color: #1c164e;
+	margin: 0px;
 }
