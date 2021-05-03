@@ -508,4 +508,14 @@ input[type="checkbox"]:checked + label > img {
 	background-color: white;
 	box-shadow: 3px 3px 10px gray;
 }
+
+/* destino Portugal */
 	
+#header-portugal {
+	background-color: white;
+	box-shadow: 3px 3px 10px gray;
+}
+
+#tela-portugal {
+	background-color: white;
+}
