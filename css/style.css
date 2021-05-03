@@ -301,6 +301,21 @@ p.info {
 	border-right: 1px solid #0b7085;
 }
 
+/*Cores da Carta de Cancun*/
+
+.cor-cancun {
+	background-color: #7f00da;
+}
+
+.cor-cancun .link-destino:active {
+	background-color: #7f00da;
+}
+
+.cor-cancun .borda {
+	border-left: 1px solid #7f00da;
+	border-right: 1px solid #7f00da;
+}
+
 .tipo {
 	font-size: .8em;
 	font-weight: 300;
