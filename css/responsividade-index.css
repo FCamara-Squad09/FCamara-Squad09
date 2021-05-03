@@ -1,6 +1,10 @@
 
 /* Para celular */
 @media screen and (max-width: 480px) {
+	#header-index, #header-nzn, #header-canada, #header-portugal, #header-japao {
+		margin: 0px;
+	}
+
 	h1 {
 		font-size: 38px;
 		text-align: center;

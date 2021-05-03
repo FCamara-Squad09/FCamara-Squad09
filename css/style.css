@@ -12,20 +12,18 @@ body {
 	background-repeat: no-repeat;
 }
 
-/*#header-index, #header-nzn, #header-canada {    
-    margin: 0 50px;*/
-    text-align: center;
-    padding: 0 2%;
+#header-index, #header-nzn, #header-canada {    
+    margin: 0 50px;
+    text-align: center;  
     display: flex;
     justify-content: space-between;	
 	border-radius: 18px;
 }
-/*
 
 #header-index {
 	background-color: rgba(125, 138, 158, 0.4);
 	box-shadow: 3px 3px 50px rgba(114, 113, 174, 0.9);
-}*/
+}
 
 .logo{
 	display: flex;
@@ -49,10 +47,15 @@ body {
     cursor: pointer;
 }
 
-/*.menu-desktop ul {
+.menu-desktop {
+	display: flex;
+	align-items: center;
+}
+
+.menu-desktop ul {
     display: flex;
-    list-style-type: none;
-    margin-left: 120px;
+    flex-direction: row;
+    margin-right: 20px;
 }
 
 .menu-desktop ul li { 
