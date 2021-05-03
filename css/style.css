@@ -47,7 +47,6 @@ body {
     height: 50px;
     position: relative;
     cursor: pointer;
-
 }
 
 .menu-desktop ul {
@@ -497,5 +496,16 @@ input[type="checkbox"]:checked + label > img {
 #header-nzn {
 	background-color: #fabba2;    
 	box-shadow: 3px 3px 10px #E6774C;	
+}
+
+/* destino Canadá */
+
+#tela-canada {
+	background-color: white;
+}
+
+#header-canada {
+	background-color: white;
+	box-shadow: 3px 3px 10px gray;
 }
 	
