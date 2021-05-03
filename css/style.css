@@ -233,6 +233,10 @@ p.info {
 	user-select: none;
 }
 
+.link-destino {
+	color: rgb(17, 17, 17);
+}
+
 .link-destino:hover {
 	color: #c9c9c9;
 }
@@ -304,16 +308,16 @@ p.info {
 /*Cores da Carta de Cancun*/
 
 .cor-cancun {
-	background-color: #7f00da;
+	background-color: #c663ff;
 }
 
 .cor-cancun .link-destino:active {
-	background-color: #7f00da;
+	background-color: #c663ff;
 }
 
 .cor-cancun .borda {
-	border-left: 1px solid #7f00da;
-	border-right: 1px solid #7f00da;
+	border-left: 1px solid #36273f;
+	border-right: 1px solid #36273f;
 }
 
 .tipo {
