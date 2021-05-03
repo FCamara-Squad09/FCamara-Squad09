@@ -8,12 +8,23 @@
 	}
 
 	h1 {
-		background-color: red;
 		font-size: 38px;
 		text-align: center;
 		margin-top: 40px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.intro h1 {
+		font-size: 35px;
+	}
+
+	.intro p {
+		margin: 10px;
+	}
+
+	#h2-intro {
+		margin-bottom: 20px;
 	}
 
 	#btn-mais-opcoes {
@@ -41,6 +52,14 @@
 
 	.menu-desktp ul {
 		margin-right: 30px;
+	}
+
+	.icone-aviao {
+		margin-top: 30px;
+	}
+
+	.planejamento p {
+		margin: 0px;
 	}
 
 	/* Destinos */
