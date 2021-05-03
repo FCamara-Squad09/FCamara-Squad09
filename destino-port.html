@@ -195,7 +195,29 @@
 				<label for="ponta-delgada"><img src="assets/imgport/pontos turisticos/passeio-pedestre-ponta-delgada-port.jpg" alt="imagem de ponta delgada."><span>Visita á Ponta Delgada</span></label>	
             	</div>
 		</section>
-	  <script>	  	
-	  </script>
+		<div class="botao-calcular">
+			<button id="btnCalcular">
+				Calcular viagem
+			</button>
+		</div>
+	
+		<p id="resultado" class="esconder">
+			A sua viagem de <span id="n-dias"></span> dias custa:
+			<br />
+			<span id="moeda-local" class="moeda"></span>
+			<br />
+			o que equivale a:
+			<br />
+			<span id="moeda-br" class="moeda"></span>
+		</p>
+
+		<script>
+			var COTACAO = {
+				moeda: 6.54,
+				codigo: "EUR"
+			}
+		</script>
+
+		<script src="js/conversor-viagem.js"></script>
 	</body>
 </html>
