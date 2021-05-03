@@ -230,11 +230,21 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="voltarTopo">
-				<button><i class="fas fa-arrow-up"></i></button>
-			</div>
-		</section>
+		<div class="botao-calcular">
+			<button id="btnCalcular">
+				Calcular viagem
+			</button>
+		</div>
+	
+		<p id="resultado" class="esconder">
+			A sua viagem de <span id="n-dias"></span> dias custa:
+			<br />
+			<span id="moeda-local" class="moeda"></span>
+			<br />
+			o que equivale a:
+			<br />
+			<span id="moeda-br" class="moeda"></span>
+		</p>
 
 		<script>
 			var COTACAO = {
