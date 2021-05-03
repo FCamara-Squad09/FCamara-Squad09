@@ -4,21 +4,40 @@
 		<meta charset="utf-8">
 		<meta name="viewport" value="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/reset.css" />
+<<<<<<< HEAD
 		<link rel="stylesheet" href="css/portugal.css" />
+=======
+		<link rel="stylesheet" href="css/style.css" />
+>>>>>>> Development
 		
-
-		<title>Destino - Portugal</title>			 
+		<title>Viagem Portugal</title>			 
 	</head>
 
-	<body>
+	<body id="tela-portugal">
 		<header>
-			<div></div>
+			<div id="header-portugal">
+				<div class="logo">
+					<img src="assets/aviao.svg" alt="Logo da Aero World">
+					<p class="p-logo"><span>Aero</span> World</p>
+				</div>
+				<div class="menu-desktop">
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="destino.html">Destinos</a></li>
+							<li><a href="">Entrar</a></li>
+						</ul>
+					</nav>
+				</div>
 		</header>
 
 		<section class="intro">
-			<h1>Viagem para o Portugal: Quanto custa?</h1>
+			<h1 id="intro">Viagem para Portugal:<br> Quanto custa?</h1>
+			<p id="h2-intro">
+				Olá, tudo bem?
+			</p>
 			<p> 
-				Que tal descobrir quanto custará sua próxima viagem para conhecer o Portugal?
+				Que tal descobrir quanto custará sua próxima viagem para conhecer Portugal?
 			</p>
 			<p>
 				Responda as perguntas abaixo sobre o seu estilo de viajante e no final veja o valor médio para sua viagem.
@@ -28,7 +47,7 @@
 		<section class="opcoes" id="opcoes-dia">
 
 			<div class="pergunta">
-				<div class="icones">
+				<div class="planejamento">
 					<img src="assets/img-canada/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
 					<p>Planejamento</p>
 				</div>
@@ -194,7 +213,29 @@
 				<label for="ponta-delgada"><img src="assets/imgport/pontos turisticos/passeio-pedestre-ponta-delgada-port.jpg" alt="imagem de ponta delgada."><span>Visita á Ponta Delgada</span></label>	
             	</div>
 		</section>
-	  <script>	  	
-	  </script>
+		<div class="botao-calcular">
+			<button id="btnCalcular">
+				Calcular viagem
+			</button>
+		</div>
+	
+		<p id="resultado" class="esconder">
+			A sua viagem de <span id="n-dias"></span> dias custa:
+			<br />
+			<span id="moeda-local" class="moeda"></span>
+			<br />
+			o que equivale a:
+			<br />
+			<span id="moeda-br" class="moeda"></span>
+		</p>
+
+		<script>
+			var COTACAO = {
+				moeda: 6.54,
+				codigo: "EUR"
+			}
+		</script>
+
+		<script src="js/conversor-viagem.js"></script>
 	</body>
 </html>
