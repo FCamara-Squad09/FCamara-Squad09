@@ -22,6 +22,15 @@
 		text-align: center;
 		margin: 0 0 8px 0;
 	}
+
+	.entrar {
+		display: none;
+	}
+
+	.menu-desktop {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 /* Para tablet 
