@@ -12,9 +12,9 @@ body {
 	background-repeat: no-repeat;
 }
 
-#header-index, #header-nzn, #header-canada {    
+#header-index, #header-nzn, #header-canada, #header-portugal{    
     margin: 0 50px;
-    text-align: center;  
+    text-align: center;
     display: flex;
     justify-content: space-between;	
 	border-radius: 18px;
@@ -507,4 +507,14 @@ input[type="checkbox"]:checked + label > img {
 	background-color: white;
 	box-shadow: 3px 3px 10px gray;
 }
+
+/* destino Portugal */
 	
+#tela-portugal {
+	background-color: white;
+}
+
+#header-portugal {
+	background-color: white;
+	box-shadow: 3px 3px 10px rgb(118, 118, 118);
+}
