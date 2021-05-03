@@ -52,7 +52,7 @@ document.querySelector("#btnCalcular").onclick = escreveNaTela;
 
 
 
-function voltarTopoTela(){
+/*function voltarTopoTela(){
 	var voltarTopo = document.querySelector(".voltarTopo");
 
 	voltarTopo.addEventListener("click", function(){
@@ -82,4 +82,4 @@ function fecharMenuMobile(){
 }
 
 document.querySelector("#hamburguer").onclick = menuMobile;
-document.querySelector("#fecharMenu").onclick = fecharMenuMobile;
+document.querySelector("#fecharMenu").onclick = fecharMenuMobile;*/
