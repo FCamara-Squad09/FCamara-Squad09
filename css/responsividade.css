@@ -66,6 +66,12 @@
 		margin: 0px;
 	}
 
+	#btnCalcular {
+		width: 54%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+
 	/* Destinos */
 	
 }
