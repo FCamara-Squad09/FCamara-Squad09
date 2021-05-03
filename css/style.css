@@ -518,3 +518,14 @@ input[type="checkbox"]:checked + label > img {
 	background-color: white;
 	box-shadow: 3px 3px 10px rgb(118, 118, 118);
 }
+
+/* destino Cancun */
+	
+#tela-cancun {
+	background-color: white;
+}
+
+#header-cancun {
+	background-color: white;
+	box-shadow: 3px 3px 10px rgb(118, 118, 118);
+}
