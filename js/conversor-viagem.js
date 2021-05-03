@@ -49,3 +49,37 @@ function escreveNaTela() {
 }
 
 document.querySelector("#btnCalcular").onclick = escreveNaTela;
+
+
+
+function voltarTopoTela(){
+	var voltarTopo = document.querySelector(".voltarTopo");
+
+	voltarTopo.addEventListener("click", function(){
+	window.scrollTo(0,0);
+	});
+}
+
+function menuMobile(){
+	var menuResponsivo = document.querySelector(".menu-mobile ul");
+	var hamburguer = document.querySelector("#hamburguer");
+	var fecharMenu = document.querySelector(".fecharMenu");
+
+	hamburguer.onclick = function(){
+	fecharMenu.classList.add("bolinha");
+	menuResponsivo.style.display = "block";
+	}
+}
+
+function fecharMenuMobile(){
+	var menuResponsivo = document.querySelector(".menu-mobile ul");
+	var fecharMenu = document.querySelector(".fecharMenu");
+	
+	fecharMenu.onclick = function(){
+		fecharMenu.style.display = "none";
+		menuResponsivo.style.display = "none";
+	}
+}
+
+document.querySelector("#hamburguer").onclick = menuMobile;
+document.querySelector("#fecharMenu").onclick = fecharMenuMobile;

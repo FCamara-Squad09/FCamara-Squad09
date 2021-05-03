@@ -3,190 +3,130 @@
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
-	margin: auto 180px auto 180px;
-}	
-
-.corpo {
+	font-family: 'Montserrat', sans-serif;	
 }
 
-.hero::before {    
-	content: "";
-	background-image: url(/assets/bg-home.jpg);
+#tela-index {
+	background-image: url("../assets/bg-home.jpg");
 	background-size: cover;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-	opacity: 0.75;
+	background-repeat: no-repeat;
 }
 
-header {
-	width: auto;
-	height: 70px;
-	background-color: lightgray;
+#header-index, #header-nzn, #header-canada, #header-portugal {	
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;	
+	border-radius: 18px;
 }
 
-h1 {
-	font-size: 62px;
-	font-weight: bold;
-	text-align: center;
+#header-index {
+	background-color: rgba(125, 138, 158, 0.4);
+	box-shadow: 3px 3px 50px rgba(114, 113, 174, 0.9);
 }
 
-h2 {
-	font-size: 56px;
-	font-weight: bold;
-	margin-top: 3px;
-}
-
-
-#dias {
-	margin-left: auto;
-	margin-right: auto;	
-	border-radius: 5px;
-	background-color: white;
-	padding: 5px;
-	font-size: 120%;
-}
-
-#dias:focus {
-	outline: none;
-	box-shadow: 0 0 0 2px #111b45;
-}
-
-label[for="dias"] {
-}
-
-.icones {
+.logo{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
+	width: 100px;
+	font-family: 'Poppins', sans-serif;
 }
 
-.icones p {	
-	font-size: 34px;
-	font-weight: bold;
-	padding: 3px;
-	margin-left: 5px;
-}
-
-.icone-aviao {
-	height: 37px;
-}
-
-.icone-hotel {
-	height: 40px;
-}
-
-.icone-restaurante {
-	height: 33px;
-}
-
-.icone-transporte {
-	height: 35px;
-}
-
-.icone-passeio {
-	height: 49px;
-}
-
-.opcoes {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 10px;
-	margin-top: 70px;	
-}
-
-#opcoes-dia {
-	align-items: center;
-}
-
-.pergunta {
-	width: 40%;
-}
-
-label {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-label span {
-	font-size: 18px;
+.logo span{
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
-.resposta {
+.logo img{
+	display: inline;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-desktop ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+.menu-desktop ul li { 
+    padding-left: 30px;
+}
+
+.menu-desktop ul li a{
+    font-size: 19px;
+    color: #000000;
+    position: relative;
+}
+
+.menu-desktop ul li a:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #243180;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-desktop ul li a:hover:before{
+    color: white;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+h1 {
+	margin-top: 120px;
+	font-size: 62px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 9%;
+}
+
+.ver-mais {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	width: 59%
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 9%;	
 }
 
-.resposta img {
-	width: 290px;
-	height: 180px;
-	border-radius: 20px;
-	margin: 5px;
-	cursor: pointer;
-}
-
-input[type="radio"], input[type="checkbox"] { 
-	display: none;
-}
-
-input[type="radio"]:not(:checked) + label, 
-input[type="checkbox"]:not(:checked) + label {
-	opacity: 0.6;
-}
-
-input[type="radio"]:checked + label, 
-input[type="radio"]:hover + label,
-input[type="checkbox"]:checked + label, 
-input[type="checkbox"]:hover + label {
-	opacity: 1;	
-}
-
-input[type="radio"]:checked + label > img, 
-input[type="checkbox"]:checked + label > img {
-	box-shadow: 0 0 0 2px #111b45;
-}
-
-#btnCalcular {
-	border: none;
-	border-radius: 5px;
-	font-size: 20px;
+#btn-mais-opcoes {
+	color: rgb(1, 5, 0);
+	background-color: #c2d5af;
 	font-weight: bold;
-	padding: 15px;
-	width: 20%;
-	background-color: #10172e;
-	color: #ffffff;
-	transition: 0.6s background-color;						
-	cursor: pointer;
-	margin: 10px 5px;
+	border-radius: 4px;
+	width: 170px;
+	height: 30px;
 	outline: none;
 }
 
-#btnCalcular:hover, #btnCalcular:active {
-		background-color: #220a30;
-	}
-
-#btnCalcular:active {
-	box-shadow: 0 0 0 2px #220a30;
-	font-weight: bolder;
+.h2-home {
+	font-size: 23px;
+	font-weight: bold;
+	margin: 0 auto 0 10%;
 }
+
 
 a:link, a:visited {
   text-decoration: none;
-  color: #d1cbcb;
+  color: #312000;
 }
 
 a:hover, a:active {
-  color: #d1cbcb;
+  color: #312000;
   font-weight: bold;			  
 }
 
@@ -218,4 +158,364 @@ p.info {
 
 .esconder {
 	display: none;
+}
+
+.destinos-card {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.card {
+	width: 260px;
+	display: grid;
+	grid-template-columns: 260px;
+	grid-template-rows: 180px 190px 60px;
+	grid-template-areas: "imagem" "texto" "detalhes";
+	font-family: "Hind", sans-serif;
+	border-radius: 18px;
+	background: white;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+	text-align: center;
+	transition: 0.5s ease;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.imagem-card {
+	grid-area: imagem;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.texto-card {
+	grid-area: texto;
+	margin: 10px;
+}
+
+.icone-card {
+	height: 14%;
+}
+
+.texto-card h2 {
+	margin-top: 0px;
+	margin-bottom: 6px;
+	font-size: 1.3em;
+	text-align: center;
+	margin-left: 0;
+}
+
+.texto-card p {
+	color: gray;
+	font-size: .9em;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+.detalhes-card {
+	grid-area: detalhes;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-template-rows: 1fr;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.detalhes, .link-destino {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;	
+	user-select: none;
+}
+
+.link-destino:hover {
+	color: #c9c9c9;
+}
+
+.link-destino:active {
+	border-bottom-right-radius: 15px;
+}
+
+/*Cores da Carta do Canadá*/
+
+.cor-canada {
+	background-color: #ff076e;
+}
+
+.cor-canada .link-destino:active {	
+	background-color: #ac1a57;
+}
+
+.cor-canada .borda {	
+	border-left: 1px solid #ac1a57;
+	border-right: 1px solid #ac1a57;
+}
+
+/*Cores da Carta da Nova Zelândia*/
+
+.cor-nz {
+	background-color: #ff4d07;
+}
+
+.cor-nz .link-destino:active {
+	background-color: #c93900;
+}
+
+.cor-nz .borda {
+	border-left: 1px solid #c93900;
+	border-right: 1px solid #c93900;
+}
+
+/*Cores da Carta do Japão*/
+
+.cor-japao {
+	background-color: #00bd3f;
+}
+
+.cor-japao .link-destino:active {
+	background-color: #007326;
+}
+
+.cor-japao .borda {
+	border-left: 1px solid #007326; 
+	border-right: 1px solid #007326;
+}
+
+/*Cores da Carta de Portugal*/
+
+.cor-portugal {
+	background-color: #0e97b3;
+}
+
+.cor-portugal .link-destino:active {
+	background-color: #0b7085;
+}
+
+.cor-portugal .borda {
+	border-left: 1px solid #0b7085; 
+	border-right: 1px solid #0b7085;
+}
+
+.tipo {
+	font-size: .8em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.valor {
+	margin-top: 5px;
+	font-size: .7em;
+	font-weight: 500;
+}
+
+
+.card:hover {
+	transform: scale(1.1);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.link-destino:link {
+  text-decoration: none;
+}
+
+/* Estilo telas-destinos*/
+
+#intro, .intro, #h2-intro {
+	text-align: center;
+	margin-left: 0%;
+}
+
+#intro {
+	margin-top: 5%;
+}
+
+#h2-intro {
+	font-size: 30px;
+}
+
+.intro {
+	font-size: 20px;
+}
+
+.h2-icone {
+	font-size: 25px;
+}
+
+.icones {
+	flex-direction: row;
+	align-items: center;
+}
+
+.icones p {	
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0%;
+}
+
+.planejamento {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.icone-aviao {
+	height: 37px;
+}
+
+.icone-hotel {
+	height: 40px;
+}
+
+.icone-restaurante {
+	height: 33px;
+}
+
+.icone-transporte {
+	height: 35px;
+}
+
+.icone-passeio {
+	height: 49px;
+}
+
+.opcoes {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 4%;
+}
+
+#dias {
+	margin-left: auto;
+	margin-right: auto;	
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	font-size: 120%;
+}
+
+#dias:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+label[for="dias"] {
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.resposta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.resposta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] { 
+	display: none;
+}
+
+input[type="radio"]:not(:checked) + label, 
+input[type="checkbox"]:not(:checked) + label {
+	opacity: 0.6;
+}
+
+input[type="radio"]:checked + label, 
+input[type="radio"]:hover + label,
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:hover + label {
+	opacity: 1;	
+}
+
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 2px #111b45;
+}
+
+#btnCalcular {
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+	width: 20%;
+	background-color: #10172e;
+	color: #ffffff;
+	transition: 0.6s background-color;						
+	cursor: pointer;
+	outline: none;
+}
+
+.botao-calcular {
+	display: flex;
+	justify-content: center;
+}
+
+#btnCalcular:hover, #btnCalcular:active {
+	background-color: #021600;
+}
+
+#btnCalcular:active {
+	box-shadow: 0 0 0 2px #220a30;
+	font-weight: bolder;
+}
+
+/* destino Nova Zelandia */
+
+#tela-nzn {
+	background-color: #fabba2;;
+}
+
+#header-nzn {
+	background-color: #fabba2;    
+	box-shadow: 3px 3px 10px #E6774C;	
+}
+
+/* destino Canadá */
+
+#tela-canada {
+	background-color: white;
+}
+
+#header-canada {
+	background-color: white;
+	box-shadow: 3px 3px 10px gray;
+}
+
+/* destino Portugal */
+	
+#tela-portugal {
+	background-color: white;
+}
+
+#header-portugal {
+	background-color: white;
+	box-shadow: 3px 3px 10px rgb(118, 118, 118);
 }
