@@ -35,6 +35,10 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.menu-desktp ul {
+		margin-right: 30px;
+	}
 }
 
 /* Para tablet 
