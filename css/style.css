@@ -12,7 +12,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-#header-index, #header-nzn, #header-canada, #header-portugal{    
+#header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun, #header-japao {    
     margin: 0 50px;
     text-align: center;
     display: flex;
@@ -233,6 +233,10 @@ p.info {
 	user-select: none;
 }
 
+.link-destino {
+	color: rgb(17, 17, 17);
+}
+
 .link-destino:hover {
 	color: #c9c9c9;
 }
@@ -299,6 +303,21 @@ p.info {
 .cor-portugal .borda {
 	border-left: 1px solid #0b7085; 
 	border-right: 1px solid #0b7085;
+}
+
+/*Cores da Carta de Cancun*/
+
+.cor-cancun {
+	background-color: #c663ff;
+}
+
+.cor-cancun .link-destino:active {
+	background-color: #c663ff;
+}
+
+.cor-cancun .borda {
+	border-left: 1px solid #36273f;
+	border-right: 1px solid #36273f;
 }
 
 .tipo {
@@ -500,21 +519,44 @@ input[type="checkbox"]:checked + label > img {
 /* destino Canadá */
 
 #tela-canada {
-	background-color: white;
+	background-color: rgb(247, 218, 218);
 }
 
 #header-canada {
-	background-color: white;
-	box-shadow: 3px 3px 10px gray;
+	background-color: rgb(247, 218, 218);
+	box-shadow: 3px 3px 10px rgb(140, 86, 86);
 }
 
 /* destino Portugal */
 	
 #tela-portugal {
-	background-color: white;
+	background-color: rgb(161, 210, 255);
 }
 
 #header-portugal {
-	background-color: white;
-	box-shadow: 3px 3px 10px rgb(118, 118, 118);
+	background-color: rgb(161, 210, 255);
+	box-shadow: 3px 3px 10px rgb(26, 46, 111);
 }
+
+/* destino Cancun */
+	
+#tela-cancun {
+	background-color: rgb(214, 177, 248);
+}
+
+#header-cancun {
+	background-color: rgb(214, 177, 248);
+	box-shadow: 3px 3px 10px rgb(62, 18, 99);
+}
+
+/* destino Japão */
+
+#tela-cancun {
+	background-color: ;
+}
+
+#header-cancun {
+	background-color: ;
+	box-shadow: 3px 3px 10px ;
+}
+
