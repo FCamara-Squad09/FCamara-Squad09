@@ -585,13 +585,13 @@ input[type="checkbox"]:checked + label > img {
 
 /* destino Japão */
 
-#tela-cancun {
-	background-color: ;
+#tela-japao {
+	background-color: rgb(201, 255, 189);
 }
 
-#header-cancun {
-	background-color: ;
-	box-shadow: 3px 3px 10px ;
+#header-japao {
+	background-color: rgb(201, 255, 189);
+	box-shadow: 3px 3px 10px rgb(3, 49, 13);
 }
 
 #body-travolta {
