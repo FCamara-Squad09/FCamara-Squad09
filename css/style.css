@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;	
 }
@@ -222,6 +226,33 @@ p.info {
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
+}
+
+.voltarTopo{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.voltarTopo img{
+	width: 25px;
+	height: 25px;
+}
+
+.voltarTopo button{
+	width: 50px;
+	height: 50px;
+    padding: 13px;
+    border-radius: 3px;
+    border: 1px solid #111b45;
+    background-color: #220a30;
+    color: white;
+    cursor: pointer;
+}
+
+.voltarTopo button:hover{
+    background-color: #111b45;
+    border: 1px solid #220a30;
 }
 
 .detalhes, .link-destino {
