@@ -42,10 +42,18 @@ collection no postman)
 <h2>Telas prontas:</h2>
 <ul>
 <li>Home page</li>
-<li>Card Canadá</li>
-<li>Card Japão</li>
-<li>Card Nova Zelândi</li>
-<li>Card Portugal</li>
-<li>Card Cancun</li>
 <li>Destino</li>
+<li>Destino Canadá</li>
+<li>Destino Japão</li>
+<li>Destino Nova Zelândi</li>
+<li>Destino Portugal</li>
+<li>Destino Cancun</li>
 </ul>
+
+<h3>Home Page</h3>
+<h3>Destino</h3>
+<h3>Destino Canadá</h3>
+<h3>Destino Japão</h3>
+<h3>Destino Nova Zelândi</h3>
+<h3>Destino Portugal</h3>
+<h3>Destino Cancun</h3>
