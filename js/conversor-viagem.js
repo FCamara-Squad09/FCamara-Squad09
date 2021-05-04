@@ -42,7 +42,7 @@ function escreveNaTela() {
 
 	document.querySelector("#n-dias").textContent = valor.numeroDeDias;
 
-	document.querySelector("#moeda-local").textContent = valor.cambio + valor.naMoeda.toFixed(2);
+	document.querySelector("#moeda-local").textContent = valor.cambio + " " + valor.naMoeda.toFixed(2);
 	
 	document.querySelector("#moeda-br").textContent = "R$ " + valor.emReal.toFixed(2);
 	document.querySelector("#resultado").classList.remove("esconder");
