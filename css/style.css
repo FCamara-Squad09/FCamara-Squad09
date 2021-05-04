@@ -12,7 +12,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-#header-index, #header-nzn, #header-canada, #header-portugal{    
+#header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun {    
     margin: 0 50px;
     text-align: center;
     display: flex;
