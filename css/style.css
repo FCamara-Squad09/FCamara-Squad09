@@ -639,7 +639,7 @@ input[type="checkbox"]:checked + label > img {
 @media screen and (max-width: 480px) {
 
 	/* Index.html*/
-	#header-index, #header-nzn, #header-canada, #header-portugal, #header-japao {
+	#header-index, #header-nzn, #header-canada, #header-cancun, #header-portugal, #header-japao {
 		margin: 0px;
 	}
 
@@ -718,9 +718,6 @@ input[type="checkbox"]:checked + label > img {
 
 /* Para tablet */
 @media (min-width: 600px) {
-	#header-index, #header-nzn, #header-canada, #header-portugal, #header-japao, .menu-desktop {
-		transform: scale(1.1);
-	}
 
 	h1 {
 		font-size: 58px;
