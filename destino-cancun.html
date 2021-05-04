@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+	<head>	  
+		<meta charset="utf-8">
+		<meta name="viewport" value="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<title>Viagem Cancun</title>	 
+	</head>
+
+	<body id="tela-cancun">
+		<header>
+			<div id="header-cancun">
+				<div class="logo">
+					<img src="assets/aviao.svg" alt="Logo da Aero World">
+					<p class="p-logo"><span>Aero</span> World</p>
+				</div>
+				<div class="menu-desktop">
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="destino.html">Destinos</a></li>
+							<li><a href="">Entrar</a></li>
+						</ul>
+					</nav>
+				</div>
+		</header>
+
+		<section class="intro">
+			<h1 id="intro">Viagem para o Cancun:<br> Quanto custa?</h1>
+			<p id="h2-intro">
+				¡Hola, bienvenido!
+			</p>
+			<p> 
+				Que tal descobrir quanto custará sua próxima viagem para conhecer o Cancun?
+			</p>
+			<p>
+				Responda as perguntas abaixo sobre o seu estilo de viajante e no final veja o valor médio para sua viagem.
+			</p> 
+		</section>
+
+		<section class="opcoes" id="opcoes-dia">
+
+			<div class="pergunta">
+				<div class="planejamento">
+					<img src="assets/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
+					<p>Planejamento</p>
+				</div>
+				<h2 class="h2-icone">Quantos dias você pretende viajar?</h2>
+			</div>
+
+			<div class="resposta">
+				<label for="dias"></label>
+				<input type="number" name="dias" id="dias" value="10" min="1"/>
+			</div>			
+		</section>
+
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-aviao.svg" alt="Ícone de um avião." class="icone-aviao">
+					<p>Passagem aérea</p>
+				</div>
+
+				<h2 class="h2-icone">Qual é o seu estilo de passageiro?</h2>
+			</div>
+
+			<div class=resposta> 
+				<input type="radio" name="passagem" id="economica" value="2864" />
+				<label for="economica"><img src="assets/classe-economica.jpg" alt="Foto da classe econômica de um avião."><span>Classe Econômica</span></label>
+
+				<input type="radio" name="passagem" id="economica-premium" value="5236" />
+				<label for="economica-premium"><img src="assets/classe-economica-premium.jpg" alt="Foto da classe econômica premium de um avião."><span>Classe Econômica Premium</span></label>		
+				
+				<input type="radio" name="passagem" id="executiva" value="15076" />
+				<label for="executiva"><img src="assets/classe-executiva.jpg" alt="Foto da classe executiva de um avião."><span>Classe Executiva</span></label>
+				
+				<input type="radio" name="passagem" id="primeira-classe" value="39284" />
+				<label for="primeira-classe"><img src="assets/classe-primeira-classe.jpg" alt="Foto da primeira classe de um avião."><span>Primeira Classe</span></label>
+			</div>
+		</section>
+
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-hotel.svg" alt="Ícone de um hotel." class="icone-hotel">
+					<p>Hospedagem</p>
+				</div>
+				<h2 class="h2-icone">Em qual desses lugares você escolheria ficar?</h2>
+			</div>			
+
+			<div class=resposta>
+				<input type="radio" name="hospedagem" id="albergue" value="728" />
+				<label for="albergue"><img src="assets/Cancun/hospedagem/hostel-em-cancun-señor-frogs-2.jpg" alt="Foto de um quarto de albergue."><span>Albergue charmoso</span></label>
+
+				<input type="radio" name="hospedagem" id="hotel-barato" value="1211" />
+				<label for="hotel-barato"><img src="assets/Cancun/hospedagem/HotelBaratoCancun2.jpg" alt="Foto de um quarto de hotel simples."><span>Hotel Baratinho</span></label>			
+
+				<input type="radio" name="hospedagem" id="hotel-medio" value="1515" />
+				<label for="hotel-medio"><img src="assets/Cancun/hospedagem/hotelcamarada.jpg" alt="Foto de um quarto de hotel de aparência elegante."><span>Hotel Camarada</span></label>
+
+				<input type="radio" name="hospedagem" id="hotel-luxo" value="3518" />
+				<label for="hotel-luxo"><img src="assets/Cancun/hospedagem/mexico-cancunluxo.jpeg" alt="Foto de um quarto de hotel luxuoso com sala adjacente."><span>Hotel Luxuoso</span></label>
+
+				<input type="radio" name="hospedagem" id="casa" value="10253" />
+				<label for="casa"><img src="assets/Cancun/hospedagem/casaCancun.jpg" alt="Foto de uma casa bonita e grande."><span>Uma Casa Inteira</span></label>
+			</div>
+		</section>
+
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-restaurante.svg" alt="Ícone de restaurante." class="icone-restaurante">
+					<p>Alimentação</p>
+				</div>
+				<h2 class="h2-icone">Qual experiência gastronômica você busca?</h2>
+			</div>			
+
+			<div class=resposta>
+				<input type="radio" name="alimentacao" id="comida-barata" value="185" />
+				<label for="comida-barata"><img src="assets/Cancun/comidas/prato barato.jpg" alt="Foto de uma porção de guacamole."><span>Bem Baratinha</span></label>
+
+				<input type="radio" name="alimentacao" id="comida-media" value="398" />
+				<label for="comida-media"><img src="assets/Cancun/comidas/comida-média.jfif" alt="Foto de uma porção bem servida de tacos."><span>Comer Bem</span></label>
+
+				<input type="radio" name="alimentacao" id="comida-cara" value="676" />
+				<label for="comida-cara"><img src="assets/Cancun/comidas/prato do chef.jfif" alt="Foto de um prato feito por um chef."><span>O Céu é o limite</span></label>
+			</div>					
+		</section>
+
+        <section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-transporte.svg" alt="Ícone de um ônibus." class="icone-transporte">
+					<p>Transporte</p>
+				</div>
+				<h2 class="h2-icone">Qual será seu método principal de locomoção?</h2>
+			</div>
+
+			<div class=resposta>
+				<input type="radio" name="transporte" id="taxi" value="500" />
+				<label for="taxi"><img src="assets/Cancun/transporte/taxi-em-cancun.jpg" alt="Imagem de um Taxi."><span>Taxi</span></label>
+
+				<input type="radio" name="transporte" id="onibus" value="122" />
+				<label for="onibus"><img src="assets/Cancun/transporte/onibus-em-cancun.jpg" alt="Imagem de um ônibus."><span>Ônibus</span></label>
+
+				<input type="radio" name="transporte" id="vans" value="300" />
+				<label for="vans"><img src="assets/Cancun/transporte/vans-em-cancun.jpg" alt="Imagem de um bondinho de rua."><span>Bondinho</span></label>
+
+				<input type="radio" name="transporte" id="carro" value="70" />
+				<label for="carro"><img src="assets/Cancun/transporte/alugar-carroem-cancun.jpg" alt="Imagem de um carro modelo SUV."><span>Carro Alugado ou Uber</span></label>
+			</div>
+		</section>
+
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-passeio.svg" alt="Ícone de um mapa." class="icone-passeio">
+					<p>Atrações Turísticas</p>
+				</div>
+				<h2 class="h2-icone">Quais desses passeios você quer incluir na sua viagem?</h2>
+			</div>
+
+			<div class=resposta>
+				<input type="checkbox" name="passeio" id="tartaruga" value="350" />
+				<label for="tartaruga"><img src="assets/Cancun/pontos turísticos/17542_mergulho-tartaruga.png" alt="Imagem de uma pessoa nadando com uma tartaruga."><span>Mergulhar com as Tartarugas</span></label>
+
+				<input type="checkbox" name="passeio" id="balada" value="1210" />
+				<label for="balada"><img src="assets/Cancun/pontos turísticos/baladacocobongo.jpg" alt="imagem da balada coco bongo "><span>Balada Coco Bongo</span></label>
+
+				<input type="checkbox" name="passeio" id="bioluminescent" value="200" />
+				<label for="bioluminescent"><img src="assets/Cancun/pontos turísticos/Bioluminescent-Bay-Grand-Cayman-sm-1500x609.jpg" alt="imagem do fenômeno Bioluminescent."><span>Ver o Fenômeno Bioluminescent</span></label>
+
+				<input type="checkbox" name="passeio" id="cenote" value="300" />
+				<label for="cenote"><img src="assets/Cancun/pontos turísticos/cenote.jpg" alt="Foto de pessoas em cenote."><span>Visitar Cenote</span></label>
+
+				<input type="checkbox" name="passeio" id="piramide" value="580" />
+				<label for="piramide"><img src="assets/Cancun/pontos turísticos/chichen-itza-piramide.jpg" alt="Foto do chichen-itza-piramide."><span>Aventura Arqueológica</span></label>
+
+
+				<input type="checkbox" name="passeio" id="escultura" value="380" />
+				<label for="escultura"><img src="assets/Cancun/pontos turísticos/ESCULTURA VEN A LA LUZ.jpg" alt="Imagem da escultura de VEN A LA LUZ."><span>Visiar Tulum</span></label>
+
+				<input type="checkbox" name="passeio" id="isla" value="1008" />
+				<label for="isla"><img src="assets/Cancun/pontos turísticos/ISLA DAS MUJERES CATAMARAN.jpg" alt="Foto de um barco no mar."><span>Passeio de Barco</span></label>
+
+				<input type="checkbox" name="passeio" id="golfinhos" value="2803" />
+				<label for="golfinhos" id="teste"><img src="assets/Cancun/pontos turísticos/nadar com golfinhos.jpg" alt="Imagem de uma pessoa e 2 golfinhos."><span>Nadar com Golfinhos</span></label>				
+
+				<input type="checkbox" name="passeio" id="museu" value="1360" />
+				<label for="museu"><img src="assets/Cancun/pontos turísticos/museu-subaquatico.jpg" alt="Foto do interior de um Museu Sub Aquatico."><span>Visitar Museu Sub Aquático</span></label>
+
+				<input type="checkbox" name="passeio" id="rio" value="370" />
+				<label for="rio"><img src="assets/Cancun/pontos turísticos/Parque Xcaret.jpg" alt="Foto de varias pessoas com colete no rio bravo."><span>Aventura no Rio Bravo</span></label>
+
+
+				<input type="checkbox" name="passeio" id="tubaleia" value="3220" />
+				<label for="tubaleia"><img src="assets/Cancun/pontos turísticos/tubarao-baleia (1).webp" alt="Foto de uma tubarao-baleia"><span>Mergulho com Tubarão-Baleia</span></label>
+
+				<input type="checkbox" name="passeio" id="gruta" value="250" />
+				<label for="gruta"><img src="assets/Cancun/pontos turísticos/xei-há.jpg" alt="Foto de pessoas nadando na Gruta."><span>Nadar na Gruta Xei-Há</span></label>
+
+				<input type="checkbox" name="passeio" id="tirolesa" value="380" />
+				<label for="tirolesa"><img src="assets/Cancun/pontos turísticos/tirolezanomar.jfif" alt="Foto de uma pessoa descendo de tirolesa."><span>Tirolesa</span></label>
+
+				<input type="checkbox" name="passeio" id="jeep" value="490" />
+				<label for="jeep"><img src="assets/Cancun/pontos turísticos/Xplor-1-1-610x458.jpg" alt="Foto de varias pessoas em um jeep."><span>Aventura de Jeep no Xplor</span></label>
+
+		</section>
+
+		<div class="botao-calcular">
+			<button id="btnCalcular">
+				Calcular viagem
+			</button>
+		</div>
+	
+		<p id="resultado" class="esconder">
+			A sua viagem de <span id="n-dias"></span> dias custa:
+			<br />
+			<span id="moeda-local" class="moeda"></span>
+			<br />
+			o que equivale a:
+			<br />
+			<span id="moeda-br" class="moeda"></span>
+		</p>
+
+		<script>
+			var COTACAO = {
+				moeda: 3.72,
+				codigo: "MXP"
+			}
+		</script>
+
+		<script src="js/conversor-viagem.js"></script>
+	</body>
+</html>
