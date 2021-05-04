@@ -36,6 +36,16 @@ collection no postman)
 <li> https://fcamara-squad09.github.io/FCamara-Squad09/ </li>
 
 <h2>🚀 Technologies </h2>
-
 <li>The main technologies used in our aplication are:<li>
 <li>-Html -CSS -JavaScript<li>
+
+<h2>Telas prontas:</h2>
+<ul>
+<li>Home page</li>
+<li>Card Canadá</li>
+<li>Card Japão</li>
+<li>Card Nova Zelândi</li>
+<li>Card Portugal</li>
+<li>Card Cancun</li>
+<li>Destino</li>
+</ul>
