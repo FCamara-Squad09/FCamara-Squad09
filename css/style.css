@@ -12,7 +12,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-#header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun {    
+#header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun, #header-japao {    
     margin: 0 50px;
     text-align: center;
     display: flex;
@@ -548,3 +548,15 @@ input[type="checkbox"]:checked + label > img {
 	background-color: rgb(214, 177, 248);
 	box-shadow: 3px 3px 10px rgb(62, 18, 99);
 }
+
+/* destino Japão */
+
+#tela-cancun {
+	background-color: ;
+}
+
+#header-cancun {
+	background-color: ;
+	box-shadow: 3px 3px 10px ;
+}
+
