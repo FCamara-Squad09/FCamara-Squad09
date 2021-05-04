@@ -51,7 +51,7 @@ function escreveNaTela() {
 document.querySelector("#btnCalcular").onclick = escreveNaTela;
 
 
-
+/*
 function voltarTopoTela(){
 	var voltarTopo = document.querySelector(".voltarTopo");
 
@@ -61,3 +61,4 @@ function voltarTopoTela(){
 }
 
 document.querySelector(".voltarTopo").onclick = voltarTopoTela;
+*/

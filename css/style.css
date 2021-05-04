@@ -4,6 +4,7 @@
 
 html{
 	scroll-behavior: smooth;
+	position: relative;
 }
 
 body {
@@ -228,8 +229,9 @@ p.info {
 	border-bottom-right-radius: 15px;
 }
 
+/*
 .voltarTopo{
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     left: 20px;
 }
@@ -254,6 +256,7 @@ p.info {
     background-color: #111b45;
     border: 1px solid #220a30;
 }
+*/
 
 .detalhes, .link-destino {
 	display: flex;
