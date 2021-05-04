@@ -594,3 +594,125 @@ input[type="checkbox"]:checked + label > img {
 	box-shadow: 3px 3px 10px ;
 }
 
+
+/* Para celular */
+@media screen and (max-width: 480px) {
+
+	/* Index.html*/
+	#header-index, #header-nzn, #header-canada, #header-portugal, #header-japao {
+		margin: 0px;
+	}
+
+	h1 {
+		font-size: 38px;
+		text-align: center;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.intro h1 {
+		font-size: 35px;
+	}
+
+	.intro p {
+		margin: 10px;
+	}
+
+	#h2-intro {
+		margin-bottom: 20px;
+	}
+
+	#btn-mais-opcoes {
+		display: none;
+	}
+
+	.ver-mais {
+		justify-content: center;
+		margin: 0px;
+	}
+
+	.h2-home {
+		text-align: center;
+		margin: 0 0 8px 0;
+	}
+
+	.h2-icone {
+		margin: 20px 5px;
+	}
+
+	.destino {
+		display: none;
+	}
+
+	.menu-desktop {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.menu-desktp ul {
+		margin-right: 30px;
+	}
+
+	.icone-aviao {
+		margin-top: 30px;
+	}
+
+	.planejamento p {
+		margin: 0px;
+	}
+
+	#btnCalcular {
+		width: 54%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+
+	#dias {
+		text-align: center;
+	}	
+
+	/* Destinos */
+	
+}
+
+/* Para tablet */
+@media (min-width: 600px) {
+	#header-index, #header-nzn, #header-canada, #header-portugal, #header-japao, .menu-desktop {
+		transform: scale(1.1);
+	}
+
+	h1 {
+		font-size: 58px;
+	}
+
+	.intro h1 {
+		margin-top: 70px;
+	}
+
+	#h2-intro {
+		font-size: 50px;
+		margin-bottom: 30px; 
+	}
+
+	.intro p {
+		font-size: 30px;
+		margin: 5px 40px;
+		padding: 5px;
+	}
+
+	#dias {
+		text-align: center;
+	}
+
+	.planejamento p {
+		margin: 0px;
+	}
+
+	.icone-aviao {
+		margin-top: 30px;
+	}
+
+}
+
+
