@@ -2,7 +2,7 @@
 /* Para celular */
 @media screen and (max-width: 480px) {
 
-	/* Index.html */
+	/* Index.html*/
 	#header-index, #header-nzn, #header-canada, #header-portugal, #header-japao {
 		margin: 0px;
 	}
@@ -72,12 +72,20 @@
 		margin-bottom: 15px;
 	}
 
+	#dias {
+		text-align: center;
+	}	
+
 	/* Destinos */
 	
 }
 
 /* Para tablet */
 @media (min-width: 600px) {
+	#header-index, #header-nzn, #header-canada, #header-portugal, #header-japao, .menu-desktop {
+		transform: scale(1.1);
+	}
+
 	h1 {
 		font-size: 58px;
 	}
@@ -95,6 +103,18 @@
 		font-size: 30px;
 		margin: 5px 40px;
 		padding: 5px;
+	}
+
+	#dias {
+		text-align: center;
+	}
+
+	.planejamento p {
+		margin: 0px;
+	}
+
+	.icone-aviao {
+		margin-top: 30px;
 	}
 
 }
