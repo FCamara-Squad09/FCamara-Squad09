@@ -1,5 +1,5 @@
 <h1 align="center">
-  Squad 09 - FCamera
+  Squad 09 - FCamara
 </h1>
 <h2>O que devo entregar?</h2>
 <ul>
