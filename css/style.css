@@ -459,9 +459,6 @@ p.info {
 	box-shadow: 0 0 0 2px #111b45;
 }
 
-label[for="dias"] {
-}
-
 label {
 	display: flex;
 	flex-direction: column;
