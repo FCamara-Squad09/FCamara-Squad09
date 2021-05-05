@@ -94,6 +94,11 @@ body {
 	border: 1px solid #3b9cb7;
 	background-color: #3b9cb7;
 	border-radius: 4px;
+	cursor: pointer;
+}
+
+.entrar:hover {
+	background-color: #2b7286;
 }
 
 .btn-entrar {
