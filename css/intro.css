@@ -50,3 +50,15 @@
 .titulo p {	
 	margin: 0px;
 }
+
+.botao-calcular {
+	display: flex;
+	align-items: center;
+	width: 313px;
+	height: 54px;
+	border: 1px solid #3b9cb7;
+	background-color: #3b9cb7;
+	color: white;
+	font-size: 18px;
+	border-radius: 4px;
+}
