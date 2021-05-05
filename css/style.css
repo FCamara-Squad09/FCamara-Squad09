@@ -141,16 +141,6 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-/*, a:visited {
-  text-decoration: none;
-  
-}
-
-a:hover, a:active {
-  color: #312000;			  
-}
-*/
-
 p.info {
 	font-size: 15px;
 	font-weight: bold;
