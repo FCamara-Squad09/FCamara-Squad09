@@ -15,6 +15,21 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
+
+
+.titulo > p > span {
+	border-bottom: 2px solid #3b9cb7;
+}
+
+.titulo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.titulo p {	
+	margin: 0px;
+}
+
 #resultado {
 	color: black;
 	font-weight: bold;

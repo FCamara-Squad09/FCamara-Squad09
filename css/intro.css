@@ -38,19 +38,6 @@
 	width: 120px;
 }
 
-.titulo > p > span {
-	border-bottom: 2px solid #3b9cb7;
-}
-
-.titulo {
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.titulo p {	
-	margin: 0px;
-}
-
 .botao-calcular {
 	display: flex;
 	align-items: center;
