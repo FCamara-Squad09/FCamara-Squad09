@@ -416,26 +416,6 @@ p.info {
 	font-weight: bold;
 }
 
-.icone-aviao {
-	height: 37px;
-}
-
-.icone-hotel {
-	height: 40px;
-}
-
-.icone-restaurante {
-	height: 33px;
-}
-
-.icone-transporte {
-	height: 35px;
-}
-
-.icone-passeio {
-	height: 49px;
-}
-
 .opcoes {
 	display: flex;
 	align-items: center;
