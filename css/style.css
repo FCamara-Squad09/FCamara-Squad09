@@ -87,7 +87,7 @@ body {
 }
 
 .destino {
-	color: #312000;
+	color: #4a4a4a;
 }
 
 .entrar {
@@ -370,11 +370,40 @@ p.info {
 
 /* Estilo telas-destinos*/
 
+.intro {
+	display: flex;
+	flex-direction: row;
+	margin: 40px auto 40px 64px;
+	align-items: right;
+}
 
+.img-intro {
+	border-radius: 8px;
+}
 
+.texto-intro {
+	padding-left: 20px;
+}
 
+.h1-intro {
+	font-size: 48px;
+	font-weight: bolder;
+}
 
+.p-intro {
+	font-size: 16px;
+	color: #4a4a4a;
+}
 
+.span-intro {
+	font-weight: bold;
+}
+
+.div-intro {
+	background-color: lightgray;
+	border: 1px solid lightgray;
+	width: 120px;
+}
 
 
 
@@ -531,96 +560,28 @@ input[type="checkbox"]:checked + label > img {
 @media screen and (max-width: 480px) {
 
 	/* Index.html*/
-	#header-index, #header-nzn, #header-canada, #header-cancun, #header-portugal, #header-japao {
-		margin: 0px;
-	}
-
-	h1 {
-		font-size: 38px;
-		text-align: center;
-		margin-top: 40px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#btn-mais-opcoes {
-		display: none;
-	}
-
-	.ver-mais {
-		justify-content: center;
-		margin: 0px;
+	.intro {
+		display: flex;
+		flex-direction: column;
+		margin: 40px auto 40px 64px;
 	}
 
 	.destino {
 		display: none;
 	}
 
-	.menu-desktop {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.menu-desktp ul {
-		margin-right: 30px;
-	}
-
-	.icone-aviao {
-		margin-top: 30px;
-	}
-
-	.planejamento p {
-		margin: 0px;
-	}
-
-	#btnCalcular {
-		width: 54%;
-		margin-top: 20px;
-		margin-bottom: 15px;
-	}
-
-	#dias {
-		text-align: center;
-	}	
-
 	/* Destinos */
 	
 }
 
 /* Para tablet */
-@media (min-width: 600px) {
+@media screen and (max-width: 800px) {
 
-	h1 {
-		font-size: 58px;
+	.intro {
+		display: flex;
+		flex-direction: column;
+		margin: 40px auto 40px 64px;
 	}
-
-	.intro h1 {
-		margin-top: 70px;
-	}
-
-	#h2-intro {
-		font-size: 50px;
-		margin-bottom: 30px; 
-	}
-
-	.intro p {
-		font-size: 30px;
-		margin: 5px 40px;
-		padding: 5px;
-	}
-
-	#dias {
-		text-align: center;
-	}
-
-	.planejamento p {
-		margin: 0px;
-	}
-
-	.icone-aviao {
-		margin-top: 30px;
-	}
-
 }
 
 
