@@ -21,8 +21,8 @@ body {
     margin: 0 50px;
     text-align: center;
     display: flex;
-    justify-content: space-between;	
-	border-radius: 18px;
+    justify-content: space-between;
+	font-family: 'Poppins', sans-serif;
 }
 
 #header-index {
@@ -43,6 +43,15 @@ body {
 .p-logo {
 	text-align: left;
 	margin-left: 5px;
+	color: #312000;
+}
+
+.logo img{
+	display: inline;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
 }
 
 .aero {
@@ -57,14 +66,6 @@ body {
 	font-size: 15px;
 }
 
-.logo img{
-	display: inline;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    cursor: pointer;
-}
-
 .menu-desktop {
 	display: flex;
 	align-items: center;
@@ -74,35 +75,28 @@ body {
     display: flex;
     flex-direction: row;
     margin-right: 20px;
+    align-items: center;
 }
 
-.menu-desktop ul li { 
-    padding-left: 30px;
+.menu-desktop ul li {
+    width: 160px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;   
 }
 
-.menu-desktop ul li a{
-    font-size: 17px;
-    color: #000000;
-    position: relative;
+.destino {
+	color: #312000;
 }
 
-.menu-desktop ul li a:before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #243180;
-    visibility: hidden;
-    transform: scale(0);
-    transition: all 0.4s ease-in-out;
+.entrar {
+	border: 1px solid #3b9cb7;
+	background-color: #3b9cb7;
+	border-radius: 4px;
 }
 
-.menu-desktop ul li a:hover:before{
-    color: white;
-    visibility: visible;
-    transform: scale(1);
+.btn-entrar {
+	color: white;
 }
 
 h1 {
@@ -137,15 +131,19 @@ h1 {
 	margin: 0 auto 0 10%;
 }
 
-
 a:link, a:visited {
+	text-decoration: none;
+}
+
+/*, a:visited {
   text-decoration: none;
-  color: #312000;
+  
 }
 
 a:hover, a:active {
   color: #312000;			  
 }
+*/
 
 p.info {
 	font-size: 15px;
@@ -547,61 +545,6 @@ input[type="checkbox"]:checked + label > img {
 #btnCalcular:active {
 	box-shadow: 0 0 0 2px #220a30;
 	font-weight: bolder;
-}
-
-/* destino Nova Zelandia */
-
-#tela-nzn {
-	background-color: white;;
-}
-
-#header-nzn {
-	background-color: white;
-	box-shadow: 3px 3px 10px rgb(119, 119, 119);
-}
-
-/* destino Canadá */
-
-#tela-canada {
-	background-color: white;
-}
-
-#header-canada {
-	background-color: white;
-	box-shadow: 3px 3px 10px rgb(119, 119, 119);
-}
-
-/* destino Portugal */
-	
-#tela-portugal {
-	background-color: white;
-}
-
-#header-portugal {
-	background-color: white;
-	box-shadow: 3px 3px 10px rgb(119, 119, 119);
-}
-
-/* destino Cancun */
-	
-#tela-cancun {
-	background-color: white;
-}
-
-#header-cancun {
-	background-color: white;
-	box-shadow: 3px 3px 10px rgb(119, 119, 119);
-}
-
-/* destino Japão */
-
-#tela-japao {
-	background-color: white;
-}
-
-#header-japao {
-	background-color: white;
-	box-shadow: 3px 3px 10px rgb(119, 119, 119);
 }
 
 #body-travolta {
