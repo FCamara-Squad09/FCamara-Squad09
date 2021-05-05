@@ -105,14 +105,6 @@ body {
 	color: white;
 }
 
-h1 {
-	margin-top: 120px;
-	font-size: 62px;
-	font-weight: bold;
-	text-align: center;
-	margin-left: 9%;
-}
-
 .ver-mais {
 	display: flex;
 	flex-direction: row;
@@ -129,12 +121,6 @@ h1 {
 	width: 170px;
 	height: 30px;
 	outline: none;
-}
-
-.h2-home {
-	font-size: 23px;
-	font-weight: bold;
-	margin: 0 auto 0 10%;
 }
 
 a:link, a:visited {
@@ -373,7 +359,6 @@ p.info {
 	font-weight: 500;
 }
 
-
 .card:hover {
 	transform: scale(1.1);
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
@@ -385,62 +370,17 @@ p.info {
 
 /* Estilo telas-destinos*/
 
-#intro, .intro, #h2-intro {
-	text-align: center;
-	margin-left: 0%;
-}
 
-#intro {
-	margin-top: 5%;
-}
 
-#h2-intro {
-	font-size: 30px;
-}
 
-.intro {
-	font-size: 20px;
-}
 
-.h2-icone {
-	font-size: 25px;
-}
 
-.icones {
-	flex-direction: row;
-	align-items: center;
-}
 
-.icones p {	
-	font-size: 20px;
-	font-weight: bold;
-	padding: 3px;
-	margin: 0%;
-}
+
 
 .planejamento {
 	font-size: 20px;
 	font-weight: bold;
-}
-
-.icone-aviao {
-	height: 37px;
-}
-
-.icone-hotel {
-	height: 40px;
-}
-
-.icone-restaurante {
-	height: 33px;
-}
-
-.icone-transporte {
-	height: 35px;
-}
-
-.icone-passeio {
-	height: 49px;
 }
 
 .opcoes {
@@ -603,18 +543,6 @@ input[type="checkbox"]:checked + label > img {
 		margin-right: auto;
 	}
 
-	.intro h1 {
-		font-size: 35px;
-	}
-
-	.intro p {
-		margin: 10px;
-	}
-
-	#h2-intro {
-		margin-bottom: 20px;
-	}
-
 	#btn-mais-opcoes {
 		display: none;
 	}
@@ -622,15 +550,6 @@ input[type="checkbox"]:checked + label > img {
 	.ver-mais {
 		justify-content: center;
 		margin: 0px;
-	}
-
-	.h2-home {
-		text-align: center;
-		margin: 0 0 8px 0;
-	}
-
-	.h2-icone {
-		margin: 20px 5px;
 	}
 
 	.destino {
