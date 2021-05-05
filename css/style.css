@@ -11,14 +11,8 @@ body {
 	font-family: 'Montserrat', sans-serif;	
 }
 
-#tela-index {
-	background-image: url("../assets/bg-home.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 #header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun, #header-japao {    
-    margin: 0 50px;
+    margin: 0 115px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -373,12 +367,15 @@ p.info {
 .intro {
 	display: flex;
 	flex-direction: row;
-	margin: 40px auto 40px 64px;
-	align-items: right;
+	margin: 40px auto 20px 115px;
+	align-items: flex-start;
 }
 
 .img-intro {
 	border-radius: 8px;
+	width: 540px;
+    height: 310px;
+    margin-left: 15px;
 }
 
 .texto-intro {
@@ -388,11 +385,13 @@ p.info {
 .h1-intro {
 	font-size: 48px;
 	font-weight: bolder;
+	margin-top: 2px;
 }
 
 .p-intro {
 	font-size: 16px;
 	color: #4a4a4a;
+	line-height: 22px;
 }
 
 .span-intro {
@@ -405,12 +404,20 @@ p.info {
 	width: 120px;
 }
 
+.titulo > p > span {
+	border-bottom: 2px solid #3b9cb7;
+}
 
-
-.planejamento {
-	font-size: 20px;
+.titulo {
+	font-size: 24px;
 	font-weight: bold;
 }
+
+.titulo p {	
+	margin: 0px;
+}
+
+
 
 .opcoes {
 	display: flex;
