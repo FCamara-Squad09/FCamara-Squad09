@@ -6,18 +6,15 @@
 }
 
 .card {
-	width: 260px;
+	width: 313px;
 	display: grid;
-	grid-template-columns: 260px;
-	grid-template-rows: 180px 190px 60px;
-	grid-template-areas: "imagem" "texto" "detalhes";
+	grid-template-columns: 313px;
+	grid-template-rows: 180px 190px 56px 53px;
+	grid-template-areas: "imagem" "texto" "moeda" "botao";
+	border: 2px solid #f6f6f6;
 	border-radius: 18px;
 	background: white;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-	text-align: center;
-	transition: 0.5s ease;
 	cursor: pointer;
-	margin: 10px;
 }
 
 .imagem-card {
@@ -30,34 +27,19 @@
 
 .texto-card {
 	grid-area: texto;
-	margin: 10px;
+	margin-left: 24px;
 }
 
-.icone-card {
-	height: 14%;
-}
-
-.texto-card h2 {
-	margin-top: 0px;
-	margin-bottom: 6px;
-	font-size: 1.3em;
-	text-align: center;
-	margin-left: 0;
-}
-
-.texto-card p {
-	color: gray;
-	font-size: .9em;
-	font-weight: 300;
-	margin-top: 0px;
-	margin-bottom: 8px;
-}
-
-.detalhes-card {
-	grid-area: detalhes;
+.moeda-card {
+	grid-area: moeda;
 	display: grid;
 	grid-template-columns: 1fr 1fr 2fr;
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
+
+.botao-saiba-mais {
+	grid-area: botao;
+}
+
