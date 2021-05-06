@@ -48,22 +48,32 @@
 	grid-area: moeda;
 	display: flex;
 	flex-direction: row;
-	background-color: #f6f6f6;
+	background-color: #e8e8e8;
 }
 
 .moeda-card span {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .icone-moeda {
-	width: 9px;
-	height: 12px;
+	width: 12px;
+	height: 15px;
 }
 
 .icone-dinheiro {
-	width: 12px;
-	height: 12px;
+	width: 15px;
+	height: 15px;
 }
+
+.moeda, .valor {
+	margin-left: 24px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
 
 .botao-saiba-mais {
 	grid-area: botao;
