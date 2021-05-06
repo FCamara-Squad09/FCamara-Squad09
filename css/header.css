@@ -1,0 +1,82 @@
+#header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun, #header-japao {    
+    margin: 0 115px 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+	font-family: 'Poppins', sans-serif;
+	box-shadow: 0 8px 6px -6px #e9e9e9;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 6px;
+}
+
+.p-logo {
+	text-align: left;
+	margin-left: 5px;
+	color: #312000;
+}
+
+.logo img{
+	display: inline;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.aero {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.world {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.menu-desktop {
+	display: flex;
+	align-items: center;
+}
+
+.menu-desktop ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.menu-desktop ul li {
+    width: 160px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;   
+}
+
+.destino {
+	color: #4a4a4a;
+}
+
+.entrar {
+	border: 1px solid #3b9cb7;
+	background-color: #3b9cb7;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.entrar:hover {
+	background-color: #2b7286;
+}
+
+.btn-entrar {
+	color: white;
+}
