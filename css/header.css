@@ -1,5 +1,4 @@
-#header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun, #header-japao {    
-    margin: 0 115px 0 0;
+#header-index, #header-nzn, #header-canada, #header-portugal, #header-cancun, #header-japao {
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -14,7 +13,7 @@
 	align-items: center;
 	width: 100px;
 	font-family: 'Poppins', sans-serif;
-	margin-left: 6px;
+	margin-left: 115px;
 }
 
 .p-logo {
@@ -51,7 +50,7 @@
 .menu-desktop ul {
     display: flex;
     flex-direction: row;
-    margin-right: 20px;
+    margin-right: 115px;
     align-items: center;
 }
 

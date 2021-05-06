@@ -1,8 +1,13 @@
+.sessão {
+	margin-left: 116px;
+}
+
 .intro {
 	display: flex;
 	flex-direction: row;
 	margin: 40px auto;
 	align-items: flex-start;
+	margin-left: 116px;
 }
 
 .img-intro {
