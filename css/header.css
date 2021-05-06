@@ -13,7 +13,7 @@
 	align-items: center;
 	width: 100px;
 	font-family: 'Poppins', sans-serif;
-	margin-left: 6px;
+	margin-left: 115px;
 }
 
 .p-logo {
@@ -50,7 +50,7 @@
 .menu-desktop ul {
     display: flex;
     flex-direction: row;
-    margin-right: 20px;
+    margin-right: 115px;
     align-items: center;
 }
 
