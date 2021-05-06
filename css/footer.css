@@ -12,6 +12,7 @@ footer {
 .menu-footer h2 {
     color: #2B7286;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .menu-footer ul li {
@@ -36,6 +37,7 @@ footer {
 .menu-footer2 h2 {
     color: #2B7286;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .menu-footer2 .img-footer img{
@@ -55,4 +57,17 @@ section nav{
     margin: 25px 0px 1px 0px;
     padding-top: 2px;
     border-top: 1px solid #ccc;
+}
+
+section nav ul li{
+    padding-top: 5px;
+}
+
+section nav ul li a{
+    color: #2B7286;
+}
+
+section nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
 }
