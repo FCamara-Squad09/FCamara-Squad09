@@ -1,29 +1,26 @@
 .destinos-card {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
-
+	margin-left: 115px;
 }
 
 .card {
-	width: 260px;
+	width: 313px;
 	display: grid;
-	grid-template-columns: 260px;
-	grid-template-rows: 180px 190px 60px;
-	grid-template-areas: "imagem" "texto" "detalhes";
-	font-family: "Hind", sans-serif;
+	grid-template-columns: 313px;
+	grid-template-rows: 180px 150px 56px 53px;
+	grid-template-areas: "imagem" "texto" "moeda" "botao";
+	border: 2px solid #e8e8e8;
 	border-radius: 18px;
 	background: white;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-	text-align: center;
-	transition: 0.5s ease;
+	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
-	margin: 10px;
+	margin-right: 7px;
 }
 
 .imagem-card {
 	grid-area: imagem;
-	width: 100%;
+	width: 99%;
 	height: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -31,34 +28,76 @@
 
 .texto-card {
 	grid-area: texto;
-	margin: 10px;
+	margin-left: 24px;
+	margin-right: 10px;
 }
 
-.icone-card {
-	height: 14%;
-}
-
-.texto-card h2 {
-	margin-top: 0px;
-	margin-bottom: 6px;
-	font-size: 1.3em;
-	text-align: center;
-	margin-left: 0;
+.texto-card h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .texto-card p {
-	color: gray;
-	font-size: .9em;
-	font-weight: 300;
-	margin-top: 0px;
-	margin-bottom: 8px;
+	font-size: 14px;
 }
 
-.detalhes-card {
-	grid-area: detalhes;
-	display: grid;
-	grid-template-columns: 1fr 1fr 2fr;
-	grid-template-rows: 1fr;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+.span-card {
+	font-weight: bold;
 }
+
+.moeda-card {
+	grid-area: moeda;
+	display: flex;
+	flex-direction: row;
+	width: 310px;
+	background-color: #e8e8e8;
+}
+
+.moeda-card span {
+	font-size: 12px;
+}
+
+.icone-moeda {
+	width: 12px;
+	height: 15px;
+}
+
+.icone-dinheiro {
+	width: 15px;
+	height: 15px;
+}
+
+.moeda, .valor {
+	margin-left: 24px;
+	display: flex;
+	align-items: center;
+}
+
+.botao-saiba-mais {	
+	grid-area: botao;
+	margin: auto;
+	width: 265px;
+	height: 37px;
+	font-size: 16px;
+	border: 2px solid #3B9CB7;
+	border-radius: 4px;
+}
+
+.botao-saiba-mais a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3B9CB7;
+	width: 100%;
+	height: 100%;
+}
+
+.botao-saiba-mais:hover {
+	background-color: #3B9CB7;	 
+}
+
+.botao-saiba-mais a:hover {
+	color: #ffffff;
+}
+
