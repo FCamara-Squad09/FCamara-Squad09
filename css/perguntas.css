@@ -1,0 +1,19 @@
+.titulo > h1 > span {
+	border-bottom: 2px solid #3b9cb7;
+}
+
+.titulo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.titulo h1 {	
+	margin-bottom: 8px;
+}
+
+.titulo h2 {
+	margin: 8px auto;
+	font-size: 18px;
+	font-weight: normal;
+}
+
