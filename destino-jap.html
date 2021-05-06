@@ -5,44 +5,58 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
-        <link rel="icon" href="assets/aviao-1.png" />
+		<link rel="stylesheet" href="css/intro.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/cards.css" />
+		<link rel="stylesheet" href="css/perguntas.css" />
+		<link rel="stylesheet" href="css/respostas.css" />
+		<link rel="stylesheet" href="css/media-queries.css" />
+		<link rel="stylesheet" href="css/outros-destinos.css" />
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+		<link rel="icon" href="assets/aviao-1.png" />
+
 
 		<title>Viagem Japão</title>	 
 	</head>
 
-	<body id="tela-japao">
+	<body>
 		<header>
-			<div id="header-japao">
-				<div class="logo">
-					<img src="assets/aviao.svg" alt="Logo da Aero World">
-					<p class="p-logo"><span>Aero</span> World</p>
-				</div>
+			<div id="header-japao">				
+					<a href="index.html" class="logo">
+						<img src="assets/aviao.svg" alt="Logo da Aero World">
+						<p class="p-logo"><span class="aero">Aero</span> <span class="world">World</span></p>
+					</a>				
 				<div class="menu-desktop">
 					<nav>
 						<ul>
-							<li><a href="index.html" class="destino">Home</a></li>
-	                        <li><a href="destino.html" class="destino">Destinos</a></li>
-	                        <li><a href="">Entrar</a></li>
+	                        <li><a href="destinos.html" class="destino">Destinos</a></li>
+	                        <a href="" class="btn-entrar"><li class="entrar">Entrar</li></a>
 						</ul>
 					</nav>
-                </div>
-            </div>
+				</div>
+			</div>
 		</header>
 
 		<section class="intro">
-			<h1 id="intro">Japão</h1>
-			<p> 
-				Que tal descobrir quanto custará sua próxima viagem para conhecer o Japão?
-			</p>
+			<div class="img-grande">
+				<img class=img-intro src="assets/japao.jpg" alt="Foto monte-fuji.">
+			</div>
+			<div class="texto-intro">
+				<h1 class="h1-intro">Japão</h1>
+				<p class="p-intro"><span class="span-intro">Idioma: </span>japonês.</p>
+				<div class="div-intro">moeda</div>
+				<p class="p-intro">Que tal descobrir quanto custará sua próxima viagem <br> para conhecer o Japão?</p>
+				<p class="botao-calcular"><a href="" class="calc-intro">Calcular Viagem</a></p>
+			</div>
 		</section>
 
-		<section class="opcoes" id="opcoes-dia">
-
-			<div class="pergunta">
-				<div class="planejamento">
-					<p>Planejamento</p>
-				</div>
-				<h2>Quantos dias você pretende viajar?</h2>
+		<section>
+			<div class="titulo">
+				<h1><span>Pla</span>nejamento</h1>
+				<h2>Quantos dias você pretende viajar?</h2>				
 			</div>
 
 			<div class="resposta">
@@ -51,12 +65,9 @@
 			</div>			
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Passagem aérea</p>
-				</div>
+		<section>
+			<div class="titulo">
+				<h1><span>Pas</span>sagem Aérea</h1>
 			</div>
 
 			<div class=resposta> 
@@ -74,13 +85,11 @@
 			</div>
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Hospedagem</p>
-				</div>
-			</div>			
+			<section>
+			<div class="titulo">
+				<h1><span>Hos</span>pedagem</h1>
+			</div>
+	
 
 			<div class=resposta>
 				<input type="radio" name="hospedagem" id="bangaloo" value="1970.30" />
@@ -97,13 +106,10 @@
 			</div>
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Alimentação</p>
-				</div>
-			</div>			
+		<section>
+			<div class="titulo">
+				<h1><span>Ali</span>mentação</h1>
+			</div>		
 
 			<div class=resposta>
 				<input type="radio" name="alimentacao" id="comida-barata" value="300" />
@@ -117,13 +123,11 @@
 			</div>					
 		</section>
 
-        <section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Transporte</p>
-				</div>
+       <section>
+			<div class="titulo">
+				<h1><span>Tra</span>nsporte</h1>
 			</div>
+
 
 			<div class=resposta>
 				<input type="radio" name="transporte" id="bike" value="1970.30" />
@@ -140,70 +144,61 @@
 			</div>
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Atrações Turísticas</p>
-				</div>
+		<section>
+			<div class="titulo">
+				<h1><span>Atr</span>ações Turísticas</h1>
 			</div>
 
 			<div class=resposta>
-				<input type="checkbox" name="passeio" id="lago" value="68.61" />
-				<label for="lago"><img src="assets/japao-imgs/lake-kawaguchi.jpg" alt="Imagem do lago Kawaguchi no Japão."><span>Lago Kawaguchi</span></label>
+					<input type="checkbox" name="passeio" id="lago" value="68.61" />
+					<label for="lago"><img src="assets/japao-imgs/lake-kawaguchi.jpg" alt="Imagem do lago Kawaguchi no Japão."><span>Lago Kawaguchi</span></label>
 
-				<input type="checkbox" name="passeio" id="ceramica" value="65.70" />
-				<label for="ceramica"><img src="assets/japao-imgs/Kintsugi.jpg" alt="Imagem de uma cerâmica japonesa"><span>Aulas de cerâmica</span></label>
+					<input type="checkbox" name="passeio" id="ceramica" value="65.70" />
+					<label for="ceramica"><img src="assets/japao-imgs/Kintsugi.jpg" alt="Imagem de uma cerâmica japonesa"><span>Aulas de cerâmica</span></label>
 
-				<input type="checkbox" name="passeio" id="samurai" value="96.09" />
-				<label for="samurai"><img src="assets/japao-imgs/treinamento-samurai.jpg" alt="Imagem de uma aula de luta samurai."><span>Aula de Samurai</span></label>
+					<input type="checkbox" name="passeio" id="samurai" value="96.09" />
+					<label for="samurai"><img src="assets/japao-imgs/treinamento-samurai.jpg" alt="Imagem de uma aula de luta samurai."><span>Aula de Samurai</span></label>
 
-				<input type="checkbox" name="passeio" id="arco" value="97.04" />
-				<label for="arco"><img src="assets/japao-imgs/treinamento-de-arco.jpg" alt="Imagem de uma aula de arco e flecha."><span>Aula de Arco e Flecha</span></label>
+					<input type="checkbox" name="passeio" id="arco" value="97.04" />
+					<label for="arco"><img src="assets/japao-imgs/treinamento-de-arco.jpg" alt="Imagem de uma aula de arco e flecha."><span>Aula de Arco e Flecha</span></label>
 
-				<input type="checkbox" name="passeio" id="cha" value="59.29" />
-				<label for="cha"><img src="assets/japao-imgs/cerimonia-cha.jpg" alt="Foto de uma gueixa servindo chá."><span>Cerimônia do Chá</span></label>
+					<input type="checkbox" name="passeio" id="cha" value="59.29" />
+					<label for="cha"><img src="assets/japao-imgs/cerimonia-cha.jpg" alt="Foto de uma gueixa servindo chá."><span>Cerimônia do Chá</span></label>
 
 
-				<input type="checkbox" name="passeio" id="sushiman" value="31.46" />
-				<label for="sushiman"><img src="assets/japao-imgs/sushiman.png" alt="Foto de um Sushiman."><span>Aulas de Sushi</span></label>
+					<input type="checkbox" name="passeio" id="sushiman" value="31.46" />
+					<label for="sushiman"><img src="assets/japao-imgs/sushiman.png" alt="Foto de um Sushiman."><span>Aulas de Sushi</span></label>
 
-				<input type="checkbox" name="passeio" id="montfuji" value="516.93" />
-				<label for="montfuji"><img src="assets/japao-imgs/monte-fuji.jpg" alt="Imagem do Monte Fuji no Japão"><span>Excursão ao Monte Fuji</span></label>
+					<input type="checkbox" name="passeio" id="montfuji" value="516.93" />
+					<label for="montfuji"><img src="assets/japao-imgs/monte-fuji.jpg" alt="Imagem do Monte Fuji no Japão"><span>Excursão ao Monte Fuji</span></label>
 
-				<input type="checkbox" name="passeio" id="toquio" value="205.19" />
-				<label for="toquio" id="teste"><img src="assets/japao-imgs/excursao-toquio.jpg" alt="Imagem de uma rua cheia de gente em Tóquio"><span>Excursão em Tóquio</span></label>				
+					<input type="checkbox" name="passeio" id="toquio" value="205.19" />
+					<label for="toquio" id="teste"><img src="assets/japao-imgs/excursao-toquio.jpg" alt="Imagem de uma rua cheia de gente em Tóquio"><span>Excursão em Tóquio</span></label>				
 
-				<input type="checkbox" name="passeio" id="kart" value="74.73" />
-				<label for="kart"><img src="assets/japao-imgs/passeio-kart.jpg" alt="Passeio de Kart pela cidade."><span>Passeio de Kart</span></label>
+					<input type="checkbox" name="passeio" id="kart" value="74.73" />
+					<label for="kart"><img src="assets/japao-imgs/passeio-kart.jpg" alt="Passeio de Kart pela cidade."><span>Passeio de Kart</span></label>
 
-				<input type="checkbox" name="passeio" id="karate" value="41.85" />
-				<label for="karate"><img src="assets/japao-imgs/karate.jpg" alt="Imagem de um dojo de karatê."><span>Aula de Karatê</span></label>
+					<input type="checkbox" name="passeio" id="karate" value="41.85" />
+					<label for="karate"><img src="assets/japao-imgs/karate.jpg" alt="Imagem de um dojo de karatê."><span>Aula de Karatê</span></label>
             </div>
 		</section>
 
-		<div class="botao-calcular">
-			<button id="btnCalcular">
-				Calcular viagem
-			</button>
-		</div>
-
-		<!--
-		<div class="voltarTopo">
-			<button><img src="assets/up-arrow.png" alt="Seta para cima"></button>
-		</div>
-		-->
-
+		<button class="botao-calcular" id="btnCalcular">
+			Calcular viagem
+		</button>
+		
 	
 		<p id="resultado" class="esconder">
 			A sua viagem de <span id="n-dias"></span> dias custa:
 			<br />
-			<span id="moeda-local" class="moeda"></span>
+			<span id="moeda-local"></span>
 			<br />
 			o que equivale a:
 			<br />
-			<span id="moeda-br" class="moeda"></span>
+			<span id="moeda-br"></span>
 		</p>
+
+		<img src="assets/arrow.svg" alt="" class="btn-topo">			
 
 		<script>
 			var COTACAO = {
