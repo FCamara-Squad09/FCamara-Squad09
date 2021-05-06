@@ -14,6 +14,7 @@
 	border: 2px solid #f6f6f6;
 	border-radius: 18px;
 	background: white;
+	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
 }
 
@@ -28,6 +29,20 @@
 .texto-card {
 	grid-area: texto;
 	margin-left: 24px;
+}
+
+.texto-card h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.texto-card p {
+	font-size: 13px;
+}
+
+.span-card {
+	font-weight: bold;
 }
 
 .moeda-card {
