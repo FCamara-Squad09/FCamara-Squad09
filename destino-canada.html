@@ -5,34 +5,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/intro.css" />
-		<link rel="stylesheet" href="css/header.css" />
-		<link rel="stylesheet" href="css/cards.css" />
-		<link rel="stylesheet" href="css/perguntas.css" />
-		<link rel="stylesheet" href="css/respostas.css" />
-		<link rel="stylesheet" href="css/media-queries.css" />
-		<link rel="stylesheet" href="css/outros-destinos.css" />
-
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
-
+		<link rel="stylesheet" href="css/responsividade.css" />
 		<link rel="icon" href="assets/aviao-1.png" />
 
 		<title>Viagem Canadá</title>	 
 	</head>
 
-	<body>
+	<body id="tela-canada">
 		<header>
-			<div id="header-canada">				
-					<a href="index.html" class="logo">
-						<img src="assets/aviao.svg" alt="Logo da Aero World">
-						<p class="p-logo"><span class="aero">Aero</span> <span class="world">World</span></p>
-					</a>				
+			<div id="header-canada">
+				<div class="logo">
+					<img src="assets/aviao.svg" alt="Logo da Aero World">
+					<p class="p-logo"><span>Aero</span> World</p>
+				</div>
 				<div class="menu-desktop">
 					<nav>
 						<ul>
-	                        <li><a href="destinos.html" class="destino">Destinos</a></li>
-	                        <a href="" class="btn-entrar"><li class="entrar">Entrar</li></a>
+							<li><a href="index.html" class="destino">Home</a></li>
+	                        <li><a href="destino.html" class="destino">Destinos</a></li>
+	                        <li><a href="">Entrar</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -40,22 +31,26 @@
 		</header>
 
 		<section class="intro">
-			<div class="img-grande">
-				<img class=img-intro src="assets/canada.jpg" alt="Foto de Toronto.">
-			</div>
-			<div class="texto-intro">
-				<h1 class="h1-intro">Canadá</h1>
-				<p class="p-intro"><span class="span-intro">Idioma: </span>Inglês e Francês.</p>
-				<div class="div-intro">moeda</div>
-				<p class="p-intro">Que tal descobrir quanto custará sua próxima viagem <br> para conhecer o Canadá?</p>
-				<p class="botao-calcular"><a href="" class="calc-intro">Calcular Viagem</a></p>
-			</div>
+			<h1>Viagem para o Canadá:<br> Quanto custa?</h1>
+			<p id="h2-intro">
+				Hello, how’ya ‘doin?
+			</p>
+			<p> 
+				Que tal descobrir quanto custará sua próxima viagem para conhecer o Canadá?
+			</p>
+			<p>
+				Responda as perguntas abaixo sobre o seu estilo de viajante e no final veja o valor médio para sua viagem.
+			</p> 
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Pla</span>nejamento</h1>
-				<h2>Quantos dias você pretende viajar?</h2>				
+		<section class="opcoes" id="opcoes-dia">
+
+			<div class="pergunta">
+				<div class="planejamento">
+					<img src="assets/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
+					<p>Planejamento</p>
+				</div>
+				<h2 class="h2-icone">Quantos dias você pretende viajar?</h2>
 			</div>
 
 			<div class="resposta">
@@ -64,12 +59,18 @@
 			</div>			
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Pas</span>sagem Aérea</h1>
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-aviao.svg" alt="Ícone de um avião." class="icone-aviao">
+					<p>Passagem aérea</p>
+				</div>
+
+				<h2 class="h2-icone">Qual é o seu estilo de passageiro?</h2>
 			</div>
 
-			<div class="resposta">
+			<div class=resposta> 
 				<input type="radio" name="passagem" id="economica" value="1259" />
 				<label for="economica"><img src="assets/classe-economica.jpg" alt="Foto da classe econômica de um avião."><span>Classe Econômica</span></label>
 
@@ -84,10 +85,15 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Hos</span>pedagem</h1>
-			</div>
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-hotel.svg" alt="Ícone de um hotel." class="icone-aviao">
+					<p>Hospedagem</p>
+				</div>
+				<h2 class="h2-icone">Em qual desses lugares você escolheria ficar?</h2>
+			</div>			
 
 			<div class=resposta>
 				<input type="radio" name="hospedagem" id="albergue" value="37" />
@@ -107,10 +113,15 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Ali</span>mentação</h1>
-			</div>		
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-restaurante.svg" alt="Ícone de restaurante." class="icone-aviao">
+					<p>Alimentação</p>
+				</div>
+				<h2 class="h2-icone">Qual experiência gastronômica você busca?</h2>
+			</div>			
 
 			<div class=resposta>
 				<input type="radio" name="alimentacao" id="comida-barata" value="42" />
@@ -124,9 +135,14 @@
 			</div>					
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Tra</span>nsporte</h1>
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-transporte.svg" alt="Ícone de um ônibus." class="icone-aviao">
+					<p>Transporte</p>
+				</div>
+				<h2 class="h2-icone">Qual será seu método principal de locomoção?</h2>
 			</div>
 
 			<div class=resposta>
@@ -144,9 +160,14 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Atr</span>ações Turísticas</h1>
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-passeio.svg" alt="Ícone de um mapa." class="icone-aviao">
+					<p>Atrações Turísticas</p>
+				</div>
+				<h2 class="h2-icone">Quais desses passeios você quer incluir na sua viagem?</h2>
 			</div>
 
 			<div class=resposta>
@@ -212,22 +233,21 @@
 			</div>
 		</section>
 
-		<button class="botao-calcular" id="btnCalcular">
-			Calcular viagem
-		</button>
-		
+		<div class="botao-calcular">
+			<button id="btnCalcular">
+				Calcular viagem
+			</button>
+		</div>
 	
 		<p id="resultado" class="esconder">
 			A sua viagem de <span id="n-dias"></span> dias custa:
 			<br />
-			<span id="moeda-local"></span>
+			<span id="moeda-local" class="moeda"></span>
 			<br />
 			o que equivale a:
 			<br />
-			<span id="moeda-br"></span>
+			<span id="moeda-br" class="moeda"></span>
 		</p>
-
-		<img src="assets/arrow.svg" alt="" class="btn-topo">			
 
 		<script>
 			var COTACAO = {

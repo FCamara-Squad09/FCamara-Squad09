@@ -5,58 +5,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/intro.css" />
-		<link rel="stylesheet" href="css/header.css" />
-		<link rel="stylesheet" href="css/cards.css" />
-		<link rel="stylesheet" href="css/perguntas.css" />
-		<link rel="stylesheet" href="css/respostas.css" />
-		<link rel="stylesheet" href="css/media-queries.css" />
-		<link rel="stylesheet" href="css/outros-destinos.css" />
+        <link rel="stylesheet" href="css/responsividade.css">
+        <link rel="icon" href="assets/aviao-1.png" />
 
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
-
-		<link rel="icon" href="assets/aviao-1.png" />
-
-
-		<title>Viagem Japão</title>	 
+		<title>Viagem Cancun</title>	 
 	</head>
 
-	<body>
+	<body id="tela-japao">
 		<header>
-			<div id="header-japao">				
-					<a href="index.html" class="logo">
-						<img src="assets/aviao.svg" alt="Logo da Aero World">
-						<p class="p-logo"><span class="aero">Aero</span> <span class="world">World</span></p>
-					</a>				
+			<div id="header-japao">
+				<div class="logo">
+					<img src="assets/aviao.svg" alt="Logo da Aero World">
+					<p class="p-logo"><span>Aero</span> World</p>
+				</div>
 				<div class="menu-desktop">
 					<nav>
 						<ul>
-	                        <li><a href="destinos.html" class="destino">Destinos</a></li>
-	                        <a href="" class="btn-entrar"><li class="entrar">Entrar</li></a>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="destino.html">Destinos</a></li>
+							<li><a href="">Entrar</a></li>
 						</ul>
 					</nav>
-				</div>
-			</div>
+                </div>
+            </div>
 		</header>
 
 		<section class="intro">
-			<div class="img-grande">
-				<img class=img-intro src="assets/japao.jpg" alt="Foto monte-fuji.">
-			</div>
-			<div class="texto-intro">
-				<h1 class="h1-intro">Japão</h1>
-				<p class="p-intro"><span class="span-intro">Idioma: </span>japonês.</p>
-				<div class="div-intro">moeda</div>
-				<p class="p-intro">Que tal descobrir quanto custará sua próxima viagem <br> para conhecer o Japão?</p>
-				<p class="botao-calcular"><a href="" class="calc-intro">Calcular Viagem</a></p>
-			</div>
+			<h1 id="intro">Viagem para o Japão:<br> Quanto custa?</h1>
+			<p id="h2-intro">
+				Kon'nichiwa yōkoso
+			</p>
+			<p> 
+				Que tal descobrir quanto custará sua próxima viagem para conhecer o Japão?
+			</p>
+			<p>
+				Responda as perguntas abaixo sobre o seu estilo de viajante e no final veja o valor médio para sua viagem.
+			</p> 
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Pla</span>nejamento</h1>
-				<h2>Quantos dias você pretende viajar?</h2>				
+		<section class="opcoes" id="opcoes-dia">
+
+			<div class="pergunta">
+				<div class="planejamento">
+					<img src="assets/icone-calendario.svg" alt="Ícone de um calendário." class="icone-aviao">
+					<p>Planejamento</p>
+				</div>
+				<h2 class="h2-icone">Quantos dias você pretende viajar?</h2>
 			</div>
 
 			<div class="resposta">
@@ -65,9 +59,15 @@
 			</div>			
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Pas</span>sagem Aérea</h1>
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-aviao.svg" alt="Ícone de um avião." class="icone-aviao">
+					<p>Passagem aérea</p>
+				</div>
+
+				<h2 class="h2-icone">Qual é o seu estilo de passageiro?</h2>
 			</div>
 
 			<div class=resposta> 
@@ -87,11 +87,13 @@
 
 		<section class="opcoes">
 
-			<section>
-				<div class="titulo">
-					<h1><span>Hos</span>pedagem</h1>
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-hotel.svg" alt="Ícone de um hotel." class="icone-hotel">
+					<p>Hospedagem</p>
 				</div>
-	
+				<h2 class="h2-icone">Em qual desses lugares você escolheria ficar?</h2>
+			</div>			
 
 			<div class=resposta>
 				<input type="radio" name="hospedagem" id="bangaloo" value="1970.30" />
@@ -100,18 +102,20 @@
 				<input type="radio" name="hospedagem" id="hotel-barato" value="4509.34" />
 				<label for="hotel-barato"><img src="assets/japao-imgs/hospedagem-mediana.jpg" alt="Foto de um quarto de hotel simples."><span>Hotel Baratinho</span></label>	
 
-				<input type="radio" name="hospedagem" id="capsula" value="6.800" />
-				<label for="capsula"><img src="assets/japao-imgs/follow-the-colours-hotel-capsula-japao.jpg" alt="Foto de um quarto de hotel com capsulas ."><span>Hotel Capsula</span></label>
-
 				<input type="radio" name="hospedagem" id="hotel-luxo" value="46251.20" />
 				<label for="hotel-luxo"><img src="assets/japao-imgs/hospedagem-cara.jpg" alt="Foto de um quarto de hotel luxuoso com sala adjacente."><span>Hotel Luxuoso</span></label>
 			</div>
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Ali</span>mentação</h1>
-			</div>		
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-restaurante.svg" alt="Ícone de restaurante." class="icone-restaurante">
+					<p>Alimentação</p>
+				</div>
+				<h2 class="h2-icone">Qual experiência gastronômica você busca?</h2>
+			</div>			
 
 			<div class=resposta>
 				<input type="radio" name="alimentacao" id="comida-barata" value="300" />
@@ -125,11 +129,15 @@
 			</div>					
 		</section>
 
-       <section>
-			<div class="titulo">
-				<h1><span>Tra</span>nsporte</h1>
-			</div>
+        <section class="opcoes">
 
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-transporte.svg" alt="Ícone de um ônibus." class="icone-transporte">
+					<p>Transporte</p>
+				</div>
+				<h2 class="h2-icone">Qual será seu método principal de locomoção?</h2>
+			</div>
 
 			<div class=resposta>
 				<input type="radio" name="transporte" id="bike" value="1970.30" />
@@ -146,9 +154,14 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="titulo">
-				<h1><span>Atr</span>ações Turísticas</h1>
+		<section class="opcoes">
+
+			<div class="pergunta">
+				<div class="icones">
+					<img src="assets/icone-passeio.svg" alt="Ícone de um mapa." class="icone-passeio">
+					<p>Atrações Turísticas</p>
+				</div>
+				<h2 class="h2-icone">Quais desses passeios você quer incluir na sua viagem?</h2>
 			</div>
 
 			<div class=resposta>
@@ -183,24 +196,30 @@
 				<input type="checkbox" name="passeio" id="karate" value="41.85" />
 				<label for="karate"><img src="assets/japao-imgs/karate.jpg" alt="Imagem de um dojo de karatê."><span>Aula de Karatê</span></label>
             </div>
-		<</section>
+		</section>
 
-		<button class="botao-calcular" id="btnCalcular">
-			Calcular viagem
-		</button>
-		
+		<div class="botao-calcular">
+			<button id="btnCalcular">
+				Calcular viagem
+			</button>
+		</div>
+
+		<!--
+		<div class="voltarTopo">
+			<button><img src="assets/up-arrow.png" alt="Seta para cima"></button>
+		</div>
+		-->
+
 	
 		<p id="resultado" class="esconder">
 			A sua viagem de <span id="n-dias"></span> dias custa:
 			<br />
-			<span id="moeda-local"></span>
+			<span id="moeda-local" class="moeda"></span>
 			<br />
 			o que equivale a:
 			<br />
-			<span id="moeda-br"></span>
+			<span id="moeda-br" class="moeda"></span>
 		</p>
-
-		<img src="assets/arrow.svg" alt="" class="btn-topo">			
 
 		<script>
 			var COTACAO = {
