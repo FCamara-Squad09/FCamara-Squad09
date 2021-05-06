@@ -84,14 +84,11 @@
 				<label for="primeira-classe"><img src="assets/classe-primeira-classe.jpg" alt="Foto da primeira classe de um avião."><span>Primeira Classe</span></label>
 			</div>
 		</section>
-
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Hospedagem</p>
-				</div>
-			</div>			
+	
+		<section>
+			<div class="titulo">
+				<h1><span>Hos</span>pedagem</h1>
+			</div>
 
 			<div class=resposta>
 				<input type="radio" name="hospedagem" id="hostel" value="20" />
@@ -111,13 +108,10 @@
             </div>
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Alimentação</p>
-				</div>
-			</div>			
+		<section>
+			<div class="titulo">
+				<h1><span>Ali</span>mentação</h1>
+			</div>		
 
 			<div class=resposta>
 				<input type="radio" name="alimentacao" id="comida-barata" value="15" />
@@ -131,12 +125,9 @@
 			</div>					
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Transporte</p>
-				</div>
+		<section>
+			<div class="titulo">
+				<h1><span>Tra</span>nsporte</h1>
 			</div>
 
 			<div class=resposta>
@@ -154,12 +145,9 @@
 			</div>
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Atrações Turísticas</p>
-				</div>
+		<section>
+			<div class="titulo">
+				<h1><span>Atr</span>ações Turísticas</h1>
 			</div>
 
 			<div class=resposta>
@@ -204,23 +192,24 @@
 				<label for="ponta-delgada"><img src="assets/imgport/pontos-turisticos/passeio-pedestre-ponta-delgada-port.jpg" alt="imagem de ponta delgada."><span>Visita á Ponta Delgada</span></label>	
             </div>
 		</section>
-		<div class="botao-calcular">
-			<button id="btnCalcular">
-				Calcular viagem
-			</button>
-		</div>
+
+		<button class="botao-calcular" id="btnCalcular">
+			Calcular viagem
+		</button>
+		
 	
 		<p id="resultado" class="esconder">
 			A sua viagem de <span id="n-dias"></span> dias custa:
 			<br />
-			<span id="moeda-local" class="moeda"></span>
+			<span id="moeda-local"></span>
 			<br />
 			o que equivale a:
 			<br />
-			<span id="moeda-br" class="moeda"></span>
+			<span id="moeda-br"></span>
 		</p>
 
-		<img src="assets/arrow.svg" alt="" class="btn-topo">
+		<img src="assets/arrow.svg" alt="" class="btn-topo">			
+
 
 		<script>
 			var COTACAO = {
