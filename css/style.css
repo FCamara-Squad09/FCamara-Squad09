@@ -19,43 +19,36 @@ a:link, a:visited {
 }
 
 #resultado {
-	color: black;
-	font-weight: bold;
 	text-align: center;
-	font-size: 25px;
+	font-size: 22px;
+	line-height: 30px;
 }
 
 .esconder {
 	display: none;
 }
 
-#btnCalcular {
-	text-align: center;
-	border: none;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 15px;
-	width: 20%;
-	background-color: #10172e;
-	color: #ffffff;
-	transition: 0.6s background-color;						
-	cursor: pointer;
-	outline: none;
-}
-
 .botao-calcular {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	width: 313px;
+	height: 54px;
+	border: 1px solid #3b9cb7;
+	background-color: #3b9cb7;
+	color: white;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
-#btnCalcular:hover, #btnCalcular:active {
-	background-color: #021600;
+.botao-calcular:hover {
+	background-color: #2b7286;
+	border: 1px solid #2b7286;
 }
 
-#btnCalcular:active {
-	box-shadow: 0 0 0 2px #220a30;
-	font-weight: bolder;
+#moeda-local, #moeda-br, #n-dias {
+	font-weight: bold;
 }
 
 .btn-topo {
