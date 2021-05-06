@@ -1,6 +1,7 @@
 .destinos-card {
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: 115px;
 }
 
 .card {
@@ -14,6 +15,7 @@
 	background: white;
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
+	margin-right: 7px;
 }
 
 .imagem-card {
