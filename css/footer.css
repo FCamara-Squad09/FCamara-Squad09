@@ -1,0 +1,28 @@
+footer{
+    border-top: 1px solid #2B7286;
+    margin-top: 50px;
+    padding-top: 25px; 
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-footer h2{
+    color: #2B7286;
+    font-size: 20px;
+}
+
+.menu-footer ul li{
+    padding-top: 7px;
+}
+
+.menu-footer ul li a{
+    color: #2B7286;
+}
+
+.menu-footer ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
