@@ -49,3 +49,10 @@ footer {
     background-color: #2B7286;
     border: 1px solid black;
 }
+
+section nav{
+    text-align: center;
+    margin: 25px 0px 1px 0px;
+    padding-top: 2px;
+    border-top: 1px solid #ccc;
+}
