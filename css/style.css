@@ -20,18 +20,7 @@ a:link, a:visited {
 
 
 
-.titulo > p > span {
-	border-bottom: 2px solid #3b9cb7;
-}
 
-.titulo {
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.titulo p {	
-	margin: 0px;
-}
 
 #resultado {
 	color: black;
@@ -50,19 +39,7 @@ a:link, a:visited {
 	display: none;
 }
 
-#dias {
-	margin-left: auto;
-	margin-right: auto;	
-	border-radius: 5px;
-	background-color: white;
-	padding: 5px;
-	font-size: 120%;
-}
 
-#dias:focus {
-	outline: none;
-	box-shadow: 0 0 0 2px #111b45;
-}
 
 label {
 	display: flex;
@@ -74,21 +51,6 @@ label span {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: bold;
-}
-
-.resposta {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.resposta img {
-	width: 290px;
-	height: 180px;
-	border-radius: 20px;
-	cursor: pointer;
-	margin: 5px;
 }
 
 input[type="radio"], input[type="checkbox"] { 
@@ -107,10 +69,7 @@ input[type="checkbox"]:hover + label {
 	opacity: 1;	
 }
 
-input[type="radio"]:checked + label > img, 
-input[type="checkbox"]:checked + label > img {
-	box-shadow: 0 0 0 2px #111b45;
-}
+
 
 #btnCalcular {
 	text-align: center;
