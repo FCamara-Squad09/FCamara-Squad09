@@ -10,7 +10,6 @@ html{
 body {
 
 	font-family: 'Montserrat', sans-serif;
-	margin-left: 115px;
 	color: #2a2a2a;
 }
 
@@ -29,6 +28,7 @@ a:link, a:visited {
 }
 
 .botao-calcular {
+	margin-left: 116px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
