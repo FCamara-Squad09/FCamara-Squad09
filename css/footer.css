@@ -1,28 +1,51 @@
-footer{
+footer {
     border-top: 1px solid #2B7286;
     margin-top: 50px;
     padding-top: 25px; 
 }
 
-.menu-footer{
+.menu-footer {
     display: flex;
     justify-content: space-evenly;
 }
 
-.menu-footer h2{
+.menu-footer h2 {
     color: #2B7286;
     font-size: 20px;
 }
 
-.menu-footer ul li{
+.menu-footer ul li {
     padding-top: 7px;
 }
 
-.menu-footer ul li a{
+.menu-footer ul li a {
     color: #2B7286;
 }
 
-.menu-footer ul li a:hover{
+.menu-footer ul li a:hover {
     text-decoration: underline;
     color: black;
+}
+
+.menu-footer2{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.menu-footer2 h2 {
+    color: #2B7286;
+    font-size: 20px;
+}
+
+.menu-footer2 .img-footer img{
+    margin-left: 26.3px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+.menu-footer2 .img-footer img:hover{
+    background-color: #2B7286;
+    border: 1px solid black;
 }
