@@ -202,26 +202,24 @@
 
 				<input type="checkbox" name="passeio" id="workshop" value="28" />
 				<label for="workshop"><img src="assets/img-nz/passeio-workshop.jpg" alt="Foto de pessoas em um museu e workshop com tema do Senhor dos Anéis."><span>Fazer um Workshop Artístico</span></label>
-			</div>	
-		</section>			
-			
-		<div class="botao-calcular">
-			<button id="btnCalcular">
+			</section>
+
+			<button class="botao-calcular" id="btnCalcular">
 				Calcular viagem
 			</button>
-		</div>
+			
+		
+			<p id="resultado" class="esconder">
+				A sua viagem de <span id="n-dias"></span> dias custa:
+				<br />
+				<span id="moeda-local"></span>
+				<br />
+				o que equivale a:
+				<br />
+				<span id="moeda-br"></span>
+			</p>
 	
-		<p id="resultado" class="esconder">
-			A sua viagem de <span id="n-dias"></span> dias custa:
-			<br />
-			<span id="moeda-local" class="moeda"></span>
-			<br />
-			o que equivale a:
-			<br />
-			<span id="moeda-br" class="moeda"></span>
-		</p>
-
-		<img src="assets/arrow.svg" alt="" class="btn-topo">
+			<img src="assets/arrow.svg" alt="" class="btn-topo">			
 		
 		<script>
 			var COTACAO = {
