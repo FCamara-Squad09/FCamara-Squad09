@@ -11,7 +11,6 @@
 	grid-template-columns: 260px;
 	grid-template-rows: 180px 190px 60px;
 	grid-template-areas: "imagem" "texto" "detalhes";
-	font-family: "Hind", sans-serif;
 	border-radius: 18px;
 	background: white;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
