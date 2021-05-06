@@ -1,0 +1,32 @@
+#dias {
+	background-color: white;
+	padding: 5px;
+	font-size: 120%;
+	border: 2px solid #c4c4c4;
+}
+
+#dias:focus {
+	outline: none;
+	box-shadow: 0 0 0 1px #bababa;
+}
+
+.resposta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	margin-bottom: 40px;
+}
+
+.resposta img {
+	width: 290px;
+	height: 180px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 8px;
+}
+
+input[type="radio"]:checked + label > img, 
+input[type="checkbox"]:checked + label > img {
+	box-shadow: 0 0 0 2px #3b9cb7;
+}
