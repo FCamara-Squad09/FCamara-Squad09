@@ -36,3 +36,16 @@
 	background-color: #3b9cb7;
 	color: #ffffff;
 }
+
+.pacotes {
+	display: flex;
+	flex-direction: row;
+	margin-left: 115px;
+}
+
+.pacotes img {
+	width: 633px;
+	height: 220px;
+	border-radius: 8px;
+	margin-right: 8px;
+}
