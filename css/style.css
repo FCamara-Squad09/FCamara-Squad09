@@ -47,6 +47,10 @@ a:link, a:visited {
 	border: 1px solid #2b7286;
 }
 
+#n-dias {
+	color: #2b7286;
+}
+
 #moeda-local, #moeda-br, #n-dias {
 	font-weight: bold;
 }
