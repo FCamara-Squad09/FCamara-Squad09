@@ -53,13 +53,10 @@
 			</div>
 		</section>
 
-		<section class="opcoes" id="opcoes-dia">
-
-			<div class="pergunta">
-				<div class="planejamento">
-					<p>Planejamento</p>
-				</div>
-				<h2>Quantos dias você pretende viajar?</h2>
+		<section>
+			<div class="titulo">
+				<h1><span>Pla</span>nejamento</h1>
+				<h2>Quantos dias você pretende viajar?</h2>				
 			</div>
 
 			<div class="resposta">
@@ -68,12 +65,9 @@
 			</div>			
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Passagem aérea</p>
-				</div>
+		<section>
+			<div class="titulo">
+				<h1><span>Pas</span>sagem Aérea</h1>
 			</div>
 
 			<div class=resposta> 
@@ -93,11 +87,11 @@
 
 		<section class="opcoes">
 
-			<div class="pergunta">
-				<div>
-					<p>Hospedagem</p>
+			<section>
+				<div class="titulo">
+					<h1><span>Hos</span>pedagem</h1>
 				</div>
-			</div>			
+	
 
 			<div class=resposta>
 				<input type="radio" name="hospedagem" id="bangaloo" value="1970.30" />
@@ -114,13 +108,10 @@
 			</div>
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Alimentação</p>
-				</div>
-			</div>			
+		<section>
+			<div class="titulo">
+				<h1><span>Ali</span>mentação</h1>
+			</div>		
 
 			<div class=resposta>
 				<input type="radio" name="alimentacao" id="comida-barata" value="300" />
@@ -134,13 +125,11 @@
 			</div>					
 		</section>
 
-        <section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Transporte</p>
-				</div>
+       <section>
+			<div class="titulo">
+				<h1><span>Tra</span>nsporte</h1>
 			</div>
+
 
 			<div class=resposta>
 				<input type="radio" name="transporte" id="bike" value="1970.30" />
@@ -157,12 +146,9 @@
 			</div>
 		</section>
 
-		<section class="opcoes">
-
-			<div class="pergunta">
-				<div>
-					<p>Atrações Turísticas</p>
-				</div>
+		<section>
+			<div class="titulo">
+				<h1><span>Atr</span>ações Turísticas</h1>
 			</div>
 
 			<div class=resposta>
@@ -197,32 +183,24 @@
 				<input type="checkbox" name="passeio" id="karate" value="41.85" />
 				<label for="karate"><img src="assets/japao-imgs/karate.jpg" alt="Imagem de um dojo de karatê."><span>Aula de Karatê</span></label>
             </div>
-		</section>
+		<</section>
 
-		<div class="botao-calcular">
-			<button id="btnCalcular">
-				Calcular viagem
-			</button>
-		</div>
-
-		<!--
-		<div class="voltarTopo">
-			<button><img src="assets/up-arrow.png" alt="Seta para cima"></button>
-		</div>
-		-->
-
+		<button class="botao-calcular" id="btnCalcular">
+			Calcular viagem
+		</button>
+		
 	
 		<p id="resultado" class="esconder">
 			A sua viagem de <span id="n-dias"></span> dias custa:
 			<br />
-			<span id="moeda-local" class="moeda"></span>
+			<span id="moeda-local"></span>
 			<br />
 			o que equivale a:
 			<br />
-			<span id="moeda-br" class="moeda"></span>
+			<span id="moeda-br"></span>
 		</p>
 
-		<img src="assets/arrow.svg" alt="" class="btn-topo">
+		<img src="assets/arrow.svg" alt="" class="btn-topo">			
 
 		<script>
 			var COTACAO = {
