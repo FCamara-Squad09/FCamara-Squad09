@@ -1,5 +1,5 @@
-.sessão {
-	margin-left: 116px;
+.sessao {
+	margin-left: 64px;
 }
 
 .intro {
@@ -7,7 +7,7 @@
 	flex-direction: row;
 	margin: 40px auto;
 	align-items: flex-start;
-	margin-left: 116px;
+	margin-left: 64px;
 }
 
 .img-intro {
