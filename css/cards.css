@@ -1,17 +1,15 @@
 .destinos-card {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
-
 }
 
 .card {
 	width: 313px;
 	display: grid;
 	grid-template-columns: 313px;
-	grid-template-rows: 180px 190px 56px 53px;
+	grid-template-rows: 180px 150px 56px 53px;
 	grid-template-areas: "imagem" "texto" "moeda" "botao";
-	border: 2px solid #f6f6f6;
+	border: 2px solid #e8e8e8;
 	border-radius: 18px;
 	background: white;
 	font-family: 'Montserrat', sans-serif;
@@ -20,7 +18,7 @@
 
 .imagem-card {
 	grid-area: imagem;
-	width: 100%;
+	width: 99%;
 	height: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -29,6 +27,7 @@
 .texto-card {
 	grid-area: texto;
 	margin-left: 24px;
+	margin-right: 10px;
 }
 
 .texto-card h1 {
