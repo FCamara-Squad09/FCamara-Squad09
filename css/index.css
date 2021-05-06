@@ -8,6 +8,28 @@
 	height: 360px;
 }
 
+.intro-index {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 50px 115px 8px 115px;
+}
 
-intro-index
+.intro-index h1 {
+	font-size: 24px;
+	margin-bottom: 0px;
+}
 
+#btn-ver-mais {
+	border: 2px solid #3b9cb7;
+	background-color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 171px;
+	height: 37px;
+	color: #3b9cb7;
+}
+
+#btn
