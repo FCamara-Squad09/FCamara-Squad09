@@ -48,4 +48,10 @@
 	height: 220px;
 	border-radius: 8px;
 	margin-right: 8px;
+	opacity: 0.9;
+}
+
+.pacotes img:hover {
+	opacity: 1;
+	cursor: pointer
 }
