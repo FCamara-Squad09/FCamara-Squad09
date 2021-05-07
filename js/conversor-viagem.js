@@ -12,7 +12,7 @@ function obtemDadosViagem() {
 	}
 
 	if (passagem == null) {
-		console.log("erro na passagem");
+		document.querySelector(".validacao").textContent = "Faltou escolher a passagem!";
 		return
 	}
 
