@@ -66,6 +66,7 @@
 	.pacotes img {
 		width: 343px;
 		height: 142px;
+		padding: 2px;
 	}
 
 	.intro-index {
