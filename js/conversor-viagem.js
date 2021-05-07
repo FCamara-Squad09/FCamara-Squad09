@@ -54,7 +54,11 @@ function contaPasseios () {
 
 function calculaValor() {
 
-	let escolhas = obtemDadosViagem();	
+	let escolhas = obtemDadosViagem();
+
+	if (escolhas == undefined) {
+		return;
+	}
 
 	let totalViagem = escolhas.passagem + (escolhas.hospedagem * escolhas.dias) + (escolhas.alimentacao * escolhas.dias) + (escolhas.transporte * escolhas.dias) + escolhas.passeios; 
 	let totalBr = totalViagem * COTACAO.moeda;
@@ -72,6 +76,10 @@ function calculaValor() {
 function escreveNaTela() {
 
 	let valor = calculaValor();
+
+	if(valor == undefined) {
+		return;
+	}
 
 	document.querySelector("#n-dias").textContent = valor.numeroDeDias;
 
