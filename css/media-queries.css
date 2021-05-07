@@ -1,5 +1,5 @@
 /* Para celular */
-@media screen and (max-width: 480px) {
+@media screen and (min-width : 320px) {
 	/*header*/
 
 	.logo {
@@ -26,7 +26,7 @@
 }
 
 /* Para tablet */
-@media screen and (max-width: 800px) {
+@media screen and (min-width : 768px) {
 
 	.intro {
 		display: flex;
