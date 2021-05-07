@@ -11,8 +11,9 @@ footer {
 
 .menu-footer h2 {
     color: #2B7286;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .menu-footer ul li {
@@ -21,6 +22,7 @@ footer {
 
 .menu-footer ul li a {
     color: #2B7286;
+    font-size: 14px;
 }
 
 .menu-footer ul li a:hover {
@@ -34,8 +36,9 @@ footer {
 
 .menu-footer2 h2 {
     color: #2B7286;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .menu-footer2 .img-footer img {
