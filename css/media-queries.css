@@ -52,8 +52,21 @@
 		display: none;
 	}
 
+
+
 	#banner {
 		display: none;
+	}
+
+	.pacotes {
+		flex-direction: column;
+		margin-left: auto;
+	}
+
+	.pacotes img {
+		width: 420px;
+		height: 160px;
+		margin-top: 10px;
 	}
 }
 
