@@ -1,25 +1,170 @@
 /* Para celular */
-@media screen and (max-width: 480px) {
-
-	/* Index.html*/
-	.intro {
-		display: flex;
-		flex-direction: column;
-		margin: 40px auto 40px 64px;
-	}
-
+@media screen and (max-width : 480px) {
+	
 	.destino {
 		display: none;
 	}
+
+	.logo {
+		margin-left: 10px;
+	}
+
+	.menu-desktop ul li {
+		width: 112px;
+	}
+
+	.menu-desktop ul {
+		margin-right: 0px;
+	}
 	
+	.intro {
+		display: flex;
+		flex-direction: column;
+		margin: 15px auto;
+	}
+
+	.img-intro {
+		width: 320px;
+		height: 216px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.h1-intro {
+		font-size: 38px;
+		margin-bottom: 12px;
+		margin-top: 8px;
+	}
+
+	.texto-intro {
+		padding-left: 5px;
+	}
+
+	.botao-calcular {
+		margin-left: 0px;
+	}
+
+	.sessao, #btnCalcular {
+		margin-left: 15px;
+	}
+
+	.btn-topo {
+		display: none;
+	}
+
+	/*Index*/
+
+	.banner {
+		display: none;
+	}
+
+	.texto-alternativo {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 30px;
+		color: #304F75;
+		font-weight: bold;
+	}
+
+	.texto-alternativo p {
+		margin-bottom: 5px;
+	}
+
+	.pacotes {
+		flex-direction: column;
+		margin-left: auto;
+	}
+
+	.pacotes img {
+		width: 343px;
+		height: 142px;
+		padding: 2px;
+	}
+
+	.intro-index {
+		margin: 15px auto 20px auto;
+	}
+
+	.destinos-card {
+		justify-content: center;
+		margin-left: auto;
+	}
+
+	.card {
+		margin-bottom: 20px;
+	}
+
+	.menu-footer, .menu-footer2 {
+		display: none;
+	}
+
+	footer {
+		border: none;
+		margin: auto;
+		padding: 0;
+	}
 }
 
 /* Para tablet */
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 768px) and (max-width : 800px) {
+
+	.menu-desktop ul {
+		margin-right: 30px;
+	}
 
 	.intro {
 		display: flex;
 		flex-direction: column;
-		margin: 40px auto 40px 64px;
+		margin-left: 0px;
 	}
-}
+
+	.img-intro {
+		width: 618px;
+		height: 297px;
+	}
+
+	.img-grande {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.texto-intro {
+		padding: 0;
+		margin-left: 64px;
+	}
+
+	.botao-calcular {
+		margin-left: 0px;
+	}
+
+	#btnCalcular {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Index*/
+
+	.texto-alternativo {
+		display: none;
+	}
+
+	.banner {
+		display: flex;
+		width: 768px;
+		height: 229px;		
+	}
+
+	.intro-index {
+		margin: 15px 5px 20px 5px;
+	}
+
+	.pacotes {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.btn-topo {
+		display: none;
+	}
+
+}	

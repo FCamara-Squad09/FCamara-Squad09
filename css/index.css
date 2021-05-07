@@ -8,6 +8,10 @@
 	height: 360px;
 }
 
+.texto-alternativo {
+	display: none;
+}
+
 .intro-index {
 	display: flex;
 	justify-content: space-between;
