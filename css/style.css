@@ -67,3 +67,16 @@ a:link, a:visited {
 	bottom: 10px;
 	cursor: pointer;
 }
+
+.container-travolta {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.container-travolta h1 {
+	font-size: 1.4em;
+}
