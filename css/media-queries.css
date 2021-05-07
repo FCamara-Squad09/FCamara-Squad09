@@ -45,18 +45,13 @@
 		margin-left: 0px;
 	}
 
-	.sessao {
+	.sessao, #btnCalcular {
 		margin-left: 15px;
 	}
 
 	.btn-topo {
 		display: none;
 	}
-	
-	#btnCalcular {
-		margin-left: 15px;
-	}
-	
 }
 
 /* Para tablet */
