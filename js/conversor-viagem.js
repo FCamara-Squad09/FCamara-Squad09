@@ -17,18 +17,20 @@ function obtemDadosViagem() {
 	}
 
 	if (hospedagem == null) {
-		console.log("erro na hospedagem");
+		document.querySelector(".validacao").textContent = "Faltou escolher a hospedagem!";
 		return
 	}
 
 	if (alimentacao == null) {
-		console.log("erro na alimentacao");
+		document.querySelector(".validacao").textContent = "Faltou escolher a alimentacao!";
 		return
 	}
 
 	if (transporte == null) {
-		console.log("erro no transporte");
+		document.querySelector(".validacao").textContent = "Faltou escolher o transporte!";
 		return
+	} else {
+		document.querySelector(".validacao").textContent = "";
 	}
 
 	let escolhas = {
