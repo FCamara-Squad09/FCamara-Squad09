@@ -7,7 +7,7 @@ function obtemDadosViagem() {
 	let transporte = document.querySelector("input[name=transporte]:checked");
 
 	if (dias < 1) {
-		console.log("errinho");
+		document.querySelector(".validacao").textContent = "O número de dias não é válido!";
 		return
 	}
 
