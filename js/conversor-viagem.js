@@ -25,7 +25,14 @@ function obtemDadosViagem() {
 	if (transporte == null) {
 		console.log("erro no transporte");
 	}
-	
+
+	let escolhas = {
+		dias: dias
+	};
+
+	debugger
+
+	return escolhas;
 
 	
 
