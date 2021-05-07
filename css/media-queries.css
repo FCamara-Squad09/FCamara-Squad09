@@ -106,10 +106,14 @@
 }
 
 /* Para tablet */
-@media screen and (min-width: 768px) and (max-width : 800px) {
+@media screen and (min-width: 750px) and (max-width : 800px) {
 
 	.menu-desktop ul {
 		margin-right: 30px;
+	}
+
+	.logo {
+		margin-left: 30px;
 	}
 
 	.intro {
@@ -150,21 +154,50 @@
 
 	.banner {
 		display: flex;
-		width: 768px;
-		height: 229px;		
+		width: 100%;
+		height: 100%;		
 	}
 
 	.intro-index {
-		margin: 15px 5px 20px 5px;
+		margin: 1%;
+	}
+
+	#banner {
+		width: 99%;
+	}
+
+	.destinos-card {
+		margin-left: 10px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.card {
+		margin-right: 20px;
+		margin-top: 20px;
 	}
 
 	.pacotes {
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
+		margin-left: 64px;
+	}
+
+	.pacotes img {
+		margin-top: 20px;
 	}
 
 	.btn-topo {
 		display: none;
 	}
 
+	.menu-footer, .menu-footer2 {
+		display: none;
+	}
+
+	footer {
+		border: none;
+		margin: auto;
+		padding: 0;
+	}
 }	
