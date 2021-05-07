@@ -65,6 +65,10 @@
 	.intro {
 		display: flex;
 		flex-direction: column;
-		margin: 40px auto 40px 64px;
+		align-items: center;
 	}
-}
+
+	.img-intro {
+		width: 590px;
+		height: 297px;
+	}
