@@ -106,22 +106,35 @@
 }
 
 /* Para tablet */
-@media screen and (min-width : 768px) {
+@media screen and (max-width : 800px) {
+
+	.menu-desktop ul {
+		margin-right: 30px;
+	}
 
 	.intro {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		margin-left: 0px;
 	}
 
 	.img-intro {
-		width: 590px;
+		width: 618px;
 		height: 297px;
 	}
 
-	.sessao {
-		margin-left: 70px;
+	.img-grande {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.texto-intro {
+		padding: 0;
+		margin-left: 64px;
+	}
+
+	.botao-calcular {
+		margin-left: 0px;
 	}
 
 	#btnCalcular {
@@ -148,6 +161,10 @@
 	.pacotes {
 		flex-direction: row;
 		justify-content: center;
+	}
+
+	.btn-topo {
+		display: none;
 	}
 
 }	
