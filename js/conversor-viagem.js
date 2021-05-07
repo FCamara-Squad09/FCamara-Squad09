@@ -2,26 +2,27 @@ function obtemDadosViagem() {
 	let dias = parseInt(document.querySelector("#dias").value);
 
 	let passagem = document.querySelector("input[name=passagem]:checked");
-	let hospedagem = document.querySelector("input[name=hospedagem]");
-	let alimentacao = document.querySelector("input[name=alimentacao]");
-	let transporte = document.querySelector("input[name=transporte]");
+	let hospedagem = document.querySelector("input[name=hospedagem]:checked");
+	let alimentacao = document.querySelector("input[name=alimentacao]:checked");
+	let transporte = document.querySelector("input[name=transporte]:checked");
 
 	if (dias < 1) {
 		console.log("errinho");
 	}
+
 	if (passagem == null) {
 		console.log("erro na passagem");
 	}
 
-	if (! hospedagem.checked) {
+	if (hospedagem == null) {
 		console.log("erro na hospedagem");
 	}
 
-	if (! alimentacao.checked) {
+	if (alimentacao == null) {
 		console.log("erro na alimentacao");
 	}
 
-	if (! transporte.checked) {
+	if (transporte == null) {
 		console.log("erro no transporte");
 	}
 	
