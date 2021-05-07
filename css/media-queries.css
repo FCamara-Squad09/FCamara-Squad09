@@ -52,12 +52,6 @@
 		display: none;
 	}
 
-
-
-	#banner {
-		display: none;
-	}
-
 	.pacotes {
 		flex-direction: column;
 		margin-left: auto;
