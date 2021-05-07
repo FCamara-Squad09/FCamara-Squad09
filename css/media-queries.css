@@ -128,3 +128,26 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	/*Index*/
+
+	.texto-alternativo {
+		display: none;
+	}
+
+	.banner {
+		display: flex;
+		width: 768px;
+		height: 229px;		
+	}
+
+	.intro-index {
+		margin: 15px 5px 20px 5px;
+	}
+
+	.pacotes {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+}	
