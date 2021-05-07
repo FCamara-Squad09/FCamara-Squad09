@@ -1,5 +1,16 @@
 /* Para celular */
 @media screen and (max-width: 480px) {
+	/*header*/
+
+	.logo {
+		margin-left: 10px;
+	}
+
+	.menu-desktop ul li {
+		width: 112px;
+	}
+	
+
 
 	/* Index.html*/
 	.intro {
