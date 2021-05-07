@@ -52,6 +52,12 @@
 		display: none;
 	}
 
+	/*Index*/
+
+	.banner {
+		display: none;
+	}
+
 	.pacotes {
 		flex-direction: column;
 		margin-left: auto;
