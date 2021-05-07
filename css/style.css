@@ -26,6 +26,11 @@ a:link, a:visited {
 	display: none;
 }
 
+.validacao {
+	text-align: center;
+	background-color: #ffdbdb;
+}
+
 .botao-calcular {
 	margin-left: 116px;
 	display: flex;
