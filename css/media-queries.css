@@ -1,5 +1,5 @@
 /* Para celular */
-@media screen and (min-width : 320px) {
+@media screen and (max-width : 480px) {
 	
 	.destino {
 		display: none;
