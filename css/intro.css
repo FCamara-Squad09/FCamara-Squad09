@@ -36,6 +36,10 @@
 	font-weight: bold;
 }
 
+#moeda-intro {
+	width: 170px;
+}
+
 .div-intro {
 	background-color: lightgray;
 	border: 1px solid lightgray;
