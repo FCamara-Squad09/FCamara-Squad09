@@ -74,6 +74,11 @@
 		height: 297px;
 	}
 
-	.sessão {
+	.sessao {
 		margin-left: 70px;
+	}
+
+	#btnCalcular {
+		margin-left: auto;
+		margin-right: auto;
 	}
