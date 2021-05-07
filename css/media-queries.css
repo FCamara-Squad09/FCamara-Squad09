@@ -58,6 +58,18 @@
 		display: none;
 	}
 
+	.texto-alternativo {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 30px;
+		color: #304F75;
+		font-weight: bold;
+	}
+
+	.texto-alternativo p {
+		margin-bottom: 5px;
+	}
+
 	.pacotes {
 		flex-direction: column;
 		margin-left: auto;
