@@ -1,5 +1,18 @@
 function obtemDadosViagem() {
-	let escolhas = {
+	let dias = parseInt(document.querySelector("#dias").value);
+
+	let passagem = document.querySelector("input[name=passagem]");
+
+	if (! passagem.checked){
+		console.log("erro");
+		return;
+	} else {
+		return parseFloat(passagem.value);
+	} 	
+
+	
+
+    /*	let escolhas = {
 		dias: parseInt(document.querySelector("#dias").value),
 		passagem: parseFloat(document.querySelector("input[name=passagem]:checked").value),
 		hospedagem: parseFloat(document.querySelector("input[name=hospedagem]:checked").value),
@@ -7,7 +20,7 @@ function obtemDadosViagem() {
 		transporte: parseFloat(document.querySelector("input[name=transporte]:checked").value),
 		passeios: contaPasseios()
 	}
-	return escolhas;
+	return escolhas;*/
 }
 
 function contaPasseios () {
