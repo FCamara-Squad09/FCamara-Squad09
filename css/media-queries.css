@@ -74,6 +74,7 @@
 	}
 
 	.destinos-card {
+		justify-content: center;
 		margin-left: auto;
 	}
 }
