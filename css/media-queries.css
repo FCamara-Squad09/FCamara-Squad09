@@ -2,6 +2,10 @@
 @media screen and (min-width : 320px) {
 	/*header*/
 
+	.body {
+		width: 300px;
+	}
+
 	.destino {
 		display: none;
 	}
@@ -13,16 +17,20 @@
 	.menu-desktop ul li {
 		width: 112px;
 	}
+
+	.menu-desktop ul {
+		margin-right: 0px;
+	}
 	
 	.intro {
 		display: flex;
 		flex-direction: column;
-		margin: 20px auto;
+		margin: 15px auto;
 	}
 
 	.img-intro {
-		width: 335px;
-		height: 235px;
+		width: 320px;
+		height: 216px;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -38,9 +46,20 @@
 	}
 
 	.botao-calcular {
-		margin-left: 0;
+		margin-left: 0px;
+	}
+
+	.sessao {
+		margin-left: 15px;
+	}
+
+	.btn-topo {
+		display: none;
 	}
 	
+	#btnCalcular {
+		margin-left: 15px;
+	}
 	
 }
 
