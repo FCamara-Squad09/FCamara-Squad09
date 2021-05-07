@@ -51,6 +51,10 @@
 	.btn-topo {
 		display: none;
 	}
+
+	#banner {
+		display: none;
+	}
 }
 
 /* Para tablet */
