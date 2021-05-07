@@ -1,13 +1,13 @@
 .destinos-card {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 115px;
+	margin-left: 64px;
 }
 
 .card {
-	width: 313px;
+	width: 300px;
 	display: grid;
-	grid-template-columns: 313px;
+	grid-template-columns: 300px;
 	grid-template-rows: 180px 150px 56px 53px;
 	grid-template-areas: "imagem" "texto" "moeda" "botao";
 	border: 2px solid #e8e8e8;
@@ -50,7 +50,7 @@
 	grid-area: moeda;
 	display: flex;
 	flex-direction: row;
-	width: 310px;
+	width: 298px;
 	background-color: #e8e8e8;
 }
 
