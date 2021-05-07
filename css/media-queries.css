@@ -81,6 +81,16 @@
 	.card {
 		margin-bottom: 15px;
 	}
+
+	.menu-footer, .menu-footer2 {
+		display: none;
+	}
+
+	footer {
+		border: none;
+		margin: auto;
+		padding: 0;
+	}
 }
 
 /* Para tablet */
