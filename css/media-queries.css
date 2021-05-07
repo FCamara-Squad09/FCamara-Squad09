@@ -94,12 +94,12 @@
 		margin-bottom: 20px;
 	}
 
-	#menu-footer, #menu-footer2 {
+	footer > .menu-footer, footer > .menu-footer2 {
 		display: none;
 	}
 
-	footer {
-		border: none;
+	#rodape {
+		border-top: none;
 		margin: auto;
 		padding: 0;
 	}
@@ -191,11 +191,11 @@
 		display: none;
 	}
 
-	.menu-footer, .menu-footer2 {
+	footer > .menu-footer, footer > .menu-footer2 {
 		display: none;
 	}
 
-	footer {
+	#rodape {
 		border: none;
 		margin: auto;
 		padding: 0;
