@@ -1,7 +1,6 @@
 /* Para celular */
 @media screen and (min-width : 320px) {
-	/*header*/
-
+	
 	.destino {
 		display: none;
 	}
