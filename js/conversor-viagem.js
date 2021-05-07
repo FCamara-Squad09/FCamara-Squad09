@@ -3,21 +3,23 @@ function obtemDadosViagem() {
 
 	let passagem = document.querySelector("input[name=passagem]");
 	let hospedagem = document.querySelector("input[name=hospedagem]");
+	let alimentacao = document.querySelector("input[name=alimentacao]");
+	let transporte = document.querySelector("input[name=transporte]");
 
 	if (! passagem.checked) {
 		console.log("erro na passagem");
-		return;
 	} else if (! hospedagem.checked) {
 		console.log("erro na hospedagem");
-	} else {
-	 	console.log("oi");
-	}	
+	} else if (! alimentacao.checked) {
+		console.log("erro na alimentacao");
+	} else if (! transporte.checked) {
+		console.log("erro no transporte");
+	}
+	
 
 	
 
     /*	let escolhas = {
-		
-		hospedagem: parseFloat(document.querySelector("input[name=hospedagem]:checked").value),
 		alimentacao: parseFloat(document.querySelector("input[name=alimentacao]:checked").value),
 		transporte: parseFloat(document.querySelector("input[name=transporte]:checked").value),
 		passeios: contaPasseios()
