@@ -70,7 +70,11 @@
 	}
 
 	.intro-index {
-		margin: auto;
+		margin: 10px auto;
+	}
+
+	.destinos-card {
+		margin-left: auto;
 	}
 }
 
