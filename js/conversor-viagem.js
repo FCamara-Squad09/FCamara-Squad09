@@ -8,40 +8,39 @@ function obtemDadosViagem() {
 
 	if (dias < 1) {
 		console.log("errinho");
+		return
 	}
 
 	if (passagem == null) {
 		console.log("erro na passagem");
+		return
 	}
 
 	if (hospedagem == null) {
 		console.log("erro na hospedagem");
+		return
 	}
 
 	if (alimentacao == null) {
 		console.log("erro na alimentacao");
+		return
 	}
 
 	if (transporte == null) {
 		console.log("erro no transporte");
+		return
 	}
 
 	let escolhas = {
-		dias: dias
-	};
-
-	debugger
+		dias: dias,
+		passagem: parseFloat(passagem.value),
+		hospedagem: parseFloat(hospedagem.value),
+		alimentacao: parseFloat(alimentacao.value),
+		transporte: parseFloat(transporte.value),
+		passeios: contaPasseios()
+	};	
 
 	return escolhas;
-
-	
-
-    /*	let escolhas = {
-		alimentacao: parseFloat(document.querySelector("input[name=alimentacao]:checked").value),
-		transporte: parseFloat(document.querySelector("input[name=transporte]:checked").value),
-		passeios: contaPasseios()
-	}
-	return escolhas;*/
 }
 
 function contaPasseios () {
