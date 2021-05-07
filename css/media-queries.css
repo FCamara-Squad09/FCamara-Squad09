@@ -66,11 +66,10 @@
 	.pacotes img {
 		width: 343px;
 		height: 142px;
-		margin-top: 10px;
 	}
 
 	.intro-index {
-		margin: 15px auto;
+		margin: 15px auto 20px auto;
 	}
 
 	.destinos-card {
