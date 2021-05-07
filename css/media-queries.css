@@ -70,12 +70,16 @@
 	}
 
 	.intro-index {
-		margin: 10px auto;
+		margin: 15px auto;
 	}
 
 	.destinos-card {
 		justify-content: center;
 		margin-left: auto;
+	}
+
+	.card {
+		margin-bottom: 15px;
 	}
 }
 
