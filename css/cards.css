@@ -2,6 +2,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 64px;
+	justify-content: center;
 }
 
 .card {
