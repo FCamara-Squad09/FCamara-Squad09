@@ -16,7 +16,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	margin: 50px 115px 8px 115px;
+	margin: 50px 64px 8px 64px;
 }
 
 .intro-index h1 {
@@ -44,11 +44,11 @@
 .pacotes {
 	display: flex;
 	flex-direction: row;
-	margin-left: 115px;
+	margin-left: 64px;
 }
 
 .pacotes img {
-	width: 633px;
+	width: 598px;
 	height: 220px;
 	border-radius: 8px;
 	margin-right: 8px;
