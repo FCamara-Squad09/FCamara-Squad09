@@ -10,13 +10,17 @@
 		width: 112px;
 	}
 	
-
-
-	/* Index.html*/
 	.intro {
 		display: flex;
 		flex-direction: column;
-		margin: 40px auto 40px 64px;
+		margin: 20px auto;
+	}
+
+	.img-intro {
+		width: 335px;
+		height: 235px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.destino {
