@@ -67,7 +67,7 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
 <li> https://fcamara-squad09.github.io/FCamara-Squad09/ </li>
 
 <h2>🚀 Technologies </h2>
-<li>The main technologies used in our aplication are:<li>
+The main technologies used in our aplication are:
 <ul>
 <li>Html</li>
 <li>CSS</li>
