@@ -24,6 +24,14 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
         <li> Primeira Classe.</li>
       </ul>   
 
+<li> Hospedagem </li>
+<ul>
+    <li> Albergue/hotel barato;</li>
+    <li> Hotel médio;</li>
+    <li> Hotel Luxuoso;</li>
+    <li> Casa inteira.</li>
+</ul>
+ 
 
 
 <h2>Link:</h2>
