@@ -39,7 +39,12 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
     <li> Cara.</li>
   </ul>
 
-  
+<li>-Transporte</li>
+  <ul>
+    <li>Carro alugado ou uber;</li>
+    <li>Ônibus de turismo;</li>
+    <li>Transporte público;</li>
+    <li>Motorhome.</li>
 
 
 
