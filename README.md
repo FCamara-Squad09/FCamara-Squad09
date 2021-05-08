@@ -68,10 +68,9 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
 
 <h2>🚀 Technologies </h2>
 The main technologies used in our aplication are:
-<ul>
 <li>Html</li>
 <li>CSS</li>
-<li>JavaScript<li></ul>
+<li>JavaScript<li>
 
 <h2>Autores:</h2>
 
