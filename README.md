@@ -45,6 +45,15 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
     <li>Ônibus de turismo;</li>
     <li>Transporte público;</li>
     <li>Motorhome.</li>
+  </ul>
+
+ <li>Usuário escolhe quantas opções quiser:</li>
+  <ul>
+    <li>Lista de atrações turísticas de cada país.</li>
+  </ul>
+
+
+
 
 
 
