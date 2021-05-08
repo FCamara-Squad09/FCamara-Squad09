@@ -73,7 +73,6 @@ The main technologies used in our aplication are:
 <li>CSS</li>
 <li>JavaScript<li></ul>
 
-
 <h2>Autores:</h2>
 
 <li>Fred Vieira: [https://github.com/FredVieira7](https://github.com/FredVieira7)</li>
