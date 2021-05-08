@@ -70,7 +70,7 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
 The main technologies used in our aplication are:
 <li>Html</li>
 <li>CSS</li>
-<li>JavaScript<li>
+<li>JavaScript</li>
 
 <h2>Autores:</h2>
 
