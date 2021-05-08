@@ -71,8 +71,8 @@ The main technologies used in our aplication are:
 <ul>
 <li>Html</li>
 <li>CSS</li>
-<li>JavaScript<li>
-</ul>
+<li>JavaScript<li></ul>
+
 
 <h2>Autores:</h2>
 
