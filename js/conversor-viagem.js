@@ -1,12 +1,47 @@
 function obtemDadosViagem() {
-	let escolhas = {
-		dias: parseInt(document.querySelector("#dias").value),
-		passagem: parseFloat(document.querySelector("input[name=passagem]:checked").value),
-		hospedagem: parseFloat(document.querySelector("input[name=hospedagem]:checked").value),
-		alimentacao: parseFloat(document.querySelector("input[name=alimentacao]:checked").value),
-		transporte: parseFloat(document.querySelector("input[name=transporte]:checked").value),
-		passeios: contaPasseios()
+	let dias = parseInt(document.querySelector("#dias").value);
+
+	let passagem = document.querySelector("input[name=passagem]:checked");
+	let hospedagem = document.querySelector("input[name=hospedagem]:checked");
+	let alimentacao = document.querySelector("input[name=alimentacao]:checked");
+	let transporte = document.querySelector("input[name=transporte]:checked");
+
+	if (dias < 1) {
+		document.querySelector(".validacao").textContent = "O número de dias não é válido!";
+		return
 	}
+
+	if (passagem == null) {
+		document.querySelector(".validacao").textContent = "Faltou escolher a passagem!";
+		return
+	}
+
+	if (hospedagem == null) {
+		document.querySelector(".validacao").textContent = "Faltou escolher a hospedagem!";
+		return
+	}
+
+	if (alimentacao == null) {
+		document.querySelector(".validacao").textContent = "Faltou escolher a alimentacao!";
+		return
+	}
+
+	if (transporte == null) {
+		document.querySelector(".validacao").textContent = "Faltou escolher o transporte!";
+		return
+	} else {
+		document.querySelector(".validacao").textContent = "";
+	}
+
+	let escolhas = {
+		dias: dias,
+		passagem: parseFloat(passagem.value),
+		hospedagem: parseFloat(hospedagem.value),
+		alimentacao: parseFloat(alimentacao.value),
+		transporte: parseFloat(transporte.value),
+		passeios: contaPasseios()
+	};	
+
 	return escolhas;
 }
 
@@ -21,7 +56,11 @@ function contaPasseios () {
 
 function calculaValor() {
 
-	let escolhas = obtemDadosViagem();	
+	let escolhas = obtemDadosViagem();
+
+	if (escolhas == undefined) {
+		return;
+	}
 
 	let totalViagem = escolhas.passagem + (escolhas.hospedagem * escolhas.dias) + (escolhas.alimentacao * escolhas.dias) + (escolhas.transporte * escolhas.dias) + escolhas.passeios; 
 	let totalBr = totalViagem * COTACAO.moeda;
@@ -39,6 +78,10 @@ function calculaValor() {
 function escreveNaTela() {
 
 	let valor = calculaValor();
+
+	if(valor == undefined) {
+		return;
+	}
 
 	document.querySelector("#n-dias").textContent = valor.numeroDeDias;
 

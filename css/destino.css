@@ -1,24 +1,9 @@
-#body-travolta {
-	background-color: #f4eae6;
-}
-
-#header-travolta {
-	background-color: #f4eae6;
-    width: 86%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 2%;
-    display: flex;
-    justify-content: space-between;
-	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
-	border-radius: 18px;
-}
-
 .container-travolta {
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	font-size: 1.2em;
 }
 
 .img-travolta {
@@ -29,7 +14,7 @@
 }
 
 #h1-travolta {
-	font-size: 36px;
+	font-size: 1.4em;
 	text-align: center;
 	margin: 20px 0;
 	color: #1b1b35;

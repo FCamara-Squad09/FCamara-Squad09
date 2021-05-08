@@ -1,59 +1,81 @@
 <h1 align="center">
   Squad 09 - FCamara
 </h1>
-<h2>O que devo entregar?</h2>
-<ul>
-<li>Se o entregável for uma tela: deverá ser uma
-tela em HTLM, CSS, JS... </li>
-<li>Se o entregável for um serviço: deverá vir com
-algum tipo de documentação (swagger,</li>
-collection no postman)
-<li>Link do Github</li>
-</ul>
 
- <h2> Avaliação Geral</h2>
-<ul>
-<li>Avaliação individual pelo Discord;</li>
-<li>Assuma riscos e envolva o time, pois trabalho em equipe é fundamental;</li>
-<li>Criatividade e ideias são sempre bem-vindas, mas é importante lembrar de entregar algo estável, com uma boa experiência do usuário e que faça total sentido para o negócio;</li>
-<li>Pedir ajuda é importante! Não tente resolver tudo sozinho;</li>
-<li>Informe-se, estude, pergunte e faça-se notar!</li>
-<li>E por último, mas não menos importante, boa sorte!</li>
-</ul>
+<h2>Projeto Conversor de Moedas</h2>
+<li>Esse projeto foi desenvolvido para a última etapa da seleção do Curso de Formação para Devs da FCamara em maio de 2021.</li>
 
-<h3> Avaliação Dev</h3>
-<ul>
-<li>Para quem é desenvolvedor, precisamos que você se alinhe com seu Squad e compartilhe o Github do projeto com a gente. Lá iremos avaliar todos os seus commits e sua linha de raciocínio para desenvolver aquele código.</li>
-</ul>
+<h2>O produto</h2>
 
-<h4>Itens que serão Avaliados</h4>
-<ul>
-<li>Pense em tecnologias que a sua equipe esteja habituada, dessa forma o trabalho terá mais eficiência e a colaboração de todos.</li>
-<li>Visibilidade é chave, precisamos saber quem está trabalhando, colaborando e o que estão fazendo. Commit seu código várias vezes por dia, isso vai ajudar a ver exatamente o que você fez e seu modo de pensar.</li>
-</ul>
+<li>É um site de viagem que usa lógica de programação básica em JavaScript para converter moedas estrangeiras para reais.</li>
+
+<h2>Como funciona?</h2>
+
+<li>Na página inicial o usuário escolhe um país dentre quatro opções: Canadá, Japão, Nova Zelândia e Portugal. Após isso ele é direcionado para as telas específicas de cada país. Nessa nova tela nós apresentamos opções para que ele personalize sua viagem de acordo com o seu perfil de gasto.
+
+Nós fizemos a curadoria de valores e imagens reais das categorias que adicionamos. E apesar de cada país ter opções únicas, no geral, podemos classificá-las da seguinte maneira:</li>
+
+ <li>Usuário escolhe apenas uma opção:</li>
+     <li>-Compra de passagem</li>
+     <ul>
+        <li> Classe econômica;</li>
+        <li>Classe econômica premium;</li>
+        <li> Classe executiva;</li>
+        <li> Primeira Classe.</li>
+      </ul>   
+
+<li>-Hospedagem </li>
+  <ul>
+      <li> Albergue/hotel barato;</li>
+      <li> Hotel médio;</li>
+      <li> Hotel Luxuoso;</li>
+      <li> Casa inteira.</li>
+  </ul>
+
+<li>-Preço médio de alimentação</li>
+  <ul>
+    <li> Barata;</li>
+    <li> Média;</li>
+    <li> Cara.</li>
+  </ul>
+
+<li>-Transporte</li>
+  <ul>
+    <li>Carro alugado ou uber;</li>
+    <li>Ônibus de turismo;</li>
+    <li>Transporte público;</li>
+    <li>Motorhome.</li>
+  </ul>
+
+ <li>Usuário escolhe quantas opções quiser:</li>
+  <ul>
+    <li>Lista de atrações turísticas de cada país.</li>
+  </ul>
+
+<h3>Cálculo</h3>
+
+<li>Antes de selecionar qualquer opção o usuário define a duração da sua viagem em dias. A partir disso nós calculamos:</li>
+<li>1. Passagem escolhida ida e volta;</li>
+<li>2. dias x hospedagem;</li>
+<li>3. dias x transporte;</li>
+<li>4. dias x alimentação x 3;</li>
+<li>5. Soma das atrações turísticas.</li>
+
+<li>Esse cálculo é feito na moeda local e o programa devolve esse valor e o convertido em reais.</li>
 
 <h2>Link:</h2>
 <li> https://fcamara-squad09.github.io/FCamara-Squad09/ </li>
 
 <h2>🚀 Technologies </h2>
-<li>The main technologies used in our aplication are:<li>
-<li>-Html -CSS -JavaScript<li>
+The main technologies used in our aplication are:
+<li>Html</li>
+<li>CSS</li>
+<li>JavaScript</li>
 
-<h2>Telas prontas:</h2>
-<ul>
-<li>Home page</li>
-<li>Destino</li>
-<li>Destino Canadá</li>
-<li>Destino Japão</li>
-<li>Destino Nova Zelândi</li>
-<li>Destino Portugal</li>
-<li>Destino Cancun</li>
-</ul>
+<h2>Autores:</h2>
 
-<h3>Home Page</h3>
-<h3>Destino</h3>
-<h3>Destino Canadá</h3>
-<h3>Destino Japão</h3>
-<h3>Destino Nova Zelândi</h3>
-<h3>Destino Portugal</h3>
-<h3>Destino Cancun</h3>
+<li>Fred Vieira: [https://github.com/FredVieira7](https://github.com/FredVieira7)</li>
+
+<li>Laísse Lima: [https://github.com/Laisses](https://github.com/Laisses)</li>
+
+<li>Karina Ramos: [https://github.com/karinnaramos](https://github.com/karinnaramos)</li>

@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="css/perguntas.css" />
 		<link rel="stylesheet" href="css/respostas.css" />
 		<link rel="stylesheet" href="css/media-queries.css" />
-		<link rel="stylesheet" href="css/outros-destinos.css" />
+		<link rel="stylesheet" href="css/footer.css">
 
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
@@ -47,13 +47,22 @@
 			<div class="texto-intro">
 				<h1 class="h1-intro">Japão</h1>
 				<p class="p-intro"><span class="span-intro">Idioma: </span>japonês.</p>
-				<div class="div-intro">moeda</div>
+				<div class="moeda-card" id="moeda-intro">
+                	<div class="moeda">
+                		<img src="assets/pilha-de-moedas.svg" class="icone-moeda" alt="Icone de moedas.">
+                		<span>JPY</span>
+                	</div>
+                	<div class="valor">
+                		<img src="assets/transferir-dinheiro.svg" class="icone-dinheiro" alt="icone de notas de dinheiro.">
+                		<span>R$ 0,05</span>
+                	</div>
+                </div>
 				<p class="p-intro">Que tal descobrir quanto custará sua próxima viagem <br> para conhecer o Japão?</p>
-				<p class="botao-calcular"><a href="" class="calc-intro">Calcular Viagem</a></p>
+				<p class="botao-calcular"><a href="#inicio" class="calc-intro">Calcular Viagem</a></p>
 			</div>
 		</section>
 
-		<section class="sessao">
+		<section class="sessao" id="inicio">
 			<div class="titulo">
 				<h1><span>Pla</span>nejamento</h1>
 				<h2>Quantos dias você pretende viajar?</h2>				
@@ -183,11 +192,12 @@
             </div>
 		</section>
 
+		<p class="validacao"></p>
+
 		<button class="botao-calcular" id="btnCalcular">
 			Calcular viagem
 		</button>
-		
-	
+
 		<p id="resultado" class="esconder">
 			A sua viagem de <span id="n-dias"></span> dias custa:
 			<br />
@@ -208,7 +218,8 @@
 		</script>
 
 		<script src="js/conversor-viagem.js"></script>
-		<footer>
+
+		<footer id="rodape">
             <section class="menu-footer">
                 <div>
                     <h2>Sobre</h2>
@@ -238,8 +249,7 @@
                     </ul>
                 </div>
             </section>
-			
-			<section class="menu-footer2">
+            <section class="menu-footer2">
                 <div>
                     <h2>Baixe nosso aplicativo</h2>
                     <a href=""><img src="assets/socialAppstore.svg" alt="App Store"></a> 

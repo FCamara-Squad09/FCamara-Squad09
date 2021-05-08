@@ -4,8 +4,13 @@
 }
 
 .banner {
-	width: 1440px;
-	height: 360px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.texto-alternativo {
+	display: none;
 }
 
 .intro-index {
@@ -40,12 +45,13 @@
 .pacotes {
 	display: flex;
 	flex-direction: row;
-	margin-left: 115px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .pacotes img {
-	width: 633px;
-	height: 220px;
+	width: 40%;
 	border-radius: 8px;
 	margin-right: 8px;
 	opacity: 0.9;
