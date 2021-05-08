@@ -16,7 +16,7 @@
 Nós fizemos a curadoria de valores e imagens reais das categorias que adicionamos. E apesar de cada país ter opções únicas, no geral, podemos classificá-las da seguinte maneira:</li>
 
  <li>Usuário escolhe apenas uma opção:</li>
-     <li>Compra de passagem</li>
+     <li>-Compra de passagem</li>
      <ul>
         <li> Classe econômica;</li>
         <li>Classe econômica premium;</li>
@@ -24,14 +24,23 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
         <li> Primeira Classe.</li>
       </ul>   
 
-<li> Hospedagem </li>
-<ul>
-    <li> Albergue/hotel barato;</li>
-    <li> Hotel médio;</li>
-    <li> Hotel Luxuoso;</li>
-    <li> Casa inteira.</li>
-</ul>
- 
+<li>-Hospedagem </li>
+  <ul>
+      <li> Albergue/hotel barato;</li>
+      <li> Hotel médio;</li>
+      <li> Hotel Luxuoso;</li>
+      <li> Casa inteira.</li>
+  </ul>
+
+<li>-Preço médio de alimentação</li>
+  <ul>
+    <li> Barata;</li>
+    <li> Média;</li>
+    <li> Cara.</li>
+  </ul>
+
+  
+
 
 
 <h2>Link:</h2>
