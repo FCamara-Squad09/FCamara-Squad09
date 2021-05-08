@@ -201,3 +201,20 @@
 		padding: 0;
 	}
 }	
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	section.destinos-card {
+		margin-left: 10px;
+		justify-content: center;
+	}
+
+	div.card {
+		width: 280px;
+		grid-template-columns: 280px;
+	}
+
+
+	div.moeda-card {
+		width: 277px;
+	}
+}
