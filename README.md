@@ -74,4 +74,10 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
 <li>JavaScript<li>
 </ul>
 
+<h2>Autores:</h2>
 
+<li>Fred Vieira: [https://github.com/FredVieira7](https://github.com/FredVieira7)</li>
+
+<li>Laísse Lima: [https://github.com/Laisses](https://github.com/Laisses)</li>
+
+<li>Karina Ramos: [https://github.com/karinnaramos](https://github.com/karinnaramos)</li>
