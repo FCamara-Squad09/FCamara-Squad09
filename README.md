@@ -52,7 +52,16 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
     <li>Lista de atrações turísticas de cada país.</li>
   </ul>
 
+<h3>Cálculo</h3>
 
+<li>Antes de selecionar qualquer opção o usuário define a duração da sua viagem em dias. A partir disso nós calculamos:</li>
+<li>1. Passagem escolhida ida e volta;</li>
+<li>2. dias x hospedagem;</li>
+<li>3. dias x transporte;</li>
+<li>4. dias x alimentação x 3;</li>
+<li>5. Soma das atrações turísticas.</li>
+
+<li>Esse cálculo é feito na moeda local e o programa devolve esse valor e o convertido em reais.</li>
 
 
 
