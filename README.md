@@ -63,9 +63,6 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
 
 <li>Esse cálculo é feito na moeda local e o programa devolve esse valor e o convertido em reais.</li>
 
-
-
-
 <h2>Link:</h2>
 <li> https://fcamara-squad09.github.io/FCamara-Squad09/ </li>
 
@@ -77,21 +74,4 @@ Nós fizemos a curadoria de valores e imagens reais das categorias que adicionam
 <li>JavaScript<li>
 </ul>
 
-<h2>Telas prontas:</h2>
-<ul>
-<li>Home page</li>
-<li>Destino</li>
-<li>Destino Canadá</li>
-<li>Destino Japão</li>
-<li>Destino Nova Zelândi</li>
-<li>Destino Portugal</li>
-<li>Destino Cancun</li>
-</ul>
 
-<h3>Home Page</h3>
-<h3>Destino</h3>
-<h3>Destino Canadá</h3>
-<h3>Destino Japão</h3>
-<h3>Destino Nova Zelândi</h3>
-<h3>Destino Portugal</h3>
-<h3>Destino Cancun</h3>
