@@ -9,6 +9,11 @@
 
 <li>É um site de viagem que usa lógica de programação básica em JavaScript para converter moedas estrangeiras para reais.</li>
 
+<h2>Como funciona?</h2>
+
+<li>Na página inicial o usuário escolhe um país dentre quatro opções: Canadá, Japão, Nova Zelândia e Portugal. Após isso ele é direcionado para as telas específicas de cada país. Nessa nova tela nós apresentamos opções para que ele personalize sua viagem de acordo com o seu perfil de gasto.
+
+Nós fizemos a curadoria de valores e imagens reais das categorias que adicionamos. E apesar de cada país ter opções únicas, no geral, podemos classificá-las da seguinte maneira:</li>
 
 
 
@@ -17,7 +22,11 @@
 
 <h2>🚀 Technologies </h2>
 <li>The main technologies used in our aplication are:<li>
-<li>-Html -CSS -JavaScript<li>
+<ul>
+<li>Html</li>
+<li>CSS</li>
+<li>JavaScript<li>
+</ul>
 
 <h2>Telas prontas:</h2>
 <ul>
