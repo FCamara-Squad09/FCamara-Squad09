@@ -5,7 +5,9 @@
 <h2>Projeto Conversor de Moedas</h2>
 <li>Esse projeto foi desenvolvido para a última etapa da seleção do Curso de Formação para Devs da FCamara em maio de 2021.</li>
 
+<h2>O produto</h2>
 
+<li>É um site de viagem que usa lógica de programação básica em JavaScript para converter moedas estrangeiras para reais.</li>
 
 
 
